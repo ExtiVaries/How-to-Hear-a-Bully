@@ -1,161 +1,215 @@
 # How to Hear a Bully: Recognizing the Language of Power and Manipulation
 
-*A civic-literacy guide for everyday readers. Last checked against sources on October 8, 2026.*
+*Second edition, October 2026. The numbered notes link to a separate file, [Notes and Verification](how-to-hear-a-bully-notes.md), which also holds the case-by-case verification appendix and the revision ledger. You don't need them to follow the guide.*
 
 ---
 
 ## Opening: An Old Trick
 
-A coworker announces at a staff meeting that someone "has been padding their expense reports." Everyone turns to look at you. Later, when you object, they shrug: "I never said *you*. I just meant people should be careful." By then the damage is done. You spent the afternoon proving you are honest, and they spent it being misunderstood.
+At a staff meeting, your coworker says someone "has been padding their expense reports." Then they look straight at you. You're the only person who traveled this month. Afterward, when you object, they shrug: "I never said *you*."
 
-That move is very old. Writing about a civil war on the Greek island of Corcyra around 427 BCE, the historian Thucydides noticed that when politics turns into a fight for survival, people stop judging actions by their ordinary names. In China, a text compiled by the followers of Confucius has him say that good government begins by getting names right. Neither man was writing about cable news. Both were worried about the same thing: what happens when the people with the most power also get to decide what words mean.
+Maybe they really didn't mean you. Maybe the look was an accident, and the comment was a clumsy general reminder. That's possible, and it's worth admitting. Notice what happened either way, though. You spent the afternoon defending your honesty. They never had to say what they meant, and they never had to show anyone a single expense report.
+
+That is the pattern this guide is about. Someone makes a damaging suggestion and gets the benefit of its strongest reading. When challenged, they fall back on a milder one, and the target is left doing all the explaining.
+
+People have worried about how words and power interact for thousands of years, though not always in the same way. A Greek historian watched civil war bend people's moral judgments. A Chinese tradition taught that good government depends on names matching reality. This guide borrows from both. Neither one invented our modern version of the problem, and neither predicted it. Still, they help us see that the trouble isn't new and isn't owned by any one party or country.
+
+### What this guide means by "bully"
+
+A *bully*, here, is someone who uses accusations or labels to pressure, discredit or intimidate a target, especially from a position of power, while avoiding responsibility for what the words imply.
+
+That is a specific behavior, and most political speech doesn't fit it. Persuasion isn't bullying. Neither is passion, sarcasm, harsh criticism or a false statement made by mistake. Campaigns are supposed to argue, and voters are supposed to hear strong cases.
+
+To keep things straight, ask four separate questions:
+
+1. **Is the factual claim supported?** What evidence exists, and how good is it?
+2. **Do the words suggest more than the evidence shows?** A claim can be partly true and still worded to leave a much bigger impression.
+3. **When challenged, does the speaker correct the misleading impression?** Or do they keep the impression and defend only a smaller claim?
+4. **Is there intimidation, repeated targeting or misuse of power?** This is the question that turns misleading speech into bullying.
+
+The answers can point in different directions. A true statement can be delivered abusively. A false one can be an honest mistake. A correction can be completely sincere. And "We don't have enough evidence to know" is always an allowed answer. Sometimes it's the most honest one.
 
 ## Part One: How Language Becomes Power
 
-**Thucydides (Greece, 5th century BCE).** In Richard Crawley's 1874 translation of *History of the Peloponnesian War* 3.82, "Words had to change their ordinary meaning." Reckless audacity was praised as loyal courage; "prudent hesitation" became "specious cowardice"; moderation was "a cloak for unmanliness"; and "the advocate of extreme measures was always trustworthy; his opponent a man to be suspected." Translators disagree about the Greek. Some classicists argue that the words kept their meanings while people changed *which actions deserved which words*. That reading is arguably more unsettling: nobody needs a new dictionary to make cruelty sound brave.
+### Thucydides: when war bends judgment
 
-**Confucius (China, 6th–5th century BCE).** In *Analects* 13.3 (James Legge's translation), Confucius says the first task of government is "to rectify names," because "If names be not correct, language is not in accordance with the truth of things," and then nothing gets done properly, including justice. The *Analects* was assembled by later generations, so treat this as a passage from the Confucian tradition, not a recording. Its concern also differs from Thucydides'. Confucius is talking about legitimacy: a ruler who is called a ruler should actually do a ruler's job. Thucydides is describing a society that has fallen apart.
+The Athenian general Thucydides spent years writing a history of the long war between Athens and Sparta (431–404 BCE). One episode he recorded was a civil war on the island of Corcyra in 427 BCE. Across the Greek world, he wrote, "the popular chiefs" tried "to bring in the Athenians," and "the oligarchs" tried to bring in the Spartans. Neighbors became enemies. War, he said, "proves a rough master."[[1]](how-to-hear-a-bully-notes.md#n1)
 
-**Other voices.** The Roman historian Tacitus gave a British chieftain the line that Rome's conquerors "make a desert" and "call it peace." In Latin the phrase is *falsis nominibus*, "false names." For centuries, English law punished "seditious libel," which meant criticizing the authorities, sometimes even when the criticism was true. In 1946 George Orwell warned that political language is often "designed to make lies sound truthful and murder respectable."
+In that setting, in Richard Crawley's 1874 translation, "Words had to change their ordinary meaning." Reckless audacity came to be praised as the courage of a loyal ally. Careful hesitation was called cowardice. Moderation became "a cloak for unmanliness," and "the advocate of extreme measures was always trustworthy; his opponent a man to be suspected."[[1]](how-to-hear-a-bully-notes.md#n1)
 
-These traditions are not one philosophy, and nobody passed it down to today's politicians. Still, they keep noticing the same thing: whoever controls the labels shapes what people will put up with.
+Scholars disagree about what exactly Thucydides was describing. One reading says people changed which actions they applied moral words to. "Courage" still meant courage, but now it got pinned on recklessness.[[2]](how-to-hear-a-bully-notes.md#n2) A more recent argument holds that the meanings never moved at all. On this view, the passage describes war corrupting people's judgment, not anyone deliberately engineering propaganda.[[3]](how-to-hear-a-bully-notes.md#n3)
 
-## Part Two: Seven Ways to Hear a Bully
+You don't have to settle that debate to take the lesson. Under enough pressure, a community can start praising what it used to condemn, and condemning restraint as weakness.
 
-Each technique comes with a warning label: **ambiguity, exaggeration, and honest mistakes are normal.** What matters is the pattern, and whether the speaker takes responsibility once someone challenges them.
+### Confucius: when names and roles come apart
 
-**1. The Accusation Trap.** Make a charge the target can't easily disprove, then treat their silence as guilt. In 1950 Senator Joseph McCarthy (R-Wis.) claimed to have a list of Communists in the State Department. He never produced it, and the numbers kept changing. In 2012 Senate Majority Leader Harry Reid (D-Nev.) said on the Senate floor that an unnamed source told him Mitt Romney hadn't paid taxes for ten years. Romney was left trying to prove a negative. *Not a trap:* asking for evidence that a candidate actually controls, such as their tax returns.
+In *Analects* 13.3, a disciple asks Confucius what he would do first if he were put in charge of government in the state of Wei. His answer surprises the disciple: he would "rectify names." Traditional accounts place the conversation during a bitter succession quarrel in Wei, in which a ruling duke and his exiled father both claimed the throne.[[4]](how-to-hear-a-bully-notes.md#n4)
 
-**2. The Definition Escape Hatch.** Use a charged word, then claim a milder meaning once someone pushes back. In August 2016 Donald Trump called Barack Obama "the founder of ISIS." When radio host Hugh Hewitt offered him a softer reading, Trump said, "No, I meant he's the founder of ISIS." The next day he tweeted, "THEY DON'T GET SARCASM?" and later said he was "not that sarcastic." *Not an escape hatch:* a speaker who says plainly, "I misspoke, here's what I meant."
+Confucius explains, in James Legge's translation, that "If names be not correct, language is not in accordance with the truth of things." From there, the chain unravels. Affairs can't be carried out. Ritual and music decline. Punishments go wrong. Finally "the people do not know how to move hand or foot."[[5]](how-to-hear-a-bully-notes.md#n5)
 
-**3. Strongest Accusation, Weakest Defense.** Philosophers call this the "motte-and-bailey." You claim the big, exciting territory and retreat to a small, defensible fort when attacked. In 2015 Reid said, "Of course he paid taxes — what he didn't do is let us see his tax returns." That was a much weaker claim than the one he had made in 2012. In July 2021 President Joe Biden said social media platforms were "killing people." Three days later he narrowed it: "Facebook isn't killing people," and he said he meant twelve accounts that a research group had tied to vaccine misinformation. Narrowing a claim is a good thing. The lesson is to notice how far apart the headline and the fallback were.
+The worry is about order and roles. Elsewhere the *Analects* says there is government "when the prince is prince, and the minister is minister; when the father is father, and the son is son."[[6]](how-to-hear-a-bully-notes.md#n6) A title should match the conduct expected of the person who holds it. When it doesn't, everything built on it starts to wobble.
 
-**4. Moving the Goalposts.** When the evidence goes against a claim, change what would count as proof. After the 2020 election, Attorney General William Barr said the Justice Department had "not seen fraud on a scale that could have affected a different outcome." A later AP review found fewer than 475 potential fraud cases across six swing states. Asked about that tally, Trump called the figure foolish and pointed to a forthcoming report from an undisclosed source, so the proof always seemed to be one report away. *Not goalpost-moving:* updating your view when you get new evidence.
+This is not a modern theory of free speech or citizens' rights, and it shouldn't be dressed up as one. The *Analects* was also assembled by followers over generations, so treat it as a passage from the Confucian tradition, not a recording of one man's words.[[7]](how-to-hear-a-bully-notes.md#n7)
 
-**5. Changing the Moral Labels.** This is Thucydides' Corcyra again. On February 24, 2022, Vladimir Putin called Russia's invasion of Ukraine a "special military operation" to "denazify" the country. Eight days later, Russian law made spreading "false information" about the army punishable by up to 15 years in prison, and people were fined for calling the invasion a war. *Not relabeling:* arguing in good faith that an action is justified.
+### Other voices
 
-**6. Repetition as Persuasion.** Say it often enough and it starts to feel familiar, and familiar things feel true. The "stolen election" claim above was repeated for years after election officials and Trump's own attorney general found no fraud on that scale. Repeating a claim is not proof. The same claim repeated a thousand times is still one claim, backed by the same evidence it started with.
+**Tacitus (Rome, about 98 CE).** In his biography of his father-in-law Agricola, a Roman general in Britain, Tacitus wrote a speech for a British chieftain named Calgacus. In it, Rome gives plunder and slaughter "false names" (*falsis nominibus*) and calls it empire. Then "where they make a desert, they call it peace." The speech is Tacitus's own literary creation, not a transcript. That makes it more interesting: a Roman writer imagining how Rome's language sounded to the people it conquered.[[8]](how-to-hear-a-bully-notes.md#n8)
 
-**7. Power Over Credibility.** A president, senator, or media star reaches millions at once. The target's reply reaches fewer people, comes later, and puts them on the defensive. On October 7, 2026, President Trump posted on Truth Social that Michigan Senate nominee Abdul El-Sayed, whom he called "Mohammed," is "a RADICAL Extremist, Terrorist Sympathizer." The post cited no evidence beyond El-Sayed's past campaign appearances with the streamer Hasan Piker. El-Sayed has said he rejects Piker's most notorious remarks. Critics, including the Michigan chapter of the Council on American-Islamic Relations (CAIR), called the post anti-Muslim. El-Sayed answered, "He knows my name is Abdul." A fair reader can be skeptical of El-Sayed's judgment and still notice that "terrorist sympathizer" is a serious charge that arrived without support.
+**English seditious libel.** English law once punished publications that stirred up hatred or contempt of the authorities. In a criminal case, as the jurist William Blackstone put it in 1769, "the provocation, and not the falsity, is the thing to be punished."[[9]](how-to-hear-a-bully-notes.md#n9) In other words, a true criticism could still be a crime if it made officials look bad enough.
+
+**George Orwell (England, 1946).** In "Politics and the English Language," Orwell warned that political language can make "lies sound truthful and murder respectable." When defenseless villages are bombed and the inhabitants driven out, he noted, "this is called *pacification*."[[10]](how-to-hear-a-bully-notes.md#n10) Orwell also blamed lazy, borrowed phrasing, not just deliberate lies. Bad language can come from habit as easily as from scheming.
+
+### Different worlds, related worries
+
+These thinkers lived in very different societies and wanted different things. Thucydides described a breakdown. Confucius prescribed an order. Tacitus put criticism of empire in an enemy's mouth. Orwell wrote about modern governments and mass media. What they share is a recurring concern that the names we give things shape what we will accept.
+
+Linking them to today's politics is this guide's own comparison. It is not a claim that one tradition grew out of another, or that any modern politician learned from them.
+
+## Part Two: Five Warning Signs
+
+These are warning signs, not verdicts. Each one tells you where to look more closely. Each comes with an example, a description of what it *isn't*, and a way to respond.
+
+### 1. Accusing without evidence, and making the target prove innocence
+
+**What it looks like:** a serious charge with little or no evidence behind it, framed so that the accused has to disprove it.
+
+**The example.** In 1950 Senator Joseph McCarthy (R-Wis.) said he had evidence of Communists working in the State Department. He later gave a Senate committee a list of 81 names, which turned out to be 80. Only 42 of those people worked at the department at the time of his speech, and earlier congressional reviews had named none of them as disloyal.[[11]](how-to-hear-a-bully-notes.md#n11) McCarthy did produce names. What he never produced was proof of the accusation he had advertised.
+
+In 2012 Senate Majority Leader Harry Reid (D-Nev.) said an unnamed source had told him that Mitt Romney paid no taxes for ten years. He repeated the claim on the Senate floor.[[12]](how-to-hear-a-bully-notes.md#n12) "Let him prove that he has paid taxes, because he hasn't," Reid said.[[13]](how-to-hear-a-bully-notes.md#n13) Romney released two years of returns plus an accountant's summary saying his lowest yearly federal rate between 1990 and 2009 was 13.66%.[[14]](how-to-hear-a-bully-notes.md#n14) Years later Reid acknowledged, "Of course he paid taxes," and when asked whether he regretted the accusation, he said, "Romney didn't win, did he?"[[13]](how-to-hear-a-bully-notes.md#n13)
+
+**What it isn't.** Asking a candidate to release more tax returns is a fair demand. So is asking an official to explain a decision, or an investigator to look into a credible tip. The trouble starts when the person demanding answers also claims to know what the answers will show, without evidence.
+
+**How to respond:** *"What's the evidence for that specific claim? If it's an anonymous source, how would we check it?"*
+
+### 2. Strong words, narrower defense
+
+**What it looks like:** a charged word that suggests something serious, followed by a retreat to a milder meaning when someone pushes back, while the strong version keeps doing its work.
+
+**The example.** On August 10, 2016, Donald Trump called President Obama "the founder of ISIS." The next day, radio host Hugh Hewitt suggested he meant Obama "created the vacuum" that ISIS filled. Trump replied: "No, I meant he's the founder of ISIS." In the same interview, though, he also made a policy argument: "the way he got out of Iraq was that that was the founding of ISIS," and "with his bad policies, that's why ISIS came about."[[15]](how-to-hear-a-bully-notes.md#n15) Asked whether the word was a mistake, he said, "Everyone's liking it."
+
+On August 12 he tweeted, "THEY DON'T GET SARCASM?" Later that day he said he was being sarcastic, "but not that sarcastic, to be honest with you."[[16]](how-to-hear-a-bully-notes.md#n16)
+
+A reasonable listener might hear exaggerated blame for a policy failure. That's a common political argument, and many people agree with it. Another might hear something close to the literal claim. What a careful listener can notice is that "founder," a policy argument and "sarcasm" are three different claims, and that each was available when it helped. That is the warning sign. It doesn't tell you what Trump privately meant.
+
+**A boundary case.** On July 16, 2021, a reporter asked President Joe Biden what his message was to platforms like Facebook about vaccine misinformation. "They're killing people," he said.[[17]](how-to-hear-a-bully-notes.md#n17) On July 19 he said, "Facebook isn't killing people," and pointed instead to a report about 12 individuals who spread much of the misinformation. He kept criticizing Facebook and asked it to "do something about the misinformation."[[18]](how-to-hear-a-bully-notes.md#n18)
+
+That could be an honest narrowing of loose, off-the-cuff wording. Nothing on record shows him returning to the stronger claim afterward. A walk-back, by itself, doesn't prove manipulation. If it did, nobody could ever safely correct themselves.
+
+**What it isn't.** Clarifying is good. People speak loosely, especially off the cuff. The question is whether the speaker gives up the bigger impression or keeps it.
+
+**How to respond:** *"Which one do you mean, the strong version or the narrow one? If it's the narrow one, would you say that plainly?"*
+
+### 3. Changing the moral labels
+
+**What it looks like:** describing harmful conduct in noble or bland terms, or describing ordinary disagreement as treason or weakness.
+
+**The example.** On February 24, 2022, Russian President Vladimir Putin announced a "special military operation" whose stated aim was to "demilitarise and denazify Ukraine."[[19]](how-to-hear-a-bully-notes.md#n19) Eight days later, Russia made spreading "knowingly false information" about the armed forces a crime, punishable in the most serious cases by 10 to 15 years in prison. It also created an offense of "discrediting" the military, which becomes a crime after an earlier fine.[[20]](how-to-hear-a-bully-notes.md#n20) People were then fined or charged over antiwar posts and signs.[[21]](how-to-hear-a-bully-notes.md#n21) The label hides what is happening, and the law raises the cost of calling it something else.
+
+Most examples are far milder than this one. A layoff becomes "rightsizing." A critic becomes "disloyal." Compromise becomes "surrender."
+
+**What it isn't.** Arguing that an action is justified is not relabeling. Neither is choosing a sympathetic word for your own side. That's ordinary persuasion. The warning sign is a label that hides what physically happened, or punishes people for describing it differently.
+
+**How to respond:** *"Setting the label aside, what actually happened, and to whom?"*
+
+### 4. Repetition and claims that persist without support
+
+**What it looks like:** a claim repeated so often it starts to feel settled, while the promised proof never arrives.
+
+**The example.** After the 2020 election, Attorney General William Barr, a Trump appointee, said the Justice Department had "not seen fraud on a scale that could have affected a different outcome."[[22]](how-to-hear-a-bully-notes.md#n22) A year later, an Associated Press review found fewer than 475 *potential* fraud cases across six battleground states, far too few to change the result. Trump kept repeating his claims, called the AP's small tally foolish, and said a report from an undisclosed source would support him.[[23]](how-to-hear-a-bully-notes.md#n23)
+
+The AP's count wasn't a complete audit of every possible irregularity, and it's fair to say so. But a claim that something huge happened needs evidence on the same scale. The warning sign is a claim that persists while the promised proof keeps being deferred.
+
+**What it isn't.** Repetition doesn't make a claim false. Campaigns repeat their messages, and true claims get repeated too. A repeated claim can also pick up real evidence later. The point is that repetition adds nothing by itself, so judge the evidence, not how often you've heard it.
+
+**How to respond:** *"I've heard that a lot. What's the strongest single piece of evidence for it?"*
+
+### 5. Labels, association and power
+
+**What it looks like:** a sweeping label pinned on someone because of who they've appeared with or what group they belong to, delivered from a platform the target can't match.
+
+**The example.** On October 7, 2026, President Trump posted that Michigan Senate nominee Abdul El-Sayed, whom he called "Mohammed," "goes back to the days of the Jihad." He also called him "a RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend America Hating Hasan Piker." The post ended with an endorsement of El-Sayed's opponent, Mike Rogers.[[24]](how-to-hear-a-bully-notes.md#n24)
+
+It helps to separate several layers that easily blur together:
+
+- **What the post offers as evidence:** a claimed friendship with Piker, a left-wing streamer who once said "America deserved 9/11." Nothing else.
+- **What the record shows about El-Sayed and Piker:** El-Sayed appeared with Piker at campaign events in 2026. He said he rejects that remark: "Of course I don't think [9/11 was justified]."[[25]](how-to-hear-a-bully-notes.md#n25) He later said he had "no plans" to campaign with Piker again.[[26]](how-to-hear-a-bully-notes.md#n26)
+- **The wider controversy:** after a March 2026 attack on Temple Israel in Michigan, El-Sayed said, "I condemn what he did. There is never a justification for attacking innocent people or houses of worship." In the same statement he described a cycle of violence linked to wars abroad ("hurt people hurt people"). Many critics found that objectionable.[[27]](how-to-hear-a-bully-notes.md#n27) He later apologized, saying he should have issued only a condemnation. A fact-checker rated Rogers's claim that El-Sayed "could not condemn" the attack Mostly False.[[28]](how-to-hear-a-bully-notes.md#n28)
+
+What can a fair reader conclude? The record supports asking hard questions about El-Sayed's judgment and the people he chooses to associate with. Voters can weigh that. The record does not establish that he sympathizes with terrorism. "Radical extremist" is mostly a judgment. "Terrorist sympathizer" suggests a specific fact, and the post supplies none. As of October 8, 2026, no clarification from Trump had been found.
+
+**Where power comes in.** A president's post reaches an enormous audience, and the words of a president carry weight that a candidate's rebuttal may not. That raises the stakes, and it's why the fourth question (intimidation, targeting, misuse of power) matters. But power is context, not proof. A powerful person can make a fair accusation, and a less powerful one can make an unfair one.
+
+**What it isn't.** Criticizing someone's associations is legitimate. Who a candidate campaigns with tells you something. The warning sign is jumping from "appeared with" to a much bigger claim about what someone believes.
+
+**How to respond:** *"Is there something he himself said or did that shows that? Or is it based on who he's been seen with?"*
 
 ## Part Three: Why It Works
 
-**Ambiguity is useful.** The communication scholar Eric Eisenberg showed that "strategic ambiguity" lets speakers appeal to different audiences and keep their options open. That is not always sinister. Diplomats rely on it. It does make denial easy.
+**Vague words have uses.** Communication scholars have described how ambiguity lets one message appeal to different audiences at once.[[29]](how-to-hear-a-bully-notes.md#n29) That isn't always sinister. Diplomats rely on it, and so does anyone trying to be polite. It does, however, make denial easy.
 
-**Deniability is built in.** The philosopher Jennifer Saul explains how "dog whistles" send a coded message to one audience, and how "figleaves" ("I'm not racist, but…") block the conclusion listeners would otherwise draw. The rhetoric scholar Jennifer Mercieca traces *paralipsis*, saying something while claiming not to say it, through modern demagoguery. The philosophers Quill Kukla and Mark Lance describe how ordinary words can be "engineered" into weapons that make dissent harder to express.
+**Some phrases are built for deniability.** Philosophers and rhetoric scholars describe coded "dog whistles" that one audience hears differently from another. They describe disclaimers like "I'm not racist, but…" that block a conclusion listeners would otherwise draw, and the old trick of saying something while claiming not to say it ("I'm not saying he's a crook…").[[30]](how-to-hear-a-bully-notes.md#n30) Context decides whether a given phrase is working that way. A disclaimer is not automatic proof of a hidden meaning.
 
-**Repetition sticks, and corrections struggle.** Psychologists call this the "illusory truth effect": repeated statements are rated as more true, even by people who know better. Corrections help, but misinformation often keeps influencing people's thinking after it has been debunked.
+**Repetition feels like truth.** In experiments, statements people hear repeatedly are rated as more likely to be true. This even happens to people who know the correct answer.[[31]](how-to-hear-a-bully-notes.md#n31) That doesn't mean everyone believes everything they hear twice. It does mean familiarity can quietly stand in for evidence.
 
-**Credibility follows status.** The philosopher Miranda Fricker calls it "testimonial injustice" when people give someone less credibility than they deserve because of who they are. Power works the other way too: the powerful get more credibility than they've earned.
+**Corrections help, but slowly.** Corrections work. People who see them often do update. But false information can keep shaping how people think about a subject even after they've accepted the correction.[[32]](how-to-hear-a-bully-notes.md#n32) A damaging claim can outlive its debunking.
 
-**The law protects a lot of unfair speech, on purpose.** In *New York Times Co. v. Sullivan* (1964), the Supreme Court held that public officials can win a libel suit only by proving "actual malice," meaning the speaker knew the statement was false or showed "reckless disregard" for whether it was true. Later cases protect "rhetorical hyperbole" and opinion. So a political insult can be unfair, unsupported, and misleading while still being perfectly legal. **The right to say something doesn't make it true.**
+**Who is believed matters.** Prejudice can lead people to give a speaker less credibility than they deserve, which philosophers call a kind of injustice.[[33]](how-to-hear-a-bully-notes.md#n33) Expertise, firsthand knowledge and a good track record are legitimate reasons to trust someone more. Fame and rank are not.
+
+**The law leaves room on purpose.** In *New York Times Co. v. Sullivan* (1964), the Supreme Court said debate on public issues should be "uninhibited, robust, and wide-open." So a public official suing for libel must prove "actual malice": that the speaker knew a statement was false or showed "reckless disregard" for whether it was true. Hostility, rudeness or bias doesn't count as actual malice.[[34]](how-to-hear-a-bully-notes.md#n34) Obvious exaggeration, like calling someone's negotiating position "blackmail," is protected.[[35]](how-to-hear-a-bully-notes.md#n35)
+
+But labeling something an opinion doesn't make it untouchable. In *Milkovich v. Lorain Journal Co.* (1990), the Court explained that "In my opinion Jones is a liar" can still imply a false fact, and a false fact can still be libel.[[36]](how-to-hear-a-bully-notes.md#n36) Real cases turn on details and context, so this guide doesn't rule on whether any particular accusation is legal. The broader lesson is simpler: **the right to say something doesn't make it true.** Legal and fair are different tests.
 
 ## Part Four: How to Hear Clearly
 
-Ask five questions:
+When an accusation lands, run through five questions:
 
-1. **What was actually said?** Find the original post, transcript, or video, not the summary.
-2. **What would those words ordinarily mean?** Ask how a reasonable listener would take them, not what the most generous reading allows.
-3. **What evidence supports the claim?** Look for specific facts, not associations or vibes.
-4. **Has the meaning changed since the speaker was challenged?** Compare the first version with the fallback.
-5. **Who benefits if I accept the accusation without examining it?**
+1. **What was actually said?** Find the original post, transcript or video, not the summary. Summaries, including friendly ones, often sharpen or soften the words.
+2. **What could reasonable listeners understand, in context?** Allow for more than one reading. Then ask which reading the speaker relied on and which one they defend when challenged.
+3. **What evidence supports the claim?** Look for specific facts: documents, records, firsthand accounts. Associations, hunches and "people are saying" don't count.
+4. **When challenged, did the speaker correct the impression, or just change the claim?**
+5. **Who benefits?** This question is about incentives. It is a reason to look more carefully, not proof that anyone is lying.
 
-**Try it on your own side.** Suppose your favorite senator says a rival "wants to destroy Social Security." (1) That is the quote. (2) Ordinary listeners hear a plan to abolish the program. (3) The evidence turns out to be a proposal to raise the retirement age by two years. (4) When pressed, the staff says the senator meant "weaken." (5) The senator gains donations and fear. The rival's proposal may still be a bad idea, and you can say so. But "weaken" is the claim the evidence supports, so hold your senator to it. If you'd catch this from the other party, catch it from yours.
+### Honest correction versus evasive retreat
+
+An honest correction usually:
+
+- admits that the original words gave a misleading impression,
+- states the narrower claim plainly,
+- sticks to the narrower claim afterward, and
+- tries to reach the people who heard the original.
+
+An evasive retreat defends the narrow version when pressed, while still benefiting from the broad one everywhere else. Watch what the speaker says to their own audience the following week.
+
+Saying "I misspoke" doesn't prove either. Some people correct themselves without those words, and some say them without correcting anything.
+
+### Try it on your own side
+
+The real test is using these questions on people you agree with. Suppose your favorite senator says a rival "wants to destroy Social Security."
+
+1. **What was said?** "Wants to destroy Social Security."
+2. **What could it mean?** "Destroy" could mean abolish the program, cut it deeply, or slowly undermine it. Those are very different claims.
+3. **What's the evidence?** It turns out to be a proposal to raise the retirement age by two years. Whether that cuts benefits, shores up the program's finances, or does both is a question for analysts. A slogan can't settle it.
+4. **Did the claim change?** If the senator's office now says it meant "cut benefits for future retirees," check whether that narrower claim holds up, and whether the senator keeps saying "destroy" at rallies anyway.
+5. **Who benefits?** The senator may raise money from the alarm. That's a reason to check carefully, not a conclusion.
+
+After all that, you might decide the claim is fair, exaggerated, or impossible to judge yet. All three are legitimate answers. If you'd catch this from the other party, catch it from yours.
+
+### Pushing back without starting a fight
+
+You don't have to win an argument to change one. A few calm questions work better than accusations of your own:
+
+- **Ask for the original:** *"Do you have the actual quote? I want to read it myself."*
+- **Ask for the meaning:** *"When you say 'terrorist sympathizer,' do you mean he supports terrorism, or that you dislike who he spends time with?"*
+- **Ask for the evidence:** *"What's the best evidence for that? I'd honestly like to see it."*
+- **Apply the same standard:** *"Would we accept that kind of evidence if it were about our side?"*
+- **Leave room for uncertainty:** *"Maybe it's true. I just don't think we know yet."*
+
+These questions don't call anyone a liar. They invite the speaker, or the friend repeating the claim, to do the work the claim requires. Plenty of people will happily slow down when asked, and the ones who won't have told you something too.
 
 The goal is not to distrust everyone. Some harsh accusations are true, and plenty of passionate speech is honest. The goal is to give everyone the same level of scrutiny.
 
 ## Closing: You Don't Have to Accept the Frame
 
-When someone hands you a loaded word, you're allowed to hand it back and ask what they mean. Ask for the clear meaning, the evidence, and the same standard they'd apply to their friends. Thucydides watched a society lose that habit. Confucius said government starts with it. You can practice it every day, starting with the people you like most.
+When someone hands you a loaded word, you're allowed to hand it back and ask what they mean. Ask for the clear meaning, the evidence, and the same standard they'd apply to their friends.
 
----
-
-## Sources
-
-### Historical primary texts and translations
-- Thucydides, *History of the Peloponnesian War*, 3.82, trans. Richard Crawley (1874). [Perseus Digital Library](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=3:chapter=82)
-- Hogan, John T. "The ἀξίωσις of Words at Thucydides 3.82.4." *Greek, Roman, and Byzantine Studies* 21.2 (1980): 139–150. [PhilArchive record](https://philarchive.org/rec/HOGTO)
-- Noriega-Olmos, Simon. "Valuation Drifts, Meaning Endures: Thucydides 3.82.4." *Classical Quarterly* 72.1 (2022): 82–100. [doi:10.1017/S0009838822000386](https://doi.org/10.1017/S0009838822000386)
-- Confucius (attrib.), *Analects* 13.3, trans. James Legge, *The Chinese Classics*, vol. 1. [Sacred-texts.com (Legge)](https://sacred-texts.com/cfu/conf1.htm)
-- Csikszentmihalyi, Mark. "Confucius." *Stanford Encyclopedia of Philosophy* (rev. 2024). [SEP](https://plato.stanford.edu/entries/confucius/)
-- Richey, Jeff. "Confucius." *Internet Encyclopedia of Philosophy*. [IEP](https://iep.utm.edu/confucius/)
-- Tacitus, *Agricola* 30 (Oxford translation, revised). [Project Gutenberg #7524](https://www.gutenberg.org/ebooks/7524)
-- Orwell, George. "Politics and the English Language" (1946). [The Orwell Foundation](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
-
-### Contemporary records and reporting
-- Trump, Donald J. Truth Social post, October 7, 2026, 11:13 p.m. EDT. [Original](https://truthsocial.com/@realDonaldTrump/117403103962951852) · [Archive (trumpstruth.org)](https://www.trumpstruth.org/statuses/42196)
-- Mediaite, "Abdul El-Sayed Claps Back After Trump Called Him 'Mohammed'" (Oct. 8, 2026). [Link](https://www.mediaite.com/media/news/abdul-el-sayed-claps-back-after-trump-called-him-mohammed-in-truth-social-rant-he-knows-my-name-is-abdul/)
-- Common Dreams, "'He Thinks We Don't Know Any Better,' Says El-Sayed" (Oct. 8, 2026). [Link](https://www.commondreams.org/news/el-sayed-hits-back-at-trump)
-- Soap Central, report on the Trump post, including CAIR-Michigan's response via *Newsweek* (Oct. 8, 2026). [Link](https://www.soapcentral.com/entertainment/news-he-radical-extremist-donald-trump-takes-shot-el-sayed-hasan-piker-latest-truth-social-post)
-- *The Detroit News*, "President Trump calls Abdul El-Sayed 'Mohammed,' post labeled racist" (Oct. 8, 2026). [Link](https://www.detroitnews.com/story/news/politics/2026/10/08/trump-abdul-el-sayed-mohammed-truth-social-post-labeled-racist-mike-roger/92150810007/)
-- Fox News, El-Sayed on appearing with Hasan Piker (Apr. 7, 2026). [Link](https://www.foxnews.com/media/michigan-democrat-defends-appearing-hasan-piker-distances-podcasters-controversial-remarks)
-- POLITICO, "Abdul El-Sayed distances himself from Hasan Piker" (Aug. 24, 2026). [Link](https://www.politico.com/news/2026/08/24/abdul-el-sayed-distances-himself-from-hasan-piker-01048367)
-- CNN, El-Sayed apology to Jewish Democrats (Aug. 29, 2026). [Link](https://edition.cnn.com/2026/08/29/politics/el-sayed-michigan-jewish-democrats-synagogue)
-- Roll Call, "Trump: Don't They Get Sarcasm?" (Aug. 12, 2016). [Link](https://www.rollcall.com/2016/08/12/trump-dont-they-get-sarcasm/)
-- PolitiFact, "Harry Reid says anonymous source told him Mitt Romney didn't pay taxes" (Aug. 6, 2012). [Link](https://www.politifact.com/factchecks/2012/aug/06/harry-reid/harry-reid-says-anonymous-source-told-him-mitt-rom/)
-- NPR, "Romney's 2011 Tax Return Shows He Paid At 14.1 Percent Rate" (Sept. 21, 2012). [Link](https://www.npr.org/sections/thetwo-way/2012/09/21/161555470/romneys-2011-tax-return-shows-he-paid-at-14-1-percent-rate-campaign-says)
-- *The Washington Times*, "Harry Reid: 'Of course' Mitt Romney paid taxes" (Apr. 8, 2015). [Link](https://www.washingtontimes.com/news/2015/apr/8/harry-reid-course-mitt-romney-paid-taxes/)
-- Mediaite, "'Facebook Isn't Killing People': Biden Walks Back Comments" (July 19, 2021). [Link](https://www.mediaite.com/news/facebook-isnt-killing-people-biden-walks-back-comments-on-social-media-behemoth)
-- AP via Election Law Blog, "Barr: No evidence of fraud that'd change election outcome" (Dec. 1, 2020). [Link](https://electionlawblog.org/?p=119190)
-- AP via PBS NewsHour, "AP review finds far too little vote fraud to tip 2020 election to Trump" (Dec. 14, 2021). [Link](https://www.pbs.org/newshour/politics/ap-review-finds-far-too-little-vote-fraud-to-tip-2020-election-to-trump)
-- Putin, Vladimir. Address of February 24, 2022 (Kremlin English transcript). [Link](http://en.kremlin.ru/events/president/news/67843)
-- RFE/RL, "'Discrediting' The Armed Forces: The Russians Caught Up In A Draconian Law" (2022). [Link](https://www.rferl.org/a/russia-ukraine-war-discrediting-armed-forces-law/31875273.html)
-- U.S. National Archives, "Senate Resolution 301: Censure of Senator Joseph McCarthy (1954)." [Link](https://www.archives.gov/milestone-documents/censure-of-senator-joseph-mccarthy)
-- Moore, Greg. "Joseph McCarthy's Wheeling Speech." *e-WV: The West Virginia Encyclopedia*. [Link](https://www.wvencyclopedia.org/entries/1557)
-
-### Research
-- Mercieca, Jennifer. *Demagogue for President: The Rhetorical Genius of Donald Trump.* Texas A&M University Press, 2020. [Project MUSE](https://muse.jhu.edu/book/76805)
-- Saul, Jennifer. *Dogwhistles and Figleaves: How Manipulative Language Spreads Racism and Falsehood.* Oxford University Press, 2024. [OUP](https://academic.oup.com/book/55288)
-- Saul, Jennifer. "Racist and Sexist Figleaves." In *The Routledge Handbook of Social and Political Philosophy of Language*, 2021, 161–178. [St Andrews record](https://research-portal.st-andrews.ac.uk/en/publications/racist-and-sexist-figleaves/)
-- Kukla, Quill R., and Mark N. Lance. "Building a Discursive Arsenal: Engineering Weaponized Speech in the Service of Authoritarianism." *Topoi* (2026). [doi:10.1007/s11245-026-10372-y](https://doi.org/10.1007/s11245-026-10372-y)
-- Eisenberg, Eric M. "Ambiguity as Strategy in Organizational Communication." *Communication Monographs* 51.3 (1984): 227–242. [doi:10.1080/03637758409390197](https://doi.org/10.1080/03637758409390197)
-- Shackel, Nicholas. "The Vacuity of Postmodernist Methodology." *Metaphilosophy* 36.3 (2005): 295–320 (origin of "motte-and-bailey"). [doi:10.1111/j.1467-9973.2005.00370.x](https://doi.org/10.1111/j.1467-9973.2005.00370.x)
-- Fricker, Miranda. *Epistemic Injustice: Power and the Ethics of Knowing.* Oxford University Press, 2007. [OUP](https://doi.org/10.1093/acprof:oso/9780198237907.001.0001)
-- Hasher, Lynn, David Goldstein, and Thomas Toppino. "Frequency and the Conference of Referential Validity." *Journal of Verbal Learning and Verbal Behavior* 16.1 (1977): 107–112. [doi:10.1016/S0022-5371(77)80012-1](https://doi.org/10.1016/S0022-5371(77)80012-1)
-- Fazio, Lisa K., et al. "Knowledge Does Not Protect Against Illusory Truth." *Journal of Experimental Psychology: General* 144.5 (2015): 993–1002. [doi:10.1037/xge0000098](https://doi.org/10.1037/xge0000098)
-- Pennycook, Gordon, Tyrone D. Cannon, and David G. Rand. "Prior Exposure Increases Perceived Accuracy of Fake News." *Journal of Experimental Psychology: General* 147.12 (2018): 1865–1880. [doi:10.1037/xge0000465](https://doi.org/10.1037/xge0000465)
-- Lewandowsky, Stephan, et al. "Misinformation and Its Correction: Continued Influence and Successful Debiasing." *Psychological Science in the Public Interest* 13.3 (2012): 106–131. [doi:10.1177/1529100612451018](https://doi.org/10.1177/1529100612451018)
-- Ecker, Ullrich K. H., et al. "The Psychological Drivers of Misinformation Belief and Its Resistance to Correction." *Nature Reviews Psychology* 1 (2022): 13–29. [doi:10.1038/s44159-021-00006-y](https://doi.org/10.1038/s44159-021-00006-y)
-
-### Law
-- *New York Times Co. v. Sullivan*, 376 U.S. 254 (1964). [Justia](https://supreme.justia.com/cases/federal/us/376/254/)
-- *Greenbelt Cooperative Publishing Ass'n v. Bresler*, 398 U.S. 6 (1970) ("rhetorical hyperbole"). [Justia](https://supreme.justia.com/cases/federal/us/398/6/)
-- *Milkovich v. Lorain Journal Co.*, 497 U.S. 1 (1990) (opinion and provably false statements). [Justia](https://supreme.justia.com/cases/federal/us/497/1/)
-
----
-
-## Verification Appendix
-
-### A. How the examples were checked
-Each case follows the same six steps: what was said, what it ordinarily means, the technique, the evidence, any later clarification, and the lesson.
-
-**1. Trump on Abdul El-Sayed (Oct. 7, 2026).**
-- *Said:* The text was confirmed against the trumpstruth.org archive of the Truth Social post (11:13 p.m. EDT). It reads "Mohammed El-Sayed is a terrible Candidate for the Dumocrats," "goes back to the days of the Jihad," "RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend America Hating Hasan Piker," and "WRONG for Michigan, and WRONG for America." Secondary reports differ on small details (one prints "Democrats" and "American Hating"), and the archive reading is used here.
-- *Ordinary meaning:* "Terrorist sympathizer" implies sympathy for terrorism, not just a disputed association.
-- *Technique:* Accusation trap, power over credibility, and guilt by association.
-- *Evidence:* The post cites none. The documented context is El-Sayed's April 2026 appearances with Piker, who said in 2019 that "America deserved 9/11." El-Sayed said he does not agree with that (Fox News, Apr. 7, 2026) and later said he had no plans to campaign with Piker again (POLITICO, Aug. 24, 2026). Critics also point to remarks he made after a 2026 synagogue attack, for which he apologized (CNN, Aug. 29, 2026). That record supports questions about his judgment. No source reviewed shows sympathy for terrorism.
-- *Clarification:* None from Trump, the White House, or the Rogers campaign as of Oct. 8, 2026. The post was less than a day old when this guide was written, so this part may change.
-- *Contested:* CAIR-Michigan and others called the use of "Mohammed" and "Jihad" Islamophobic. The guide reports that view and does not judge Trump's private intent.
-
-**2. Trump, "founder of ISIS" (Aug. 10–12, 2016).** Roll Call reports the rally remark, the Hewitt exchange, and the "sarcasm" walk-back. The literal claim is false, because ISIS grew out of al-Qaeda in Iraq before Obama took office. A defensible policy argument (that the 2011 troop withdrawal left a vacuum) existed, and Trump turned it down on air before retreating to "sarcasm." *Lesson:* watch which meaning the speaker picks while it's still useful.
-
-**3. Reid on Romney's taxes (2012–2015).** PolitiFact rated the claim "Pants on Fire." Romney released his 2010 and 2011 returns and an accountant's summary showing an average effective rate of 20.2% for 1990–2009 (NPR). Reid's 2015 fallback ("Of course he paid taxes") came with "none whatsoever" when he was asked about an apology. Floor speeches are protected by the Constitution's Speech or Debate Clause. A widely quoted line, "Romney didn't win, did he?", could not be checked against a primary source and is not used.
-
-**4. Biden on Facebook (July 16–19, 2021).** The original "They're killing people" answered a question about platforms. The narrowed version relied on a Center for Countering Digital Hate report, whose methods Facebook disputed. The narrowing is shown as a good-faith-looking correction that still reveals the gap between the headline and the fallback.
-
-**5. 2020 election claims.** Barr's statement and the AP review are cited through AP syndication, because apnews.com could not be reached directly. The guide does not claim that Trump knew his statements were false.
-
-**6. Putin, Feb. 24, 2022.** The quotes are from the Kremlin's own English transcript. Details of the March 4, 2022 law come from RFE/RL.
-
-**7. McCarthy, 1950.** Historians still disagree about whether he said "205" at Wheeling, because the reporter worked from his prepared text (e-WV). What is undisputed is that he never produced a list and changed the numbers over the following days.
-
-### B. Translation and textual uncertainties
-- **Thucydides 3.82.4.** Crawley's "Words had to change their ordinary meaning" is one interpretation. Hogan (1980) renders the passage as men changing "the customary valuation of words in respect to deeds." Noriega-Olmos (2022) argues that the meanings stayed fixed and only the evaluations changed. The guide uses Crawley's wording and points to the debate.
-- **Analects 13.3.** Legge's wording was confirmed on sacred-texts.com. The *Analects* was compiled over generations after Confucius's death, and its place as the earliest layer of Confucian teaching is disputed (SEP; IEP). Legge's "superior man" translates *junzi* (an exemplary person), and modern translations differ.
-- **Tacitus.** The Calgacus speech was written by Tacitus. It is not a transcript of a British speaker.
-
-### C. Balance and limits
-- Three of the seven cases involve Donald Trump. That reflects the case the assignment required, his current office, and how well his statements are documented. It is not a judgment that one party alone uses these techniques, and the Democratic cases show it doesn't.
-- No independent politician's case met the documentation standard within the space available. The guide uses one non-U.S. example, Putin.
-- The Social Security example in Part Four is hypothetical by design.
-- Several 2026 sources (Detroit News, The Hill, HuffPost, Yahoo) could not be fetched directly. The claims that depend on them were checked against the archived post and the outlets that could be reached.
+Thucydides showed how quickly judgment can bend under pressure. The Confucian tradition warned that when names stop matching reality, everything built on them starts to wobble. You don't need either philosophy to do the simple part: slow down, find the original words, weigh the evidence, and be willing to say "I don't know yet," especially about the people you like most.
