@@ -6,7 +6,7 @@
 
 Numbers match the bracketed markers in the guide.
 
-<a id="n1"></a>1. Thucydides, *History of the Peloponnesian War* 3.82, trans. Richard Crawley (1874). [Perseus Digital Library](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=3:chapter=82)
+<a id="n1"></a>1. Thucydides, *History of the Peloponnesian War* 3.82, trans. Richard Crawley (1874). [Perseus Digital Library](https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0003.tlg001.perseus-eng6/chapter:3.82/)
 
 <a id="n2"></a>2. John T. Hogan, "The ἀξίωσις of Words at Thucydides 3.82.4," *Greek, Roman, and Byzantine Studies* 21.2 (1980): 139–150. Renders the passage as men changing "the customary valuation of words in respect to deeds." [PhilArchive](https://philarchive.org/rec/HOGTO)
 
@@ -26,17 +26,17 @@ Numbers match the bracketed markers in the guide.
 
 <a id="n10"></a>10. George Orwell, "Politics and the English Language" (1946). [The Orwell Foundation](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
 
-<a id="n11"></a>11. U.S. Department of State, memorandum "Senator McCarthy's 81 Cases" (1953), *Foreign Relations of the United States, 1952–1954*, vol. I, pt. 2, doc. 203. [Office of the Historian](https://history.state.gov/historicaldocuments/frus1952-54v01p2/d203); see also Greg Moore, "Joseph McCarthy's Wheeling Speech," *e-WV*. [Link](https://www.wvencyclopedia.org/entries/1557)
+<a id="n11"></a>11. U.S. Department of State, memorandum "Senator McCarthy's 81 Cases" (Feb. 16, 1953), *Foreign Relations of the United States, 1952–1954*, vol. I, pt. 2, doc. 203. [Office of the Historian](https://history.state.gov/historicaldocuments/frus1952-54v01p2/d203); see also Greg Moore, "Joseph McCarthy's Wheeling Speech," *e-WV*. [Link](https://www.wvencyclopedia.org/entries/1557)
 
-<a id="n12"></a>12. PolitiFact, "Harry Reid says anonymous source told him Mitt Romney didn't pay taxes" (Aug. 6, 2012). Covers the July 31 interview and the Aug. 2 Senate floor remarks. [Link](https://www.politifact.com/factchecks/2012/aug/06/harry-reid/harry-reid-says-anonymous-source-told-him-mitt-rom/)
+<a id="n12"></a>12. PolitiFact, "Harry Reid says anonymous source told him Mitt Romney didn't pay taxes" (Aug. 6, 2012). Covers the July 31 interview and the Aug. 2 Senate floor remarks. [Link](https://www.politifact.com/factchecks/2012/aug/06/harry-reid/harry-reid-says-anonymous-source-told-him-mitt-rom/). See also the [Congressional Record, Aug. 2, 2012, p. S5903](https://www.govinfo.gov/content/pkg/CREC-2012-08-02/pdf/CREC-2012-08-02.pdf).
 
-<a id="n13"></a>13. CNN transcript, Apr. 3, 2015 (Dana Bash interview with Reid, including replayed remarks). [Link](https://transcripts.cnn.com/show/cnr/date/2015-04-03/segment/06). The quote "Of course he paid taxes" is from Reid's 2015 Fusion interview, as reported by *The Washington Times* (Apr. 8, 2015). [Link](https://www.washingtontimes.com/news/2015/apr/8/harry-reid-course-mitt-romney-paid-taxes/)
+<a id="n13"></a>13. CNN transcript, Apr. 3, 2015 (Dana Bash interview with Reid, including replayed remarks). [Link](https://transcripts.cnn.com/show/cnr/date/2015-04-03/segment/06). The "Let him prove…" line was also reported by [Roll Call on Aug. 2, 2012](https://rollcall.com/2012/08/02/harry-reid-again-accuses-mitt-romney-of-failing-to-pay-taxes/). The quote "Of course he paid taxes" is from Reid's 2015 Fusion interview, as reported by *The Washington Times* (Apr. 8, 2015). [Link](https://www.washingtontimes.com/news/2015/apr/8/harry-reid-course-mitt-romney-paid-taxes/)
 
-<a id="n14"></a>14. NPR, "Romney's 2011 Tax Return Shows He Paid At 14.1 Percent Rate" (Sept. 21, 2012) [Link](https://www.npr.org/sections/thetwo-way/2012/09/21/161555470/romneys-2011-tax-return-shows-he-paid-at-14-1-percent-rate-campaign-says); PwC letter text quoted in *Washington Monthly* [Link](https://washingtonmonthly.com/?p=21705); 2010 return reported by PolitiFact (note 12).
+<a id="n14"></a>14. NPR, "Romney's 2011 Tax Return Shows He Paid At 14.1 Percent Rate" (Sept. 21, 2012) [Link](https://www.npr.org/sections/thetwo-way/2012/09/21/161555470/romneys-2011-tax-return-shows-he-paid-at-14-1-percent-rate-campaign-says); PwC summary discussed in the [CNN transcript, Sept. 21, 2012](https://transcripts.cnn.com/show/cnr/date/2012-09-21/segment/06); 2010 return reported by PolitiFact (note 12).
 
 <a id="n15"></a>15. *The Hugh Hewitt Show*, transcript, Aug. 11, 2016. [Link](https://hughhewitt.com/donald-trump-makes-return-visit)
 
-<a id="n16"></a>16. Roll Call, "Trump: Don't They Get Sarcasm?" (Aug. 12, 2016). [Link](https://www.rollcall.com/2016/08/12/trump-dont-they-get-sarcasm/)
+<a id="n16"></a>16. Roll Call, "Trump: Don't They Get Sarcasm?" (Aug. 12, 2016). [Link](https://rollcall.com/2016/08/12/trump-dont-they-get-sarcasm/)
 
 <a id="n17"></a>17. PBS NewsHour, "Watch: Biden says virus disinformation is 'killing people'" (July 16, 2021). [Link](https://www.pbs.org/newshour/politics/watch-biden-says-virus-disinformation-is-killing-people)
 
@@ -48,7 +48,7 @@ Numbers match the bracketed markers in the guide.
 
 <a id="n21"></a>21. RFE/RL, "'Discrediting' The Armed Forces: The Russians Caught Up In A Draconian Law" (2022). [Link](https://www.rferl.org/a/russia-ukraine-war-discrediting-armed-forces-law/31875273.html)
 
-<a id="n22"></a>22. AP, "Barr: No evidence of fraud that'd change election outcome" (Dec. 1, 2020), as quoted by Election Law Blog. [Link](https://electionlawblog.org/?p=119190)
+<a id="n22"></a>22. AP, "Barr: No evidence of fraud that'd change election outcome" (Dec. 1, 2020), as quoted by Election Law Blog. [Link](https://electionlawblog.org/?p=119190). Barr's statement is also quoted in the [House Jan. 6 committee report, ch. 4](https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch4.html).
 
 <a id="n23"></a>23. AP, "Far too little vote fraud to tip election to Trump, AP finds" (Dec. 14, 2021), via PBS NewsHour. [Link](https://www.pbs.org/newshour/politics/ap-review-finds-far-too-little-vote-fraud-to-tip-2020-election-to-trump)
 
@@ -72,7 +72,7 @@ Numbers match the bracketed markers in the guide.
 
 <a id="n33"></a>33. Miranda Fricker, *Epistemic Injustice: Power and the Ethics of Knowing* (Oxford University Press, 2007), ch. 1. [OUP](https://academic.oup.com/book/32817/chapter-abstract/274999720)
 
-<a id="n34"></a>34. *New York Times Co. v. Sullivan*, 376 U.S. 254, 279–280 (1964). [Justia](https://supreme.justia.com/cases/federal/us/376/254/)
+<a id="n34"></a>34. *New York Times Co. v. Sullivan*, 376 U.S. 254, 270, 279–280 (1964). [Justia](https://supreme.justia.com/cases/federal/us/376/254/)
 
 <a id="n35"></a>35. *Greenbelt Cooperative Publishing Ass'n v. Bresler*, 398 U.S. 6, 14 (1970). [Justia](https://supreme.justia.com/cases/federal/us/398/6/)
 
@@ -88,15 +88,15 @@ Each case below lists the original source, the relevant context, any contrary ev
 - **Original sources:** no recording of the Wheeling speech exists. The *Wheeling Intelligencer* reported "205," but its reporter worked from the prepared text (e-WV, note 11). The State Department memo (note 11) records the 81 names, really 80, that McCarthy gave the Senate committee.
 - **Context:** 42 of the 80 worked at the department on Feb. 9, 1950. Earlier congressional reviews had named none of them as disloyal. The Senate censured McCarthy on Dec. 2, 1954, for his conduct toward the Senate ([National Archives](https://www.archives.gov/milestone-documents/censure-of-senator-joseph-mccarthy)).
 - **Contrary evidence:** Soviet espionage in the U.S. government in this era was real, as later documented by historians. McCarthy's specific charges are a separate question.
-- **Classification:** unsupported accusation that shifted the burden to the accused. The guide no longer says he "never produced a list."
-- **Uncertain:** his exact wording and number at Wheeling. The FRUS document carries a 1953 file label. The review dates it Feb. 16, 1953, but that date was not visible in the text checked here.
+- **Classification:** unsubstantiated accusations that shifted the burden to the accused. He supplied names but did not substantiate his advertised accusations.
+- **Uncertain:** his exact wording and number at Wheeling.
 
 ### Reid and Romney (2012–2015)
 - **Original sources:** the July 31, 2012 interview and Aug. 2 floor remarks (note 12), and the 2015 CNN transcript (note 13), which includes "Let him prove that he has paid taxes, because he hasn't" and "Romney didn't win, did he?"
 - **Context:** Romney released his 2010 and 2011 returns, plus a PwC letter reporting a lowest annual effective federal rate of 13.66% for 1990–2009 (note 14). A positive rate in every year implies he paid tax every year. The letter is a summary from his tax preparer, not the underlying returns. In 2015 Reid told Fusion, "Of course he paid taxes — what he didn't do is let us see his tax returns," and that he had no regrets ([Washington Times](https://www.washingtontimes.com/news/2015/apr/8/harry-reid-course-mitt-romney-paid-taxes/)).
 - **Contrary evidence:** asking for more tax returns was a legitimate and widely shared demand.
 - **Classification:** an unsupported accusation that shifted the burden of proof. It was not labeled "motte-and-bailey," because that would require evidence of a deliberate two-step strategy, and the record doesn't show one.
-- **Uncertain:** the original date of the "Let him prove…" line. CNN replayed it in 2015, and it appears to be from 2012. It is not known whether Reid believed his source.
+- **Uncertain:** whether Reid believed his source. The "Let him prove…" line dates to Aug. 2, 2012 (note 13); CNN replayed it in 2015.
 
 ### Trump on ISIS (2016)
 - **Original sources:** the Hewitt transcript (note 15), and the tweet and rally remarks reported by Roll Call (note 16).
@@ -130,9 +130,9 @@ Each case below lists the original source, the relevant context, any contrary ev
   - The Temple Israel statement, which contained both a condemnation and a cycle-of-violence explanation (note 27).
   - The apology, as quoted by PolitiFact (note 28). PolitiFact also rated Mike Rogers's claim that El-Sayed "could not condemn" the attack *Mostly False*.
   - A critical report alleging El-Sayed endorsed a 2012 statement supporting Egypt's then-president Mohamed Morsi was flagged by the review and has not been independently confirmed here. It is not used.
-- **Critics of the post:** Newsweek quotes CAIR-Michigan's Dawud Walid saying the name change is "a political tactic" ([Newsweek](https://newsweek.com/trump-calls-abdul-el-sayed-terrorist-sympathizer-renames-him-mohammed-12539234)). The main guide omits this.
 - **Classification:** a sweeping label drawn from association that the post doesn't substantiate. The guide does not judge whether criticism of El-Sayed is prejudiced. No measurement of the post's reach or of who believed it was found, so the guide treats Trump's audience size as context, not proof.
-- **Uncertain:** whether a clarification will follow (none had by Oct. 8). The New Republic reports an Oct. 6 post calling El-Sayed "the Jihadist," but it was not found in the archive and is not used ([TNR](https://newrepublic.com/post/216409/donald-trump-midterms-tantrum-abdul-el-sayed-fox-news)).
+- **Earlier post:** an Oct. 6 post uses the phrase "Dumocrat Jihadists like El-Sayed" ([archive](https://www.trumpstruth.org/statuses/42180)). It is not used in the main guide.
+- **Uncertain:** whether a clarification will follow (none had been found by Oct. 8).
 
 ### Historical and translation notes
 - Thucydides' narrative covers events of 427 BCE. He wrote it later.
@@ -143,7 +143,7 @@ Each case below lists the original source, the relevant context, any contrary ev
 
 ## Revision Ledger
 
-**1. No boundary between manipulation and bullying.** *Resolved.* Added a working definition and four separate questions, renamed the techniques "warning signs," and made "We don't have enough evidence to know" an explicit allowed answer.
+**1. No boundary between manipulation and bullying.** *Resolved.* Added a working definition and four separate questions, renamed the techniques "warning signs," and made "We don't have enough evidence to know" an explicit allowed answer. The definition treats evasion as possible, not necessary.
 
 **2. Trump on ISIS left out counterevidence.** *Resolved.* The guide now quotes the policy argument he made in the same interview and describes the sequence (founder, policy, sarcasm) without judging his intent.
 
@@ -153,9 +153,9 @@ Each case below lists the original source, the relevant context, any contrary ev
 
 **5. History asserted a shared theory.** *Resolved.* The traditions are presented as distinct, both readings of Thucydides are given, Confucius is tied to roles, ritual and order, and the line equating Putin with Corcyra is gone.
 
-**6. McCarthy "never produced a list."** *Resolved.* The guide now says he submitted names but never substantiated the charge, citing the State Department memo. *Minor discrepancy:* the review dates the memo Feb. 16, 1953, and the text checked here shows only a 1953 file label.
+**6. McCarthy "never produced a list."** *Resolved.* The guide now says he submitted names but did not substantiate his advertised accusations, citing the State Department memo. The memo's date, Feb. 16, 1953, is confirmed in the source.
 
-**7. El-Sayed overstated.** *Resolved.* The post's words, its evidence, the outside controversy, El-Sayed's condemnation and apology, and the guide's conclusion are now separated. The no-plans statement is cited to Semafor (Aug. 26). The claims about the post's reach and about silence being treated as guilt are removed. *Partly disputed:* the review marked CAIR-Michigan's statement as unresolved, but Newsweek quotes Dawud Walid directly. It stays in the appendix only.
+**7. El-Sayed overstated.** *Resolved.* The post's words, its evidence, the outside controversy, El-Sayed's condemnation and apology, and the guide's conclusion are now separated. The no-plans statement is cited to Semafor (Aug. 26). The claims about the post's reach and about silence being treated as guilt are removed. *Source correction:* Dawud Walid's "political tactic" comment concerned a different August post using El-Sayed's full name ([WDIV, Aug. 10, 2026](https://www.clickondetroit.com/news/local/2026/08/10/two-very-different-americas-cair-criticizes-trump-post-targeting-michigan-senate-candidate-abdul-el-sayed/)). It is excluded as a response to the October post.
 
 **8. Legal paragraph implied blanket protection for opinion.** *Resolved.* Added *Milkovich*, defined actual malice in plain terms, and stated that the guide does not rule on any specific accusation.
 

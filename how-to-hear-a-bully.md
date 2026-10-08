@@ -16,7 +16,7 @@ People have worried about how words and power interact for thousands of years, t
 
 ### What this guide means by "bully"
 
-A *bully*, here, is someone who uses accusations or labels to pressure, discredit or intimidate a target, especially from a position of power, while avoiding responsibility for what the words imply.
+A *bully*, here, is someone who uses accusations or labels to pressure, discredit or intimidate a target, especially from a position of power. Avoiding responsibility for what the words imply is one possible behavior, not a requirement. Bullying can also be open and unapologetic.
 
 That is a specific behavior, and most political speech doesn't fit it. Persuasion isn't bullying. Neither is passion, sarcasm, harsh criticism or a false statement made by mistake. Campaigns are supposed to argue, and voters are supposed to hear strong cases.
 
@@ -43,7 +43,7 @@ You don't have to settle that debate to take the lesson. Under enough pressure, 
 
 ### Confucius: when names and roles come apart
 
-In *Analects* 13.3, a disciple asks Confucius what he would do first if he were put in charge of government in the state of Wei. His answer surprises the disciple: he would "rectify names." Traditional accounts place the conversation during a bitter succession quarrel in Wei, in which a ruling duke and his exiled father both claimed the throne.[[4]](how-to-hear-a-bully-notes.md#n4)
+In *Analects* 13.3, a disciple asks Confucius what he would do first if he were put in charge of government in the state of Wei. His answer surprises the disciple: he would "rectify names." A traditional interpretation links this conversation to a bitter succession quarrel in Wei, in which a ruling duke and his exiled father both claimed the throne.[[4]](how-to-hear-a-bully-notes.md#n4)
 
 Confucius explains, in James Legge's translation, that "If names be not correct, language is not in accordance with the truth of things." From there, the chain unravels. Affairs can't be carried out. Ritual and music decline. Punishments go wrong. Finally "the people do not know how to move hand or foot."[[5]](how-to-hear-a-bully-notes.md#n5)
 
@@ -53,7 +53,7 @@ This is not a modern theory of free speech or citizens' rights, and it shouldn't
 
 ### Other voices
 
-**Tacitus (Rome, about 98 CE).** In his biography of his father-in-law Agricola, a Roman general in Britain, Tacitus wrote a speech for a British chieftain named Calgacus. In it, Rome gives plunder and slaughter "false names" (*falsis nominibus*) and calls it empire. Then "where they make a desert, they call it peace." The speech is Tacitus's own literary creation, not a transcript. That makes it more interesting: a Roman writer imagining how Rome's language sounded to the people it conquered.[[8]](how-to-hear-a-bully-notes.md#n8)
+**Tacitus (Rome, about 98 CE).** In his biography of his father-in-law Agricola, a Roman general in Britain, Tacitus wrote a speech for a British chieftain named Calgacus. In it, Rome gives plunder and slaughter "false titles" (*falsis nominibus*) and calls it empire. Then "where they make a desert, they call it peace." The speech is Tacitus's own literary creation, not a transcript. That makes it more interesting: a Roman writer imagining how Rome's language sounded to the people it conquered.[[8]](how-to-hear-a-bully-notes.md#n8)
 
 **English seditious libel.** English law once punished publications that stirred up hatred or contempt of the authorities. In a criminal case, as the jurist William Blackstone put it in 1769, "the provocation, and not the falsity, is the thing to be punished."[[9]](how-to-hear-a-bully-notes.md#n9) In other words, a true criticism could still be a crime if it made officials look bad enough.
 
@@ -73,9 +73,9 @@ These are warning signs, not verdicts. Each one tells you where to look more clo
 
 **What it looks like:** a serious charge with little or no evidence behind it, framed so that the accused has to disprove it.
 
-**The example.** In 1950 Senator Joseph McCarthy (R-Wis.) said he had evidence of Communists working in the State Department. He later gave a Senate committee a list of 81 names, which turned out to be 80. Only 42 of those people worked at the department at the time of his speech, and earlier congressional reviews had named none of them as disloyal.[[11]](how-to-hear-a-bully-notes.md#n11) McCarthy did produce names. What he never produced was proof of the accusation he had advertised.
+**The example.** In 1950 Senator Joseph McCarthy (R-Wis.) said he had evidence of Communists working in the State Department. He later gave a Senate committee a list of 81 names, which turned out to be 80. Only 42 of those people worked at the department at the time of his speech, and earlier congressional reviews had named none of them as disloyal.[[11]](how-to-hear-a-bully-notes.md#n11) McCarthy did produce names. He did not substantiate his advertised accusations.
 
-In 2012 Senate Majority Leader Harry Reid (D-Nev.) said an unnamed source had told him that Mitt Romney paid no taxes for ten years. He repeated the claim on the Senate floor.[[12]](how-to-hear-a-bully-notes.md#n12) "Let him prove that he has paid taxes, because he hasn't," Reid said.[[13]](how-to-hear-a-bully-notes.md#n13) Romney released two years of returns plus an accountant's summary saying his lowest yearly federal rate between 1990 and 2009 was 13.66%.[[14]](how-to-hear-a-bully-notes.md#n14) Years later Reid acknowledged, "Of course he paid taxes," and when asked whether he regretted the accusation, he said, "Romney didn't win, did he?"[[13]](how-to-hear-a-bully-notes.md#n13)
+In 2012 Senate Majority Leader Harry Reid (D-Nev.) said an unnamed source had told him that Mitt Romney paid no taxes for ten years. He repeated the claim on the Senate floor.[[12]](how-to-hear-a-bully-notes.md#n12) "Let him prove that he has paid taxes, because he hasn't," Reid said.[[13]](how-to-hear-a-bully-notes.md#n13) Romney released two years of returns plus an accountant's summary saying his lowest yearly federal rate between 1990 and 2009 was 13.66%.[[14]](how-to-hear-a-bully-notes.md#n14) In separate 2015 interviews, Reid acknowledged, "Of course he paid taxes," and, when asked whether he regretted the accusation, said, "Romney didn't win, did he?"[[13]](how-to-hear-a-bully-notes.md#n13)
 
 **What it isn't.** Asking a candidate to release more tax returns is a fair demand. So is asking an official to explain a decision, or an investigator to look into a credible tip. The trouble starts when the person demanding answers also claims to know what the answers will show, without evidence.
 
@@ -89,7 +89,7 @@ In 2012 Senate Majority Leader Harry Reid (D-Nev.) said an unnamed source had to
 
 On August 12 he tweeted, "THEY DON'T GET SARCASM?" Later that day he said he was being sarcastic, "but not that sarcastic, to be honest with you."[[16]](how-to-hear-a-bully-notes.md#n16)
 
-A reasonable listener might hear exaggerated blame for a policy failure. That's a common political argument, and many people agree with it. Another might hear something close to the literal claim. What a careful listener can notice is that "founder," a policy argument and "sarcasm" are three different claims, and that each was available when it helped. That is the warning sign. It doesn't tell you what Trump privately meant.
+A reasonable listener might hear exaggerated blame for a policy failure. That's a common political argument, and many people agree with it. Another might hear something close to the literal claim. What a careful listener can notice is that Trump moved between "founder" and a policy explanation in the interview, then invoked "sarcasm" the next day. That is the warning sign. It doesn't tell you what Trump privately meant.
 
 **A boundary case.** On July 16, 2021, a reporter asked President Joe Biden what his message was to platforms like Facebook about vaccine misinformation. "They're killing people," he said.[[17]](how-to-hear-a-bully-notes.md#n17) On July 19 he said, "Facebook isn't killing people," and pointed instead to a report about 12 individuals who spread much of the misinformation. He kept criticizing Facebook and asked it to "do something about the misinformation."[[18]](how-to-hear-a-bully-notes.md#n18)
 
@@ -115,7 +115,7 @@ Most examples are far milder than this one. A layoff becomes "rightsizing." A cr
 
 **What it looks like:** a claim repeated so often it starts to feel settled, while the promised proof never arrives.
 
-**The example.** After the 2020 election, Attorney General William Barr, a Trump appointee, said the Justice Department had "not seen fraud on a scale that could have affected a different outcome."[[22]](how-to-hear-a-bully-notes.md#n22) A year later, an Associated Press review found fewer than 475 *potential* fraud cases across six battleground states, far too few to change the result. Trump kept repeating his claims, called the AP's small tally foolish, and said a report from an undisclosed source would support him.[[23]](how-to-hear-a-bully-notes.md#n23)
+**The example.** After the 2020 election, Attorney General William Barr, a Trump appointee, said the Justice Department had "not seen fraud on a scale that could have effected a different outcome."[[22]](how-to-hear-a-bully-notes.md#n22) A year later, an Associated Press review found fewer than 475 *potential* fraud cases across six battleground states, far too few to change the result. Trump kept repeating his claims, called the AP's small tally foolish, and said a report from an undisclosed source would support him.[[23]](how-to-hear-a-bully-notes.md#n23)
 
 The AP's count wasn't a complete audit of every possible irregularity, and it's fair to say so. But a claim that something huge happened needs evidence on the same scale. The warning sign is a claim that persists while the promised proof keeps being deferred.
 
@@ -127,12 +127,12 @@ The AP's count wasn't a complete audit of every possible irregularity, and it's 
 
 **What it looks like:** a sweeping label pinned on someone because of who they've appeared with or what group they belong to, delivered from a platform the target can't match.
 
-**The example.** On October 7, 2026, President Trump posted that Michigan Senate nominee Abdul El-Sayed, whom he called "Mohammed," "goes back to the days of the Jihad." He also called him "a RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend America Hating Hasan Piker." The post ended with an endorsement of El-Sayed's opponent, Mike Rogers.[[24]](how-to-hear-a-bully-notes.md#n24)
+**The example.** On October 7, 2026, President Trump posted that Michigan Senate nominee Abdul El-Sayed, whom he called "Mohammed," "goes back to the days of the Jihad." He also called him "a RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend, America Hating Hasan Piker." The post ended with an endorsement of El-Sayed's opponent, Mike Rogers.[[24]](how-to-hear-a-bully-notes.md#n24)
 
 It helps to separate several layers that easily blur together:
 
 - **What the post offers as evidence:** a claimed friendship with Piker, a left-wing streamer who once said "America deserved 9/11." Nothing else.
-- **What the record shows about El-Sayed and Piker:** El-Sayed appeared with Piker at campaign events in 2026. He said he rejects that remark: "Of course I don't think [9/11 was justified]."[[25]](how-to-hear-a-bully-notes.md#n25) He later said he had "no plans" to campaign with Piker again.[[26]](how-to-hear-a-bully-notes.md#n26)
+- **What the record shows about El-Sayed and Piker:** El-Sayed appeared with Piker at campaign events in 2026. He said he rejects that remark: "Of course I don't think 9/11 was justified."[[25]](how-to-hear-a-bully-notes.md#n25) He later said he had "no plans" to campaign with Piker again.[[26]](how-to-hear-a-bully-notes.md#n26)
 - **The wider controversy:** after a March 2026 attack on Temple Israel in Michigan, El-Sayed said, "I condemn what he did. There is never a justification for attacking innocent people or houses of worship." In the same statement he described a cycle of violence linked to wars abroad ("hurt people hurt people"). Many critics found that objectionable.[[27]](how-to-hear-a-bully-notes.md#n27) He later apologized, saying he should have issued only a condemnation. A fact-checker rated Rogers's claim that El-Sayed "could not condemn" the attack Mostly False.[[28]](how-to-hear-a-bully-notes.md#n28)
 
 What can a fair reader conclude? The record supports asking hard questions about El-Sayed's judgment and the people he chooses to associate with. Voters can weigh that. The record does not establish that he sympathizes with terrorism. "Radical extremist" is mostly a judgment. "Terrorist sympathizer" suggests a specific fact, and the post supplies none. As of October 8, 2026, no clarification from Trump had been found.
