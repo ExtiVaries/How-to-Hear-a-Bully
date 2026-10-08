@@ -16,6 +16,7 @@
 | `how-to-hear-a-bully-notes.md` | Sources, verification appendix, revision ledger |
 | `index.html`, `notes.html` | Web pages built from the Markdown files |
 | `.nojekyll` | Tells GitHub Pages to serve the HTML as is |
+| `sitemap.xml`, `llms.txt` | Help search engines and AI tools find and summarize the guide |
 
 ## Corrections
 

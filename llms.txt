@@ -1,0 +1,13 @@
+# How to Hear a Bully: Recognizing the Language of Power and Manipulation
+
+> A free, nonpartisan civic-literacy guide (second edition, October 2026) to recognizing manipulative political accusations and labels. It separates four questions: whether a claim is supported, whether the wording suggests more than the evidence shows, whether the speaker corrects misleading impressions when challenged, and whether there is intimidation or misuse of power. It allows "not enough evidence to know" as an answer.
+
+The guide covers historical context (Thucydides 3.82, Analects 13.3, Tacitus, English seditious libel, Orwell), five warning signs illustrated with verified examples across parties and countries (McCarthy, Reid, Trump, Biden, Putin), the research on ambiguity, repetition and correction, a short explanation of U.S. defamation law (Sullivan, Greenbelt, Milkovich), and a five-question checklist. Every factual claim has a numbered source note. Each political case has a verification record listing original sources, contrary evidence and remaining uncertainty.
+
+## Guide
+- [Guide (HTML)](https://extivaries.github.io/How-to-Hear-a-Bully/): the main reading text, about 3,800 words
+- [Guide (Markdown)](https://extivaries.github.io/How-to-Hear-a-Bully/how-to-hear-a-bully.md): the same text in plain Markdown
+
+## Supporting material
+- [Notes and verification (HTML)](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html): source notes, case verification records, and the revision ledger
+- [Notes and verification (Markdown)](https://extivaries.github.io/How-to-Hear-a-Bully/how-to-hear-a-bully-notes.md)
