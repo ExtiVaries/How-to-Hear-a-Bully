@@ -6,7 +6,7 @@
 
 Numbers match the bracketed markers in the guide.
 
-<a id="n1"></a>1. Thucydides, *History of the Peloponnesian War* 3.82, trans. Richard Crawley (1874). [Perseus Digital Library](https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0003.tlg001.perseus-eng6/chapter:3.82/)
+<a id="n1"></a>1. Thucydides, *History of the Peloponnesian War* 3.82, trans. Richard Crawley (1874). [Perseus Digital Library](https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0003.tlg001.perseus-eng6/chapter:3.82/) · Backup: [Project Gutenberg, Crawley translation](https://www.gutenberg.org/files/7142/7142-h/7142-h.htm)
 
 <a id="n2"></a>2. John T. Hogan, "The ἀξίωσις of Words at Thucydides 3.82.4," *Greek, Roman, and Byzantine Studies* 21.2 (1980): 139–150. Renders the passage as men changing "the customary valuation of words in respect to deeds." [PhilArchive](https://philarchive.org/rec/HOGTO)
 
@@ -52,9 +52,9 @@ Numbers match the bracketed markers in the guide.
 
 <a id="n23"></a>23. AP, "Far too little vote fraud to tip election to Trump, AP finds" (Dec. 14, 2021), via PBS NewsHour. [Link](https://www.pbs.org/newshour/politics/ap-review-finds-far-too-little-vote-fraud-to-tip-2020-election-to-trump)
 
-<a id="n24"></a>24. Donald J. Trump, Truth Social, Oct. 7, 2026, 11:13 p.m. EDT. [Original](https://truthsocial.com/@realDonaldTrump/117403103962951852) · [Archive](https://www.trumpstruth.org/statuses/42196)
+<a id="n24"></a>24. Donald J. Trump, Truth Social, Oct. 7, 2026, 11:13 p.m. EDT. [Original](https://truthsocial.com/@realDonaldTrump/117403103962951852) · [Archive](https://www.trumpstruth.org/statuses/42196) Earlier post: Oct. 6, 2026, 9:50 a.m. EDT, containing "Dumocrat Jihadists like El-Sayed." [Archive](https://www.trumpstruth.org/statuses/42180)
 
-<a id="n25"></a>25. Fox News, El-Sayed on appearing with Hasan Piker (Apr. 7, 2026). [Link](https://www.foxnews.com/media/michigan-democrat-defends-appearing-hasan-piker-distances-podcasters-controversial-remarks)
+<a id="n25"></a>25. Fox News, El-Sayed on appearing with Hasan Piker (Apr. 7, 2026). It also reports Piker's 2019 "America deserved 9/11" remark. [Link](https://www.foxnews.com/media/michigan-democrat-defends-appearing-hasan-piker-distances-podcasters-controversial-remarks)
 
 <a id="n26"></a>26. Semafor, "El-Sayed says no plans to campaign with Piker" (Aug. 26, 2026). [Link](https://www.semafor.com/article/08/26/2026/el-sayed-says-no-plans-to-campaign-with-piker)
 
@@ -131,7 +131,7 @@ Each case below lists the original source, the relevant context, any contrary ev
   - The apology, as quoted by PolitiFact (note 28). PolitiFact also rated Mike Rogers's claim that El-Sayed "could not condemn" the attack *Mostly False*.
   - A critical report alleging El-Sayed endorsed a 2012 statement supporting Egypt's then-president Mohamed Morsi was flagged by the review and has not been independently confirmed here. It is not used.
 - **Classification:** a sweeping label drawn from association that the post doesn't substantiate. The guide does not judge whether criticism of El-Sayed is prejudiced. No measurement of the post's reach or of who believed it was found, so the guide treats Trump's audience size as context, not proof.
-- **Earlier post:** an Oct. 6 post uses the phrase "Dumocrat Jihadists like El-Sayed" ([archive](https://www.trumpstruth.org/statuses/42180)). It is not used in the main guide.
+- **Earlier post:** an Oct. 6 post uses the phrase "Dumocrat Jihadists like El-Sayed" ([archive](https://www.trumpstruth.org/statuses/42180)). The main guide now mentions it in one sentence (note 24). It shows repeated, related labeling over two days. It does not show a return to a claim after a clarification, because no clarification was made.
 - **Uncertain:** whether a clarification will follow (none had been found by Oct. 8).
 
 ### Historical and translation notes
@@ -172,3 +172,5 @@ Each case below lists the original source, the relevant context, any contrary ev
 - Confirmed "Romney didn't win, did he?" in the CNN transcript, which Edition 1 had called unverified.
 
 **Length and layout (Exti's follow-up on length).** The main guide was expanded to about 3,800 words where explanation adds substance. The additions are fuller historical context (the factions at Corcyra and the succession quarrel in Wei), a "what it isn't" and a "how to respond" line for each warning sign, and a new section on pushing back without escalating. The notes, appendix and this ledger moved into this separate file. No new political examples were added.
+
+**Final pre-publication changes (Exti's approval, Oct. 8).** Warning sign 5 now reads "especially when amplified by a position of power" instead of asserting a platform advantage that wasn't measured. Piker's 2019 remark moved from "What the post offers as evidence" to "What the record shows," since it isn't in the post. One sentence about the Oct. 6 post was added. A Project Gutenberg backup link was added for Thucydides. The memo date of Feb. 16, 1953 is kept, because Exti found the date line on the State Department page.

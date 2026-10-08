@@ -125,14 +125,14 @@ The AP's count wasn't a complete audit of every possible irregularity, and it's 
 
 ### 5. Labels, association and power
 
-**What it looks like:** a sweeping label pinned on someone because of who they've appeared with or what group they belong to, delivered from a platform the target can't match.
+**What it looks like:** a sweeping label pinned on someone because of who they've appeared with or what group they belong to, especially when amplified by a position of power.
 
-**The example.** On October 7, 2026, President Trump posted that Michigan Senate nominee Abdul El-Sayed, whom he called "Mohammed," "goes back to the days of the Jihad." He also called him "a RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend, America Hating Hasan Piker." The post ended with an endorsement of El-Sayed's opponent, Mike Rogers.[[24]](how-to-hear-a-bully-notes.md#n24)
+**The example.** On October 7, 2026, President Trump posted that Michigan Senate nominee Abdul El-Sayed, whom he called "Mohammed," "goes back to the days of the Jihad." He also called him "a RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend, America Hating Hasan Piker." The post ended with an endorsement of El-Sayed's opponent, Mike Rogers. The previous day, Trump had used the phrase "Dumocrat Jihadists like El-Sayed."[[24]](how-to-hear-a-bully-notes.md#n24)
 
 It helps to separate several layers that easily blur together:
 
-- **What the post offers as evidence:** a claimed friendship with Piker, a left-wing streamer who once said "America deserved 9/11." Nothing else.
-- **What the record shows about El-Sayed and Piker:** El-Sayed appeared with Piker at campaign events in 2026. He said he rejects that remark: "Of course I don't think 9/11 was justified."[[25]](how-to-hear-a-bully-notes.md#n25) He later said he had "no plans" to campaign with Piker again.[[26]](how-to-hear-a-bully-notes.md#n26)
+- **What the post offers as evidence:** a claimed friendship with Piker. Nothing else.
+- **What the record shows about El-Sayed and Piker:** Piker is a left-wing streamer who said in 2019 that "America deserved 9/11."[[25]](how-to-hear-a-bully-notes.md#n25) El-Sayed appeared with Piker at campaign events in 2026. He said he rejects that remark: "Of course I don't think 9/11 was justified."[[25]](how-to-hear-a-bully-notes.md#n25) He later said he had "no plans" to campaign with Piker again.[[26]](how-to-hear-a-bully-notes.md#n26)
 - **The wider controversy:** after a March 2026 attack on Temple Israel in Michigan, El-Sayed said, "I condemn what he did. There is never a justification for attacking innocent people or houses of worship." In the same statement he described a cycle of violence linked to wars abroad ("hurt people hurt people"). Many critics found that objectionable.[[27]](how-to-hear-a-bully-notes.md#n27) He later apologized, saying he should have issued only a condemnation. A fact-checker rated Rogers's claim that El-Sayed "could not condemn" the attack Mostly False.[[28]](how-to-hear-a-bully-notes.md#n28)
 
 What can a fair reader conclude? The record supports asking hard questions about El-Sayed's judgment and the people he chooses to associate with. Voters can weigh that. The record does not establish that he sympathizes with terrorism. "Radical extremist" is mostly a judgment. "Terrorist sympathizer" suggests a specific fact, and the post supplies none. As of October 8, 2026, no clarification from Trump had been found.
