@@ -75,8 +75,8 @@ a{color:var(--accent);text-underline-offset:2px;overflow-wrap:anywhere}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
 #part-four-how-to-hear-clearly + p + ol{list-style:none;counter-reset:q;background:var(--mark);border:1px solid var(--rule);border-radius:6px;padding:1.25rem 1.25rem 1.25rem 1.25rem;margin:0 0 1.5rem;display:grid;gap:.85rem}
-#part-four-how-to-hear-clearly + p + ol li{counter-increment:q;display:grid;grid-template-columns:2rem 1fr;gap:.5rem;min-width:0}
-#part-four-how-to-hear-clearly + p + ol li::before{content:counter(q);font-family:var(--display);font-weight:700;font-size:1.4rem;line-height:1.2;color:var(--accent)}
+#part-four-how-to-hear-clearly + p + ol li{counter-increment:q;position:relative;padding-left:2.5rem;margin-bottom:.9rem}
+#part-four-how-to-hear-clearly + p + ol li::before{content:counter(q);position:absolute;left:0;top:0;font-family:var(--display);font-weight:700;font-size:1.4rem;line-height:1.2;color:var(--accent)}
 #sources ~ ul, #verification-appendix ~ ul{font-size:.92rem;line-height:1.55;padding-left:1.1rem}
 #sources ~ ul li, #verification-appendix ~ ul li{margin-bottom:.45rem}
 #sources ~ p, #verification-appendix ~ p{font-size:.95rem}
