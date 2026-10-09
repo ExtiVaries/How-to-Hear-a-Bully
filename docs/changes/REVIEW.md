@@ -49,7 +49,7 @@ Validation results:
 
 ## Publication and activation conditions
 
-Implementation and testing are complete for a reviewable draft. An authenticated review-branch push and draft PR demonstrate the interactive GitHub workflow; they do not prove unattended authentication. The local GitHub CLI credential was unavailable; the connected GitHub tool is the publication path tested here. No Pages merge/deployment, indexing notification, recurring public writer, or schedule activation is part of this assignment.
+Implementation and testing are complete for a reviewable draft. An authenticated review-branch push demonstrates interactive GitHub writing; it does not prove unattended authentication. Draft PR creation remains an explicit final step: no PR was created in this demonstration. The local GitHub CLI credential was unavailable; the connected GitHub tool is the branch-writing path tested here. No Pages merge/deployment, indexing notification, recurring public writer, or schedule activation is part of this assignment.
 
 Before deployment, review the exact PR, current active-topic evidence, unresolved source limits, and reuse decision. Then follow the existing publication workflow, verify the deployed routes and JSON, and send discovery notifications only for an actual release.
 

@@ -18,12 +18,19 @@ Collection: https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/
 | How to Hear a Bully | Examine manipulative language, accusations, and labels while distinguishing them from disagreement, mistakes, exaggeration, and honest clarification. Apply the same scrutiny to favored and disfavored speakers. | https://extivaries.github.io/How-to-Hear-a-Bully/ |
 | Why Does Everything Feel Like a Crisis? | Separate events, the information reaching readers, unequal exposure to harm, and appropriate responses. The method can support greater urgency as well as reassurance. | https://extivaries.github.io/How-to-Hear-a-Bully/crisis/ |
 | Who to Trust When It All Breaks Down? | Decide whom to rely on, for which question, when accounts conflict. Examine expertise, evidence, independent corroboration, interests, corrections, and uncertainty. The title describes a loss of bearings, not a claim that every institution has failed. | https://extivaries.github.io/How-to-Hear-a-Bully/trust/ |
+| What Actually Changed? | Distinguish announcements, legal and institutional actions, operative status, and documented consequences. A standalone guide connects to a curated U.S. timeline. | [Guide draft](docs/changes/guide.md) and [timeline draft](docs/changes/timeline.md); not deployed |
 
 [Plant Climate Map](https://plantclimatemap.org/) appears separately under **Climate and growing**. It explores Köppen–Geiger climate classifications and USDA plant hardiness zones across the contiguous United States. Keep it a separate app with its own sources, scope, and reuse terms. Middleman is also hosted separately; this repository contains the guides and collection, not those applications.
 
 ## Publication checkpoint
 
-**What Actually Changed?** is a new review draft on `codex/what-changed`, not an approved release. Canonical sources, public structured data, methodology, workflow proposal, schema, and review results are in `docs/changes/`. Generated routes are `changes/`, `changes/timeline.html`, `changes/methodology.html`, and `changes/timeline.json`. Build with the existing suite script; run timeline tests and the site checker. The original Bully HTML receives navigation edits only; its Markdown remains separately maintained. No new license, recurring public writer, merge, or deployment is authorized by this handoff. Keep the existing research automation and Complain publication conditions intact. Consult `docs/changes/REVIEW.md` for evidence gaps before strengthening legal or practical claims.
+**What Actually Changed?** is implemented and pushed as a review draft on `codex/what-changed`, not an approved release. The initial timeline contains eight events across four histories, researched through 9 October 2026. Four entries have complete source checks; four retain explicit docket, implementation, or access gaps. See [the review record](docs/changes/REVIEW.md) before strengthening legal or practical claims. Draft PR creation remains outstanding.
+
+Canonical sources, structured data, methodology, schema, and update proposal are in `docs/changes/`. Generated routes are `changes/`, `changes/timeline.html`, `changes/methodology.html`, and `changes/timeline.json`. The existing suite build generates these from the canonical sources. The original Bully HTML receives navigation edits only; its Markdown remains separately maintained.
+
+Checks passed for 14 update tests, 11 pages, 344 internal links, and 24 mobile/desktop light/dark browser layouts, including no-JavaScript use. A correction/apply/rerun/partial-failure cycle was demonstrated on an isolated record; fixtures are excluded from public history. These checks describe this draft, not future releases.
+
+Retain Notion as the single research backend while curated public evidence is reviewed in repository branches. The actual six-hour scheduler configuration has not been independently inspected. [The daily task proposal](docs/changes/schedule.json) and [exact prompt](docs/changes/schedule-prompt.txt) are not activated; timezone confirmation and unattended host authentication/build/recovery tests remain required. All updates are review-gated. No new license, recurring public writer, merge, or deployment is authorized by this handoff. Preserve the existing research automation and Complain publication conditions.
 
 **Complain or Constrain?** has completed text drafting, review, and bounded corrections. The approved manuscript, source notes, and handoff are in [docs/complain-guide/](docs/complain-guide/). The user authorized pushing this packet to GitHub on a separate branch. It has no website edition yet. A successful docket check and legal review of the Tennessee section remain open before that section goes live. Preserve the accepted article wording; its length is intentionally flexible under the user's instruction to prioritize quality.
 
@@ -53,12 +60,15 @@ GitHub Pages publishes from `claude/project-thread-i83pmv`, at the repository ro
 | [docs/practical-guides/homepage.md](docs/practical-guides/homepage.md) | Current collection copy |
 | [docs/practical-guides/methods.md](docs/practical-guides/methods.md) | Current methods, limits, corrections, and reuse information |
 | `index.html`, `notes.html` | Bully reading pages |
-| `crisis/`, `trust/`, `practical-guides/` | Generated reading pages |
+| `crisis/`, `trust/`, `practical-guides/`, `changes/` | Generated reading pages; Changes also contains public timeline JSON |
 | [scripts/build_suite.py](scripts/build_suite.py) | Generates collection, Crisis, Trust, and What Actually Changed? pages; public timeline JSON and Markdown |
 | [docs/changes/](docs/changes/) | New guide, canonical timeline, methodology, schema, review, and proposed update workflow |
 | [scripts/update_timeline.py](scripts/update_timeline.py) | Review-gated local candidate validation, locking, and immutable revisions |
+| [scripts/render_timeline.py](scripts/render_timeline.py) | Generates static timeline HTML, Markdown, and JSON from the same validated record |
+| [scripts/test_timeline.py](scripts/test_timeline.py), [scripts/check_browser.cjs](scripts/check_browser.cjs) | Update safeguards and optional Playwright browser QA |
 | [scripts/check_site.py](scripts/check_site.py) | Checks reproducibility, links, anchors, metadata, and sitemap |
 | [assets/practical-guides.css](assets/practical-guides.css) | Shared styling |
+| [assets/timeline.js](assets/timeline.js) | Optional local search, history filtering, and per-topic due warnings |
 | [DISCOVERY.md](DISCOVERY.md), [sitemap.xml](sitemap.xml), [llms.txt](llms.txt) | Discovery instructions and indexes |
 
 Read the latest [Trust final check](docs/trust-guide/FINAL-CHECK.md) and [website check](docs/trust-guide/PUBLICATION-CHECK.md) before changing that work. Older research packets and handoffs are historical and can contain superseded findings. The original Crisis homepage draft is historical; use the current collection copy above.
@@ -74,6 +84,8 @@ python3 -m http.server 8765
 ```
 
 Open `http://localhost:8765/practical-guides/` for a local preview. Consult the current scripts and README if requirements change.
+
+For timeline changes, run `python3 scripts/update_timeline.py validate` and `python3 scripts/test_timeline.py` before the suite build/check. Follow [WORKFLOW.md](docs/changes/WORKFLOW.md) for candidate hashes, writer locking, append-only revisions, partial checks, and failure recovery. `docs/changes/timeline.json` is canonical; do not independently edit generated timeline HTML, Markdown, or public JSON. A rebuild does not refresh research dates. Test proposed schedules separately before activation.
 
 - Edit canonical Markdown and regenerate affected pages. Commit generated HTML alongside source changes. The checker also rebuilds generated pages and flags stale output.
 - The builder does not regenerate the original Bully pages. Keep their HTML and Markdown synchronized if their prose changes.
@@ -101,7 +113,7 @@ IndexNow accepted notifications for the Trust guide, Trust notes, collection, an
 
 Do not renew research dates merely because a page was rebuilt or a link checked. Keep original publication dates and update sitemap modification dates only for real changes.
 
-Consult the current [README license section](README.md#license) and [LICENSE](LICENSE) before making reuse claims. At this snapshot, Bully has CC BY 4.0 plus the owner's additional noncommercial permission. **Crisis, Trust, and collection reuse terms remain undecided.** Do not extend Bully's license automatically to them, other apps, or third-party material. Author credits are not a major priority for the owner; that does not select a license.
+Consult the current [README license section](README.md#license) and [LICENSE](LICENSE) before making reuse claims. At this snapshot, Bully has CC BY 4.0 plus the owner's additional noncommercial permission. **Crisis, Trust, What Actually Changed?, and collection reuse terms remain undecided.** Do not extend Bully's license automatically to them, other apps, or third-party material. Author credits are not a major priority for the owner; that does not select a license.
 
 ## Collaboration
 
