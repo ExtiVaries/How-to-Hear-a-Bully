@@ -20,3 +20,15 @@ The guide covers historical context (Thucydides 3.82, Analects 13.3, Tacitus, En
 - [Report a correction](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues)
 
 This file is an optional content index. It does not certify neutrality or verification, and it is not a condition for search indexing or AI citation. Consult the source notes and uncertainties when evaluating a claim.
+
+## Practical Guides collection
+
+- [All guides](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): a collection connecting official service routes, scrutiny of manipulative language, and judging alarming information.
+- [Methods and limits](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes, and project-specific reuse terms.
+- [Don't Pay a Middleman](https://dont-pay-a-middleman.vercel.app/): official U.S. federal service routes and fees; paid assistance may be useful.
+- [Why Does Everything Feel Like a Crisis?](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/): a short guide to judging alarming information, with five questions and fictional flood exercises.
+- [Crisis source notes](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/notes.html): study designs, findings, uncertainties, and limits. Editorial review: 9 October 2026. The teaching method has not been tested with readers.
+- [Crisis Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/crisis-guide/why-does-everything-feel-like-a-crisis.md)
+- [Crisis notes Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md)
+
+The Bully citation and license above apply to Bully only. Reuse terms for the crisis guide and collection material remain undecided. The collection does not establish shared licensing or an endorsement by the sources it cites.

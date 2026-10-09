@@ -18,7 +18,7 @@ These account steps need the owner's chosen Search Console/Bing account and the 
 
 OpenAI documents `OAI-SearchBot` for ChatGPT search and `GPTBot` for possible model training. Search visibility does not require opting into training: [OpenAI crawler documentation](https://developers.openai.com/api/docs/bots). The guide is licensed under CC BY 4.0 with an extra author permission (see the README); this project makes no separate choice about crawler training permissions.
 
-Crawler rules for this host belong at `https://extivaries.github.io/robots.txt`. A file at `/How-to-Hear-a-Bully/robots.txt` would not control crawling. If host-wide rules are added later, check that they allow the desired search crawlers to reach both HTML pages and their supporting files. See [Google's robots.txt location rules](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt).
+Crawler rules for this host belong at `https://extivaries.github.io/robots.txt`. A file at `/How-to-Hear-a-Bully/robots.txt` would not control crawling. If host-wide rules are added later, check that they allow the desired search crawlers to reach all guide and collection pages and their supporting files. See [Google's robots.txt location rules](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt).
 
 The existing `llms.txt` is an optional link index for tools that choose to read it. It is not an access-control mechanism, an instruction to endorse the guide, or a requirement for Google or OpenAI search inclusion.
 
@@ -32,3 +32,7 @@ The existing `llms.txt` is an optional link index for tools that choose to read 
 - Use Search Console and Bing's reports to check indexing and discovery over time. No analytics or tracking scripts are required by these repository changes.
 
 The source and correction practices follow [Google's people-first content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content). The sitemap follows [Google's sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+
+## Collection and Crisis pages
+
+The same sitemap also lists `practical-guides/`, `practical-guides/methods.html`, `crisis/`, and `crisis/notes.html`. After publication, inspect those URLs in the existing URL-prefix property if needed. The collection uses `CollectionPage` structured data; the other new pages use `WebPage`. Metadata makes no claim of independent expert review or a new source review date. The existing Google and Bing verification files are retained unchanged.
