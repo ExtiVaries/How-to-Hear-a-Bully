@@ -16,6 +16,7 @@ def render(data):
     titles = {event['id']: event['title'] for event in data['events']}
     series = sorted({event['series'] for event in data['events']})
     e = escape
+    review_notice = 'No recurring timeline check is active; suggested manual review dates flag when another comparison is needed, not a promise that it is scheduled or has happened.'
     controls = '''<form id="timeline-filters" class="wc-filters" hidden role="search" aria-label="Filter timeline">
 <div><label for="timeline-query">Search entries</label><input id="timeline-query" type="search" placeholder="Topic, place, action…"></div>
 <div><label for="timeline-series">Follow a history</label><select id="timeline-series"><option value="">All histories</option>'''
@@ -24,13 +25,13 @@ def render(data):
 <p id="timeline-count" role="status" aria-live="polite" aria-atomic="true"></p></form>
 <noscript><p>All entries and sources are available below. Use your browser's Find command to search the page.</p></noscript>'''
     cards, md = [], ['# U.S. timeline: What actually changed?', '', '[Read the guide](guide.md) · [Methods and source notes](methodology.md)', '',
-                     'Coverage: ' + data['coverage']['start'] + ' through ' + data['coverage']['end'] + '. ' + data['coverage']['description'], '', data['coverage']['selection'], '']
+                     'Coverage: ' + data['coverage']['start'] + ' through ' + data['coverage']['end'] + '. ' + data['coverage']['description'], '', data['coverage']['selection'], '', review_notice, '']
     for event in sorted(data['events'], key=lambda item: (item['event_date']['value'], item['id']), reverse=True):
         ident = event['id']
         checks = event['last_successful_source_check'] or 'No complete check; see access limits'
         next_due = due(event)
         fresh = f'<p class="pg-meta wc-fresh" data-checked="{event["last_successful_source_check"] or ""}" data-due="{next_due or ""}">Last complete source check: {e(checks)}.'
-        fresh += f' Next review due: {next_due} ({event["check_interval_days"]} days).' if next_due else ' Complete check needed.'
+        fresh += f' Suggested manual review date: {next_due} ({event["check_interval_days"]} days).' if next_due else ' Complete check needed.'
         if not next_due:
             fresh += f' Review interval after a complete check: {event["check_interval_days"]} days.'
         fresh += '</p>'
@@ -71,10 +72,11 @@ def render(data):
         for effect in event['practical_effects']:
             md += [f'**{effect["kind"].capitalize()} effect:** {effect["text"]}', '']
         md += [f'**Unresolved:** {event["uncertainty"]}', '', f'**Update when:** {event["update_trigger"]}', '',
-               f'First recorded: {event["first_recorded"]}. Last substantive revision: {event["last_substantive_revision"]}. Last complete source check: {checks}. Effective: {effective_text}. Jurisdiction: {", ".join(event["jurisdiction"])}. Next review due: {next_due or "complete check needed"}.', '', event['check_note'], '', '### Public sources', '']
+               f'First recorded: {event["first_recorded"]}. Last substantive revision: {event["last_substantive_revision"]}. Last complete source check: {checks}. Effective: {effective_text}. Jurisdiction: {", ".join(event["jurisdiction"])}. Suggested manual review date: {next_due or "complete check needed"}.', '', event['check_note'], '', '### Public sources', '']
         for source in event['sources']:
-            md += [f'- [{source["title"]}]({source["url"]}) — {source["publisher"]}. Locator: {source["locator"]}. Supports: {source["supports"]}. Access: {source["access"]}; last comparison: {source["last_checked"] or "not established"}. {source["version_note"]}']
-        md += ['', '**Follow this history:** ' + ' · '.join(f'[{titles[other]}](#{other})' for other in event['related_events']), '']
+            md += [f'- [{source["title"]}]({source["url"]}) — {source["publisher"].rstrip(". ")}. Locator: {source["locator"].rstrip(". ")}. Supports: {source["supports"].rstrip(". ")}. Access: {source["access"]}; last comparison: {source["last_checked"] or "not established"}. {source["version_note"]}']
+        related_md = ' · '.join(f'[{titles[other]}](#{other})' for other in event['related_events'])
+        md += ['', '**Follow this history:** ' + (related_md or 'No related entry yet.'), '']
     history = '<section id="correction-history"><h2>Corrections and substantive revisions</h2>'
     md += ['## Corrections and substantive revisions {#correction-history}', '']
     if not data['history']:
@@ -86,6 +88,6 @@ def render(data):
     history += '</section>'
     body = f'''<main id="main-content" class="pg-reading wc-timeline"><header><p class="pg-eyebrow">Selected U.S. developments</p><h1>What actually changed?</h1><p>A running timeline of decisions, capacity, and consequences.</p><p><a href="./">Read the guide</a> · <a href="methodology.html">Methods and source notes</a> · <a href="timeline.json">Public JSON</a></p></header>
 <p><strong>Coverage:</strong> {data['coverage']['start']} through {data['coverage']['end']}. {e(data['coverage']['description'])}</p><p>{e(data['coverage']['selection'])}</p>
-<p>Entry dates describe specific checks. Read the current-position and access notes before relying on an entry. Related links preserve the sequence; this is a curated record.</p>
+<p>Entry dates describe specific checks. {e(review_notice)} Read the current-position and access notes before relying on an entry. Related links preserve the sequence; this is a curated record.</p>
 {controls}<div id="timeline-events">{''.join(cards)}</div><p id="timeline-empty" hidden>No matching entries. Clear the filters to see the full history.</p>{history}<p class="pg-endlinks"><a href="./">Guide</a> · <a href="methodology.html#corrections">Report a correction</a> · <a href="../docs/changes/timeline.md">Markdown edition</a></p></main>'''
     return body, '\n'.join(md), json.dumps(data, ensure_ascii=False, indent=2) + '\n'

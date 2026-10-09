@@ -89,7 +89,7 @@ Avoid describing either situation with a single green or red light. Readers need
 
 ## Try it on a headline {#try-it}
 
-These examples are invented.
+These simplified teaching examples adapt patterns explored in the [timeline](timeline.md). Their headlines and details illustrate the method; they are not additional event reports. Use the linked records for actual dates, scope, and evidence.
 
 **“City restores youth counseling.”** The source is an intent-to-award notice inviting providers to respond. No contract or appointment information is supplied.
 

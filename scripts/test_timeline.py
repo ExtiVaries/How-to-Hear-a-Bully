@@ -7,6 +7,7 @@ import subprocess
 import sys
 import unittest
 import update_timeline as engine
+import render_timeline
 
 
 def fixture():
@@ -16,6 +17,17 @@ def fixture():
 
 
 class PipelineTests(unittest.TestCase):
+    def test_renderer_empty_history_and_source_punctuation_match(self):
+        data=fixture(); data['coverage'].update(description='Selected developments.',selection='Illustrative selection.')
+        data['events'][0]['sources'][0].update(publisher='Court. ',locator='Page 1. ',supports='Holding. ')
+        html,markdown,_=render_timeline.render(data)
+        self.assertIn('<strong>Follow this history:</strong> No related entry yet.',html)
+        self.assertIn('**Follow this history:** No related entry yet.',markdown)
+        self.assertIn('— Court. Locator: Page 1. Supports: Holding. Access:',markdown)
+        self.assertIn('— Court. <strong>Locator:</strong> Page 1. <strong>Supports:</strong> Holding.',html)
+        self.assertNotIn('Court..',markdown)
+        self.assertNotIn('Page 1. .',markdown)
+
     def test_complete_cli_cycle_and_baseline_race(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent, prefix='.test-') as temp:
             root=Path(temp); record=root/'record.json'; raw=root/'raw.json'; review=root/'review.json'
@@ -156,4 +168,3 @@ class PipelineTests(unittest.TestCase):
 
 
 if __name__=='__main__': unittest.main()
-

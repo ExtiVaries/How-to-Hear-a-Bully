@@ -46,6 +46,10 @@ const output = process.env.QA_OUT;
     assert.equal(await page.locator('.wc-event:visible').count(),3);
     await page.goto(new URL('changes/timeline.html#us-az-birth-opinion-2026-source-opinion',base).href);
     assert.equal(await page.locator('#us-az-birth-opinion-2026-source-opinion').isVisible(),true);
+    assert.equal(await page.locator('#correction-history details').count(),5);
+    await page.locator('#correction-history details summary').first().press('Enter');
+    assert.match(await page.locator('#correction-history pre').first().textContent(),/Following a September 28 announcement/);
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth<=window.innerWidth),true,'Opened correction snapshot overflows mobile viewport');
     await context.close();
     const plain=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:900}});
     const plainPage=await plain.newPage(); await plainPage.goto(new URL('changes/timeline.html',base).href);
@@ -56,7 +60,20 @@ const output = process.env.QA_OUT;
     await plainPage.goto(new URL('changes/timeline.html#us-az-birth-opinion-2026-source-opinion',base).href);
     assert.equal(await plainPage.locator('#us-az-birth-opinion-2026-source-opinion').isVisible(),true);
     await plain.close();
-    const summary={layouts:results.length,keyboard_skip:true,search:true,history_filter:true,no_results_clear:true,stable_source_anchor:true,no_javascript:true,resource_errors:0,layouts_checked:results};
+    const dated=await browser.newContext({viewport:{width:390,height:900},timezoneId:'America/New_York'});
+    const datedPage=await dated.newPage();
+    await datedPage.clock.setFixedTime(new Date('2026-10-17T12:00:00-04:00'));
+    await datedPage.goto(new URL('changes/timeline.html',base).href);
+    assert.equal(await datedPage.getByText('No recurring timeline check is active',{exact:false}).count(),1);
+    for (const id of ['us-title-ix-recodification-2026','us-fec-quorum-loss-2025']) {
+      const freshness=datedPage.locator(`#${id} .wc-fresh`);
+      assert.match(await freshness.textContent(),/Suggested manual review date: 2026-10-16/);
+      assert.match(await freshness.textContent(),/Review overdue/);
+      assert.match(await freshness.textContent(),/Last complete source check: 2026-10-09/);
+    }
+    assert.equal(await datedPage.locator('#us-fec-quorum-restored-2020 .wc-overdue').count(),0);
+    await dated.close();
+    const summary={layouts:results.length,keyboard_skip:true,search:true,history_filter:true,no_results_clear:true,stable_source_anchor:true,no_javascript:true,correction_history_keyboard_mobile:true,overdue_without_schedule:true,resource_errors:0,layouts_checked:results};
     if(output) fs.writeFileSync(path.join(output,'browser.json'),JSON.stringify(summary,null,2)+'\n');
     console.log(JSON.stringify(summary,null,2));
   } finally { await browser.close(); }
