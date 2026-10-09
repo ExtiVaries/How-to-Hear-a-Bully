@@ -24,12 +24,13 @@ The collection's web routes are `practical-guides/`, `practical-guides/methods.h
 
 ### Planned community claim tracker
 
-The collection is also planning an interactive resource for people who ask, "Is this true?" Community submissions and authorized source imports would feed a claim tracker with reviewed evidence, scoped assessments, visible corrections, and followed updates.
+The collection is also planning an interactive resource for people who ask, "Is this true?" The first release would be a bounded manual pilot with reviewed evidence, assessments of claims as they circulate, visible corrections, and followed updates. Authorized automatic discovery is a later gated stage.
 
 - [First-version product specification](docs/claim-tracker/v1.md)
 - [Claude adversarial-review handoff](docs/claim-tracker/claude.md)
+- [Owner-supplied review summary](docs/claim-tracker/review.md) and [revision response](docs/claim-tracker/REVISIONS.md)
 
-The packet is a draft for review. There is no functioning tracker, live import, or completed Claude review yet. The app's hosting, sources, initial niche, and reuse terms remain open. The existing collection continues to serve static reading pages.
+The review summary's verdict was ready after specified revisions; the five reported blockers have written changes and await follow-up review. There is no functioning tracker or live import yet. The app's hosting, sources, initial niche, and reuse terms remain open. The existing collection continues to serve static reading pages.
 
 ### Build and preview
 
