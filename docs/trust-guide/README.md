@@ -6,6 +6,10 @@ Research and drafting packet · 9 October 2026 · **In development**
 
 This is the next proposed guide in the Practical Guides collection. It helps readers decide whom to rely on for a particular question when familiar sources disagree. The title describes a loss of orientation; it does not claim that every institution has failed.
 
+## First-draft review
+
+The first draft has received an [independent review with ordered revision instructions](INDEPENDENT-REVIEW.md). Verdict: **ready with bounded corrections**. Use that review for the next Claude correction pass; it records confirmed defects and remaining source-access limits. The original drafting packet remains below for context.
+
 ## Start here
 
 Open **[the complete Claude handoff](claude-complete-handoff.md)**. It contains the drafting prompt, editorial brief, source ledger, two fictional exercises, and review checklist in one file. Download the raw Markdown or copy its contents into Claude. No other attachments are required.
