@@ -174,3 +174,7 @@ Each case below lists the original source, the relevant context, any contrary ev
 **Length and layout (Exti's follow-up on length).** The main guide was expanded to about 3,800 words where explanation adds substance. The additions are fuller historical context (the factions at Corcyra and the succession quarrel in Wei), a "what it isn't" and a "how to respond" line for each warning sign, and a new section on pushing back without escalating. The notes, appendix and this ledger moved into this separate file. No new political examples were added.
 
 **Final pre-publication changes (Exti's approval, Oct. 8).** Warning sign 5 now reads "especially when amplified by a position of power" instead of asserting a platform advantage that wasn't measured. Piker's 2019 remark moved from "What the post offers as evidence" to "What the record shows," since it isn't in the post. One sentence about the Oct. 6 post was added. A Project Gutenberg backup link was added for Thucydides. The memo date of Feb. 16, 1953 is kept, because Exti found the date line on the State Department page.
+
+---
+
+*Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with an extra permission from the author: noncommercial use needs no credit. Commercial use must credit "How to Hear a Bully, by Exti" with a link to https://extivaries.github.io/How-to-Hear-a-Bully/. Quotations and translations of others' words are not covered. Details: [README](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license).*

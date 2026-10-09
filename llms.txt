@@ -15,6 +15,7 @@ The guide covers historical context (Thucydides 3.82, Analects 13.3, Tacitus, En
 ## Citation and corrections
 
 - Author: Exti. Second edition, October 2026.
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), plus an author permission: noncommercial use needs no credit; commercial use must credit "How to Hear a Bully, by Exti" with a link. Third-party quotations are not covered.
 - [Revision history](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html#revision-ledger)
 - [Report a correction](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues)
 

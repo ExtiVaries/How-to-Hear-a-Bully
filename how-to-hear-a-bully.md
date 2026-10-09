@@ -213,3 +213,7 @@ The goal is not to distrust everyone. Some harsh accusations are true, and plent
 When someone hands you a loaded word, you're allowed to hand it back and ask what they mean. Ask for the clear meaning, the evidence, and the same standard they'd apply to their friends.
 
 Thucydides showed how quickly judgment can bend under pressure. The Confucian tradition warned that when names stop matching reality, everything built on them starts to wobble. You don't need either philosophy to do the simple part: slow down, find the original words, weigh the evidence, and be willing to say "I don't know yet," especially about the people you like most.
+
+---
+
+*Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with an extra permission from the author: noncommercial use needs no credit. Commercial use must credit "How to Hear a Bully, by Exti" with a link to https://extivaries.github.io/How-to-Hear-a-Bully/. Quotations and translations of others' words are not covered. Details: [README](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license).*

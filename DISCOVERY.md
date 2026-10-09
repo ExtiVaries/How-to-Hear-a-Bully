@@ -16,7 +16,7 @@ These account steps need the owner's chosen Search Console/Bing account and the 
 
 ## Search crawling and AI training are separate
 
-OpenAI documents `OAI-SearchBot` for ChatGPT search and `GPTBot` for possible model training. Search visibility does not require opting into training: [OpenAI crawler documentation](https://developers.openai.com/api/docs/bots). This project makes no new training-permission or licensing choice.
+OpenAI documents `OAI-SearchBot` for ChatGPT search and `GPTBot` for possible model training. Search visibility does not require opting into training: [OpenAI crawler documentation](https://developers.openai.com/api/docs/bots). The guide is licensed under CC BY 4.0 with an extra author permission (see the README); this project makes no separate choice about crawler training permissions.
 
 Crawler rules for this host belong at `https://extivaries.github.io/robots.txt`. A file at `/How-to-Hear-a-Bully/robots.txt` would not control crawling. If host-wide rules are added later, check that they allow the desired search crawlers to reach both HTML pages and their supporting files. See [Google's robots.txt location rules](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt).
 
