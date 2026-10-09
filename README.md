@@ -10,22 +10,24 @@
 
 ## Practical Guides collection
 
-The collection includes a small hub, a methods page, and the reviewed crisis guide. The Bully reading address stays the same. The original crisis homepage copy is retained as an editorial draft; the current web copy is in `docs/practical-guides/homepage.md`.
+The collection includes a small hub, a methods page, and the reviewed Crisis and Trust guides. The Bully reading address stays the same. The original crisis homepage copy is retained as an editorial draft; the current web copy is in `docs/practical-guides/homepage.md`.
 
 - [Collection homepage source](docs/practical-guides/homepage.md)
 - [How we check our work](docs/practical-guides/methods.md)
 - [Why Does Everything Feel Like a Crisis?](docs/crisis-guide/why-does-everything-feel-like-a-crisis.md) and [source notes](docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md)
-- [Editorial review record](docs/crisis-guide/FINAL-CHECK.md)
-- [Website checks and release steps](docs/practical-guides/PUBLICATION-CHECK.md)
+- [Crisis editorial review record](docs/crisis-guide/FINAL-CHECK.md)
+- [Who to Trust When It All Breaks Down?](docs/trust-guide/who-to-trust-when-it-all-breaks-down.md) and [seven source notes](docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md)
+- [Trust editorial review record](docs/trust-guide/FINAL-CHECK.md)
+- [Original collection website checks](docs/practical-guides/PUBLICATION-CHECK.md) and [Trust website checks](docs/trust-guide/PUBLICATION-CHECK.md)
 
-The collection's web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, and `crisis/notes.html`. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/) or [read the crisis guide online](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/).
+The collection's web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/), [read the Crisis guide](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/), or [read the Trust guide](https://extivaries.github.io/How-to-Hear-a-Bully/trust/).
 
 ### Build and preview
 
-The site is static HTML, served without a build step by GitHub Pages. To update the collection or Crisis pages, edit the Markdown in `docs/practical-guides/` or `docs/crisis-guide/`, then run:
+The site is static HTML, served without a build step by GitHub Pages. To update the collection, Crisis or Trust pages, edit the Markdown in `docs/practical-guides/`, `docs/crisis-guide/` or `docs/trust-guide/`, then run:
 
 ```sh
-# Python 3.9+ and Pandoc 3 are required to regenerate the four new pages.
+# Python 3.9+ and Pandoc 3 are required to regenerate the six collection, Crisis and Trust pages.
 python3 scripts/build_suite.py
 python3 scripts/check_site.py
 python3 -m http.server 8765
@@ -33,7 +35,7 @@ python3 -m http.server 8765
 
 Open `http://localhost:8765/practical-guides/`. Commit the generated HTML alongside source changes. The builder deliberately does not regenerate the existing Bully pages; keep their HTML and Markdown synchronized when editing their prose. The shared navigation styling lives in `assets/practical-guides.css`.
 
-The new pages have no client-side JavaScript, analytics, external fonts, or form backend. The JSON-LD script blocks contain metadata only. A link to GitHub issues is the correction route; it requires a GitHub account and posts publicly. Research dates are editorial dates, not link-check or build dates.
+The collection, Crisis and Trust pages have no client-side JavaScript, analytics, external fonts, or form backend. The JSON-LD script blocks contain metadata only. A link to GitHub issues is the correction route; it requires a GitHub account and posts publicly. Research dates are editorial dates, not link-check or build dates.
 
 ### Search and AI retrieval
 
@@ -62,7 +64,7 @@ The guide aims to apply the same standards across political affiliations. Its no
 
 ## Corrections
 
-The guide is meant to practice the discipline it teaches. If you find a misquotation, a broken link or missing context, please [open an issue](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues) with the original source.
+The guides are meant to practice the discipline they teach. If you find a misquotation, a broken link or missing context, please [open an issue](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues) with the original source.
 
 ## License
 
@@ -72,4 +74,4 @@ Copyright 2026 Exti. *How to Hear a Bully* and its notes are licensed under the 
 
 Quotations and translations of other people's words (Thucydides, Confucius, Orwell, politicians, journalists and others) belong to their own authors or translators and are not covered by this license. They are quoted here for commentary and education.
 
-Reuse terms for the crisis guide and new collection material have not been chosen. The Bully license and extra permission above apply only to *How to Hear a Bully* and its notes; they do not extend to the new material, Middleman, or linked sources.
+Reuse terms for the Crisis guide, Trust guide and collection material have not been chosen. The Bully license and extra permission above apply only to *How to Hear a Bully* and its notes; they do not extend to the new material, Middleman, or linked sources.

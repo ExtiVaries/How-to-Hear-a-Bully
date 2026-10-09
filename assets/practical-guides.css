@@ -35,7 +35,7 @@
 .pg-hero h1{max-width:15ch}
 .pg-hero .pg-lede{font-size:1.45rem;line-height:1.5;max-width:34rem}
 .pg-hero p:last-child{color:var(--pg-muted);max-width:40rem}
-.pg-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:0 0 3rem}
+.pg-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:0 0 3rem}
 .pg-card{border:1px solid var(--pg-rule);border-top:3px solid var(--pg-accent);padding:1.75rem;background:var(--pg-panel);display:flex;flex-direction:column}
 .pg-card h2{font-size:1.65rem;margin:.65rem 0 1rem}
 .pg-card p{font-size:1rem;line-height:1.65}

@@ -9,6 +9,7 @@
 - **[Don't Pay a Middleman](https://dont-pay-a-middleman.vercel.app/)** is an independent directory of official U.S. federal service routes. Entries distinguish government fees from payments to a helper and explain what the linked service can establish. Paid advice, representation, translation or other help may be valuable. The directory does not decide your eligibility or replace advice about your circumstances.
 - **[How to Hear a Bully](../../how-to-hear-a-bully.md)** examines manipulative uses of language, with historical context, political cases and practical exercises. It distinguishes harmful patterns from disagreement, mistakes and honest clarification. The same scrutiny should apply to speakers you support and speakers you oppose.
 - **[Why Does Everything Feel Like a Crisis?](../crisis-guide/why-does-everything-feel-like-a-crisis.md)** helps readers separate events, information, unequal exposure to harm and possible responses. Its questions can support greater concern as well as reassurance. They are teaching material, not a clinical treatment or a validated danger score. Current emergency instructions take priority.
+- **[Who to Trust When It All Breaks Down?](../trust-guide/who-to-trust-when-it-all-breaks-down.md)** helps readers choose whom to rely on for a particular question when accounts conflict. It examines expertise, evidence, repeated reports, interests, corrections and uncertainty. Its five questions are an untested teaching aid, not a validated trust score. Immediate danger requires protective action and emergency help without delay.
 
 These resources help you examine a claim or find a route. They do not certify businesses, diagnose people or establish anyone's motives merely from a disagreement.
 
@@ -18,9 +19,9 @@ The collection also links to [Plant Climate Map](https://plantclimatemap.org/) u
 
 Primary sources are the starting point where available: an agency's requirements, an original statement, a historical text in an identified translation, or a research paper. Context and relevant contrary evidence matter too. A primary source is evidence of what it actually records; it does not make every claim inside it true.
 
-The [Bully notes](../../how-to-hear-a-bully-notes.md) include sources, case records, unresolved questions and a revision ledger. The [Crisis notes](../crisis-guide/why-does-everything-feel-like-a-crisis-notes.md) explain what each source supports and the limits of that support. Middleman entries identify sources, check dates and fields that remain unverified; its [own methods page](https://dont-pay-a-middleman.vercel.app/about#verification) gives the details.
+The [Bully notes](../../how-to-hear-a-bully-notes.md) include sources, case records, unresolved questions and a revision ledger. The [Crisis notes](../crisis-guide/why-does-everything-feel-like-a-crisis-notes.md) explain what each source supports and the limits of that support. The [seven Trust notes](../trust-guide/who-to-trust-when-it-all-breaks-down-notes.md) distinguish research findings from editorial advice and record unresolved source questions, including the 2022 classroom study's allocation method. Middleman entries identify sources, check dates and fields that remain unverified; its [own methods page](https://dont-pay-a-middleman.vercel.app/about#verification) gives the details.
 
-Facts, interpretations and practical suggestions have different roles. A quotation establishes wording, not necessarily intent. An observational association does not by itself establish cause. A study of clicks does not measure anxiety, and an official definition does not validate an exercise built around it. The crisis guide's invented scenarios are labeled as such.
+Facts, interpretations and practical suggestions have different roles. A quotation establishes wording, not necessarily intent. An observational association does not by itself establish cause. A study of clicks does not measure anxiety, and an official definition does not validate an exercise built around it. The Crisis and Trust guides' invented scenarios are labeled as such.
 
 Reading a paper is not the same as reproducing its analysis. Where access was incomplete or a finding remains uncertain, the notes say so. Our proposed questions and explanations should be judged alongside their evidence, including evidence that might change the conclusion.
 
@@ -31,6 +32,7 @@ Dates identify particular checks, not continuous monitoring.
 - **Middleman:** each entry shows its own verification information. An age warning asks for another check; it does not mean that a fresh check has happened. Confirm current requirements and fees with the agency before acting.
 - **Bully:** the published guide identifies its second edition as October 2026. Its verification records and revision ledger provide more detail. That edition label does not establish an exact date when every source was last checked.
 - **Crisis:** the guide and notes completed their documented editorial check on **9 October 2026**. The notes disclose remaining access limits. The teaching method has not been tested with readers.
+- **Trust:** the guide and notes completed their documented editorial check on **9 October 2026**. The notes disclose remaining access limits. The five questions have not been tested with readers.
 
 Fixing a layout, checking a link or rebuilding a page does not renew its research date. A working link alone does not prove that the information behind it is current.
 
@@ -42,7 +44,7 @@ Sources and recorded limitations let readers examine the work. Relevant professi
 
 ## Report a correction
 
-For Bully, Crisis or this collection, [open a GitHub issue](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues). Include the page, the passage or broken link, and a source or explanation of the problem. Posting requires a GitHub account, and issues are public. Do not include private case details, identity documents or passwords.
+For Bully, Crisis, Trust or this collection, [open a GitHub issue](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues). Include the page, the passage or broken link, and a source or explanation of the problem. Posting requires a GitHub account, and issues are public. Do not include private case details, identity documents or passwords.
 
 For Middleman, use its [corrections and feedback page](https://dont-pay-a-middleman.vercel.app/about#contact). Its existing inbox uses an external provider, and messages may be reviewed with AI assistance. Read the privacy and response limits there before sending. Neither route guarantees a reply or urgent help.
 
@@ -50,4 +52,4 @@ For Middleman, use its [corrections and feedback page](https://dont-pay-a-middle
 
 Free access and permission to reuse are separate. Bully's guide and notes carry **CC BY 4.0**, with the author's additional permission for noncommercial use without credit; see the [license details](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license) and exclusions for others' quotations and translations.
 
-Reuse terms for the crisis guide and new collection material remain undecided. Grouping these projects does not extend Bully's license to them, to Middleman, or to linked sources.
+Reuse terms for the Crisis guide, Trust guide and collection material remain undecided. Grouping these projects does not extend Bully's license to them, to Middleman, or to linked sources.
