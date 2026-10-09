@@ -11,6 +11,13 @@ BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 ISSUES = "https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues"
 CRISIS = ROOT / "docs/crisis-guide"
 SUITE = ROOT / "docs/practical-guides"
+COLLECTION = BASE + "practical-guides/"
+MARKDOWN_SOURCES = {
+    "practical-guides/index.html": "docs/practical-guides/homepage.md",
+    "practical-guides/methods.html": "docs/practical-guides/methods.md",
+    "crisis/index.html": "docs/crisis-guide/why-does-everything-feel-like-a-crisis.md",
+    "crisis/notes.html": "docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md",
+}
 
 
 def markdown(text, links=None):
@@ -35,28 +42,65 @@ def navigation(prefix, current=""):
 def footer(prefix):
     return f'''<footer class="suite-footer">
 <p>Practical Guides · Free public resources</p>
-<p><a href="{prefix}practical-guides/">All guides</a> · <a href="{prefix}practical-guides/methods.html">Methods and limits</a> · <a href="{ISSUES}">Report a correction</a></p>
+<p><a href="{prefix}practical-guides/">All guides</a> · <a href="{prefix}practical-guides/methods.html">Methods and limits</a> · <a href="{prefix}llms.txt">Text index</a> · <a href="{ISSUES}">Report a correction</a></p>
 <p>Sources and reuse terms belong to each project. <a href="{prefix}practical-guides/methods.html#reading-and-reuse">Read about reuse</a>.</p>
 </footer>'''
 
 
 def page(path, title, description, body, current="", schema_type="WebPage"):
     url = BASE + (path.removesuffix("index.html"))
+    source_url = BASE + MARKDOWN_SOURCES[path]
     schema = {"@context": "https://schema.org", "@type": schema_type,
-              "name": title, "url": url, "description": description, "inLanguage": "en"}
+              "@id": url + "#page", "name": title, "url": url,
+              "description": description, "inLanguage": "en",
+              "isAccessibleForFree": True,
+              "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown", "contentUrl": source_url}}
+    if schema_type == "CollectionPage":
+        schema["@id"] = COLLECTION + "#collection"
+        schema["name"] = "Practical Guides"
+        schema["mainEntity"] = {
+            "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListUnordered",
+            "numberOfItems": 3,
+            "itemListElement": [
+                {"@type": "ListItem", "position": index,
+                 "item": {"@type": "WebPage", "name": name, "url": target}}
+                for index, (name, target) in enumerate([
+                    ("Don't Pay a Middleman", "https://dont-pay-a-middleman.vercel.app/"),
+                    ("How to Hear a Bully", BASE),
+                    ("Why Does Everything Feel Like a Crisis?", BASE + "crisis/"),
+                ], 1)
+            ]}
+    else:
+        schema["isPartOf"] = {"@type": "CollectionPage", "@id": COLLECTION + "#collection", "url": COLLECTION, "name": "Practical Guides"}
+    if path.startswith("crisis/"):
+        schema.update({"@type": "Article", "@id": url + "#article", "headline": title,
+                       "mainEntityOfPage": url, "datePublished": "2026-10-09"})
+        if path == "crisis/index.html":
+            schema["hasPart"] = {"@type": "Article", "@id": BASE + "crisis/notes.html#article",
+                                 "url": BASE + "crisis/notes.html", "name": "Source Notes"}
+            schema["citation"] = BASE + "crisis/notes.html"
+        else:
+            schema["isPartOf"] = {"@type": "Article", "@id": BASE + "crisis/#article",
+                                  "url": BASE + "crisis/", "name": "Why Does Everything Feel Like a Crisis?"}
+    search_title = "Practical Guides: Official Services, Language and News" if current == "hub" else f"{title} | Practical Guides"
     doc = f'''<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<title>{escape(title)} | Practical Guides</title>
+<title>{escape(search_title)}</title>
 <meta name="description" content="{escape(description, quote=True)}">
 <link rel="canonical" href="{url}">
-<meta property="og:type" content="website">
-<meta property="og:title" content="{escape(title, quote=True)}">
+<link rel="sitemap" type="application/xml" href="{BASE}sitemap.xml">
+<link rel="alternate" type="text/markdown" href="{source_url}">
+<meta property="og:type" content="{'article' if path.startswith('crisis/') else 'website'}">
+<meta property="og:title" content="{escape(search_title, quote=True)}">
 <meta property="og:description" content="{escape(description, quote=True)}">
 <meta property="og:url" content="{url}">
 <meta property="og:site_name" content="Practical Guides">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{escape(search_title, quote=True)}">
+<meta name="twitter:description" content="{escape(description, quote=True)}">
 <link rel="stylesheet" href="../assets/practical-guides.css">
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head><body class="pg-page">
