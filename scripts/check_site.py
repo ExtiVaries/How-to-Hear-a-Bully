@@ -119,6 +119,8 @@ def main():
     visible_targets = {urljoin(BASE + "practical-guides/", href) for href in docs["practical-guides/index.html"].links}
     if len(listed) != 3 or any(url not in visible_targets for url in listed):
         failures.append("Collection structured data must describe the three visible project links")
+    if collection.get("relatedLink") != "https://plantclimatemap.org/" or collection["relatedLink"] not in visible_targets:
+        failures.append("The related Plant Climate Map link must be visible and match its metadata")
     if guide.schemas[0].get("hasPart", {}).get("url") != BASE + "crisis/notes.html" or notes.schemas[0].get("isPartOf", {}).get("url") != BASE + "crisis/":
         failures.append("Crisis guide/notes structured relationships differ from their visible links")
     for number in range(1, 10):
