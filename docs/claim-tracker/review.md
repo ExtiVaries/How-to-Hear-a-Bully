@@ -2,7 +2,7 @@
 
 Review supplied by the project owner on October 9, 2026, concerning the initial specification at commit `7c768a431d94d8dc0c4f0649a759a1a4db6a127a` on `codex/claim-tracker-v1`, PR #6. The verdict was **ready after specified revisions**. This is the summary pasted into the task, not the full detailed review. The supplied attachment named `independent-review_md.md` reviews **Complain or Constrain?** and is unrelated to this tracker; it is not reproduced here.
 
-The summary mentions detailed clarifications for ten acceptance criteria, but those detailed sections were not supplied. [Revision response](REVISIONS.md) records the bounded changes made from the available summary. Follow-up review of those changes is pending. No runtime checks or expert certification are represented by this record.
+At the time this summary was recorded, the detailed sections were unavailable. The owner subsequently supplied the [full original report](review-detailed.md) and [follow-up review](FOLLOWUP.md) on `claude/project-thread-68owll`; both are now copied unchanged into this packet. The [revision response](REVISIONS.md) distinguishes initial changes from the latest responses. The pasted summary below remains unchanged. Neither historical report approves the latest edits; no runtime checks or expert certification are represented by this record.
 
 ## Supplied tracker review
 
@@ -19,3 +19,5 @@ Two other blockers: the duplicate matcher can reveal other members' private subm
 ## Recording status
 
 The owner provided this summary after the initial handoff requested authorization to commit a review. The summary has now been recorded alongside the revised specification. This recording does not constitute approval of the revised design, a follow-up review verdict, authorization to merge PR #6, or authorization to deploy a service.
+
+Subsequent recording: the original and follow-up reports are now available alongside this summary. The follow-up at `1adb5a3` found the initial blockers resolved in writing and specified remaining edits; the latest specification implements those written changes. Verification of the latest revision and all implementation checks remain pending.

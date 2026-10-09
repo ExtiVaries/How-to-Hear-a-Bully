@@ -24,13 +24,14 @@ The collection's web routes are `practical-guides/`, `practical-guides/methods.h
 
 ### Planned community claim tracker
 
-The collection is also planning an interactive resource for people who ask, "Is this true?" The first release would be a bounded manual pilot with reviewed evidence, assessments of claims as they circulate, visible corrections, and followed updates. Authorized automatic discovery is a later gated stage.
+The collection is planning an interactive resource for people who ask, "Is this true?" The first release would be a bounded manual pilot with reviewed evidence, assessments of claims as they circulate, visible corrections, and followed updates. Authorized automatic discovery is a later gated stage.
 
 - [First-version product specification](docs/claim-tracker/v1.md)
-- [Claude adversarial-review handoff](docs/claim-tracker/claude.md)
-- [Owner-supplied review summary](docs/claim-tracker/review.md) and [revision response](docs/claim-tracker/REVISIONS.md)
+- [Next Claude verification handoff](docs/claim-tracker/claude.md)
+- [Initial review summary](docs/claim-tracker/review.md), [full original report](docs/claim-tracker/review-detailed.md), and [historical follow-up](docs/claim-tracker/FOLLOWUP.md)
+- [Response to initial and follow-up findings](docs/claim-tracker/REVISIONS.md)
 
-The review summary's verdict was ready after specified revisions; the five reported blockers have written changes and await follow-up review. There is no functioning tracker or live import yet. The app's hosting, sources, initial niche, and reuse terms remain open. The existing collection continues to serve static reading pages.
+The follow-up judged the earlier revision ready after specified revisions and found the five initial blockers resolved in writing. The latest spec addresses its remaining report-triage, removal-accountability, private-record expiry, lead-evidence, and revision-type requirements. Verification of these latest edits and implementation checks remain pending. There is no functioning tracker or live import yet. Hosting, sources, initial niche, participation notice, and contribution/reuse terms remain launch decisions. The existing collection continues to serve static reading pages.
 
 ### Build and preview
 

@@ -1,14 +1,14 @@
 # Claude adversarial review handoff
 
-Review target: [Revised community claim tracker v1 specification](v1.md), with the [supplied review summary](review.md) and [revision response](REVISIONS.md). Prepared and updated October 9, 2026. Targeted follow-up review is pending.
+Review target: [Revised community claim tracker v1 specification](v1.md), with the [original summary](review.md), [full original review](review-detailed.md), [historical follow-up](FOLLOWUP.md), and [revision response](REVISIONS.md). Prepared and updated October 9, 2026. The latest written edits await verification; preserve the earlier reviews and their verdicts.
 
-The user wants people to submit "Is this true?" claims, eventual automatic discovery from niche communities, and an evolving evidence trail. They explicitly requested a written specification and an adversarial-review handoff, then supplied a review summary with five blockers. The revised first release is manual-only. The full detailed tracker review was not supplied; the attachment instead reviews Complain or Constrain? This package contains no tracker implementation, live integration, or scheduled automation, and the revisions have not received a follow-up verdict.
+The user wants people to submit "Is this true?" claims, eventual automatic discovery from niche communities, and an evolving evidence trail. They explicitly requested a written specification and an adversarial-review handoff, then supplied an initial summary and subsequently both full reports. The revised first release is manual-only. The historical follow-up at `1adb5a3` judged all five initial blockers resolved in writing but left N1–N3 and before-pilot F11/F13 requirements. The latest spec addresses those and the small N4 clarifications. Both reports are copied unchanged from `claude/project-thread-68owll`. This package contains no tracker implementation, live integration, or scheduled automation; no reviewer has yet approved these latest edits.
 
-Repository: [ExtiVaries/How-to-Hear-a-Bully](https://github.com/ExtiVaries/How-to-Hear-a-Bully). Base branch: `claude/project-thread-i83pmv`, read at `057e3a0fb77728be2cfddcd8f17b9742b137be91`. Packet branch: `codex/claim-tracker-v1`. Read the branch's root `AGENTS.md` first. The tracker is a planned interactive resource within Practical Guides; the published static guides are not its implementation. Preserve unrelated changes and follow applicable repository instructions. Review the two documents initially without changing files or launching services.
+Repository: [ExtiVaries/How-to-Hear-a-Bully](https://github.com/ExtiVaries/How-to-Hear-a-Bully). Base branch: `claude/project-thread-i83pmv`, read at `057e3a0fb77728be2cfddcd8f17b9742b137be91`. Packet branch: `codex/claim-tracker-v1`. Read the branch's root `AGENTS.md` first. The tracker is a planned interactive resource within Practical Guides; the published static guides are not its implementation. Preserve unrelated changes and follow applicable repository instructions. Review the packet initially without changing files or launching services.
 
 ## Prompt to paste into Claude
 
-On branch `codex/claim-tracker-v1` in `ExtiVaries/How-to-Hear-a-Bully`, read root `AGENTS.md`, then `docs/claim-tracker/v1.md`, `review.md`, `REVISIONS.md`, and `claude.md` within that directory. Perform a targeted adversarial follow-up review of the five reported blockers and their written revisions, then check for newly introduced contradictions. Do not reconstruct the missing detailed review. Your job is to find ways the design could give a misleading answer, amplify an allegation, mishandle a correction, or promise functionality it cannot reliably deliver.
+On branch `codex/claim-tracker-v1` in `ExtiVaries/How-to-Hear-a-Bully`, read root `AGENTS.md`, then `docs/claim-tracker/v1.md`, `review.md`, `review-detailed.md`, `FOLLOWUP.md`, `REVISIONS.md`, and `claude.md`. Record the exact current commit before reviewing. Verify the latest changes against N1–N3, F11/F13, and N4 in the historical follow-up, then check for newly introduced contradictions and regressions of the five original blockers. The supplied original and follow-up reports describe older commits; do not reinterpret their verdicts as approval of this revision. Your job is to find ways the design could give a misleading answer, amplify an allegation, mishandle a correction, or promise functionality it cannot reliably deliver.
 
 This is a specification review. Do not claim that a runtime vulnerability or acceptance-test failure has been reproduced without an implementation. Distinguish contradictions in the written requirements, plausible design risks, external dependencies requiring verification, and decisions requiring the product owner's judgment. Do not edit files initially.
 
@@ -30,7 +30,9 @@ Trace first-release manual intake through context clarification, private matchin
 - Whether automatic discovery and developing-news coverage can function when the browser is closed, within source permissions and reviewer capacity.
 - Whether an as-circulating assertion can silently acquire a supported label from a narrower or historical fact.
 - Whether private records can leak through suggestions, IDs, counts, errors, logs, revisions, or retention failures.
-- Whether manual evidence checks, removal authority, emergency hides, safe audit events, and deletion deadlines form a workable first-release process.
+- Whether manual evidence checks, report specificity/caps, removal authority, emergency hides, immutable safe revision metadata, and unpublished-record deadlines form a workable first-release process.
+- Whether lead-only conclusive assessments and revisions without a valid change type are rejected.
+- Whether exactly-one follower events, opt-in community context, a participation notice, and contribution terms are specified without overstating pilot reach.
 
 ## Adversarial scenarios
 
@@ -56,6 +58,9 @@ Trace first-release manual intake through context clarification, private matchin
 | R18 | A member searches private wording, probes guessed IDs, or compares match counts. | Private candidates or accepted unassessed records are discoverable. |
 | R19 | A declined private-person allegation reaches its deadline; a backup is restored later. | Identifying payloads survive in summaries, logs, history, or restored accessible records. |
 | R20 | The new-intake queue is full when a decisive published source is retracted. | Correction admission or review is blocked, or future import caps conceal omitted coverage. |
+| R21 | A member submits two vague evidence-change reports and attempts a third. | Untriaged reports cast public doubt, duplicate tasks consume reassessment slots, or the open-report cap is bypassed. |
+| R22 | A removal administrator also authored the assessment being redacted, and chooses an unlisted reason. | An earlier label/date/author vanishes, restricted spans lack markers, or same-person removal is concealed. |
+| R23 | An accepted private claim passes its deadline and grace; it is archived or merged instead of published. | The lifecycle never closes, edits reset the deadline, or terminal private payloads evade seven-day deletion. |
 
 Use concrete hypothetical examples where helpful, clearly labeled as hypothetical. Check whether each scenario is already adequately handled before reporting it as a gap. A requirement's presence is not proof it will be implemented, but do not report an explicit implemented-later control as entirely absent from the specification.
 
@@ -70,8 +75,8 @@ Begin with whether the specification is ready to guide implementation and the th
 5. Consequence for a member, reviewer, or the product's central promise.
 6. The smallest practical revision and a concrete acceptance check proving it is addressed.
 
-Report whether each of the five supplied blockers is resolved in writing, partially resolved, or still blocking, with exact sections and acceptance checks. Also identify which A1 through A12 criteria need clarification and whether their M/L stage assignment is correct. Review the leanest credible manual pilot and the additional connector-launch dependencies separately. Verify current platform access requirements from primary sources if you challenge them; do not assume public visibility permits automated collection.
+Report whether N1–N3 and F11/F13 are resolved in writing, partially resolved, or still blocking, with exact sections and acceptance checks. Check N4’s follower, capacity, and attribution clarifications and the participation-notice dependency. Flag any regression of the five original blockers. Also identify which A1 through A12 criteria need clarification and whether their M/L stage assignment is correct. Review the leanest credible manual pilot and the additional connector-launch dependencies separately. Verify current platform access requirements from primary sources if you challenge them; do not assume public visibility permits automated collection.
 
 Finish with "Ready for implementation," "Ready after specified revisions," or "Needs redesign," and explain the basis. Separate release blockers from improvements that can wait. Give candid pushback rather than a favorable summary.
 
-If later authorized to save the follow-up report, use `docs/claim-tracker/FOLLOWUP.md`; preserve the supplied summary in `review.md` and the specification until changes are requested. The follow-up report is not present yet.
+Return the review without modifying the historical reports. If the owner later asks to save this next review, use `docs/claim-tracker/FOLLOWUP-2.md`; preserve `review.md`, `review-detailed.md`, and `FOLLOWUP.md`. Distinguish readiness of written requirements from implementation tests and actual pilot launch.
