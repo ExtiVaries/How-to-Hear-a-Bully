@@ -22,6 +22,12 @@ Explore what is happening, what reaches you, whom it affects, and what action fi
 
 **[Read the Crisis guide](../crisis-guide/why-does-everything-feel-like-a-crisis.md)**
 
+### Who to Trust When It All Breaks Down?
+
+When accounts conflict, ask who could know, what the evidence supports, and what remains uncertain. Confidence can rise or fall; the aim is to match it to the particular question.
+
+**[Read the Trust guide](../trust-guide/who-to-trust-when-it-all-breaks-down.md)**
+
 ---
 
 ## Climate and growing

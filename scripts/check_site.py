@@ -12,7 +12,8 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
-         "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html"]
+         "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
+         "trust/index.html", "trust/notes.html"]
 
 
 class Document(HTMLParser):
@@ -91,7 +92,7 @@ def main():
                 failures.append(f"{name}: structured data has the wrong page identity or access status")
             if schema.get("encoding", {}).get("contentUrl") not in doc.alternates:
                 failures.append(f"{name}: structured data and Markdown alternative differ")
-            if name.startswith(("crisis/", "practical-guides/")) and "license" in schema:
+            if name.startswith(("crisis/", "trust/", "practical-guides/")) and "license" in schema:
                 failures.append(f"{name}: new material has no assigned reuse license")
         for href in doc.links:
             resolved = urlsplit(urljoin(BASE + name, href))
@@ -113,33 +114,39 @@ def main():
                     failures.append(f"{name}: missing fragment {href}")
             links_checked += 1
 
-    guide, notes = docs["crisis/index.html"], docs["crisis/notes.html"]
     collection = docs["practical-guides/index.html"].schemas[0]
     listed = [item["item"]["url"] for item in collection["mainEntity"]["itemListElement"]]
     visible_targets = {urljoin(BASE + "practical-guides/", href) for href in docs["practical-guides/index.html"].links}
-    if len(listed) != 3 or any(url not in visible_targets for url in listed):
-        failures.append("Collection structured data must describe the three visible project links")
+    expected_projects = {"https://dont-pay-a-middleman.vercel.app/", BASE,
+                         BASE + "crisis/", BASE + "trust/"}
+    if len(listed) != 4 or set(listed) != expected_projects or any(url not in visible_targets for url in listed) or collection["mainEntity"].get("numberOfItems") != 4:
+        failures.append("Collection structured data must describe the four visible project links")
     if collection.get("relatedLink") != "https://plantclimatemap.org/" or collection["relatedLink"] not in visible_targets:
         failures.append("The related Plant Climate Map link must be visible and match its metadata")
-    if guide.schemas[0].get("hasPart", {}).get("url") != BASE + "crisis/notes.html" or notes.schemas[0].get("isPartOf", {}).get("url") != BASE + "crisis/":
-        failures.append("Crisis guide/notes structured relationships differ from their visible links")
-    for number in range(1, 10):
-        if f"n{number}" not in notes.headings:
-            failures.append(f"Note {number} is not a semantic heading")
-        if f"notes.html#n{number}" not in guide.links or f"index.html#r{number}" not in notes.links:
-            failures.append(f"Note {number} is missing its citation or return link")
+    reciprocal_notes = 0
+    for section, count in (("crisis", 9), ("trust", 7)):
+        guide, notes = docs[f"{section}/index.html"], docs[f"{section}/notes.html"]
+        notes_url = BASE + section + "/notes.html"
+        if guide.schemas[0].get("hasPart", {}).get("url") != notes_url or guide.schemas[0].get("citation") != notes_url or notes.schemas[0].get("isPartOf", {}).get("url") != BASE + section + "/":
+            failures.append(f"{section}: guide/notes structured relationships differ from their visible links")
+        for number in range(1, count + 1):
+            if f"n{number}" not in notes.headings:
+                failures.append(f"{section}: note {number} is not a semantic heading")
+            if f"notes.html#n{number}" not in guide.links or f"index.html#r{number}" not in notes.links:
+                failures.append(f"{section}: note {number} is missing its citation or return link")
+        reciprocal_notes += count
 
     sitemap = ET.parse(ROOT / "sitemap.xml")
     locations = [element.text for element in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
     expected = [BASE + name.removesuffix("index.html") for name in PAGES]
     if sorted(locations) != sorted(expected):
-        failures.append("Sitemap does not match the six publication pages")
+        failures.append("Sitemap does not match the eight publication pages")
 
     if failures:
         print("\n".join(failures), file=sys.stderr)
         return 1
     print(json.dumps({"pages": len(PAGES), "local_links_checked": links_checked,
-                      "reciprocal_notes": 9, "generated_pages_current": True,
+                      "reciprocal_notes": reciprocal_notes, "generated_pages_current": True,
                       "sitemap_matches": True, "structured_data_and_markdown": True}, indent=2))
     return 0
 

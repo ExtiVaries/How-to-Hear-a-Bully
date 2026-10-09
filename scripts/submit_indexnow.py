@@ -17,7 +17,7 @@ KEY_URL = BASE + "indexnow-key.txt"
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--url", action="append", dest="urls", help="Changed canonical URL; repeat for multiple URLs. Defaults to all six sitemap pages.")
+    parser.add_argument("--url", action="append", dest="urls", help="Changed canonical URL; repeat for multiple URLs. Defaults to all sitemap pages.")
     parser.add_argument("--submit", action="store_true", help="Send the notification after checking the live ownership file and pages.")
     args = parser.parse_args()
     key = (ROOT / "indexnow-key.txt").read_text().strip()

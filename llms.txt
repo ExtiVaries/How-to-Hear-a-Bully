@@ -1,13 +1,13 @@
 # Practical Guides
 
-> Free public resources for finding official service routes, examining manipulative language, and judging alarming information. Each project records its own scope, sources and limits. This index helps readers and tools find the published material; it does not certify impartiality or verification.
+> Free public resources for finding official service routes, examining manipulative language, judging alarming information, and evaluating conflicting claims. Each project records its own scope, sources and limits. This index helps readers and tools find the published material; it does not certify impartiality or verification.
 
 ## Collection and methods
 
 - [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
 - [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
 - [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
-- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the six HTML pages hosted in this project. Middleman has its own hosting and sitemap.
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the eight HTML pages hosted in this project. Middleman has its own hosting and sitemap.
 
 ## Don't Pay a Middleman
 
@@ -34,13 +34,22 @@ Citation: Exti. How to Hear a Bully: Recognizing the Language of Power and Manip
 
 Editorial review: 9 October 2026. First web publication: 9 October 2026. The teaching method has not been tested with readers; it is not a clinical treatment or a validated danger score. Canonical citation links are the guide and source-note URLs above; section and numbered-note anchors provide more precise references.
 
+## Who to Trust When It All Breaks Down?
+
+- [Guide](https://extivaries.github.io/How-to-Hear-a-Bully/trust/): choosing whom to rely on for a particular question when accounts conflict. Five questions and two invented exercises examine expertise, evidence, repeated reports, interests, corrections and uncertainty. About 1,900 words; immediate danger calls for protective action and emergency help without delay.
+- [Seven source notes](https://extivaries.github.io/How-to-Hear-a-Bully/trust/notes.html): research on evaluating online information, scientific communication guidance, and medical journal standards, with findings and access limits. The 2022 classroom study's allocation method remains unverified; the guide does not describe it as randomized.
+- [Guide in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/trust-guide/who-to-trust-when-it-all-breaks-down.md)
+- [Notes in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md)
+
+Editorial review: 9 October 2026. The questions are an untested teaching aid, not a validated trust score. The title describes a loss of bearings when familiar sources disagree; it does not claim that every institution has failed. Canonical citation links are the guide and source-note URLs above; section and numbered-note anchors provide more precise references.
+
 ## Related tool: Climate and growing
 
 - [Plant Climate Map](https://plantclimatemap.org/): explore Köppen–Geiger climate classifications and USDA plant hardiness zones across the 48 contiguous United States. A separate app with its own map information and data sources; the guides' editorial review dates and reuse terms do not cover the map or its data.
 
 ## Corrections and reuse
 
-- [Report a correction for Bully, Crisis or the collection](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues): public GitHub issues, requiring a GitHub account.
-- [Reuse terms](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html#reading-and-reuse): Bully and its notes use CC BY 4.0 plus an author permission for noncommercial use without credit. Commercial use requires the specified credit and link; third-party quotations are excluded. This license does not extend to the other projects. Reuse terms for Crisis and collection material remain undecided.
+- [Report a correction for Bully, Crisis, Trust or the collection](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues): public GitHub issues, requiring a GitHub account.
+- [Reuse terms](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html#reading-and-reuse): Bully and its notes use CC BY 4.0 plus an author permission for noncommercial use without credit. Commercial use requires the specified credit and link; third-party quotations are excluded. This license does not extend to the other projects. Reuse terms for Crisis, Trust and collection material remain undecided.
 
 This optional link index is not required for search indexing or AI citation and cannot guarantee either. The linked source notes, not this index, provide the evidence for the guides' factual claims. Research dates are not automatically renewed when metadata or links change.

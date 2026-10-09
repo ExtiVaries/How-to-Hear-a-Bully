@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 ISSUES = "https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues"
 CRISIS = ROOT / "docs/crisis-guide"
+TRUST = ROOT / "docs/trust-guide"
 SUITE = ROOT / "docs/practical-guides"
 COLLECTION = BASE + "practical-guides/"
 MARKDOWN_SOURCES = {
@@ -17,6 +18,8 @@ MARKDOWN_SOURCES = {
     "practical-guides/methods.html": "docs/practical-guides/methods.md",
     "crisis/index.html": "docs/crisis-guide/why-does-everything-feel-like-a-crisis.md",
     "crisis/notes.html": "docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md",
+    "trust/index.html": "docs/trust-guide/who-to-trust-when-it-all-breaks-down.md",
+    "trust/notes.html": "docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md",
 }
 
 
@@ -61,7 +64,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
         schema["relatedLink"] = "https://plantclimatemap.org/"
         schema["mainEntity"] = {
             "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListUnordered",
-            "numberOfItems": 3,
+            "numberOfItems": 4,
             "itemListElement": [
                 {"@type": "ListItem", "position": index,
                  "item": {"@type": "WebPage", "name": name, "url": target}}
@@ -69,21 +72,27 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
                     ("Don't Pay a Middleman", "https://dont-pay-a-middleman.vercel.app/"),
                     ("How to Hear a Bully", BASE),
                     ("Why Does Everything Feel Like a Crisis?", BASE + "crisis/"),
+                    ("Who to Trust When It All Breaks Down?", BASE + "trust/"),
                 ], 1)
             ]}
     else:
         schema["isPartOf"] = {"@type": "CollectionPage", "@id": COLLECTION + "#collection", "url": COLLECTION, "name": "Practical Guides"}
-    if path.startswith("crisis/"):
+    if path.startswith(("crisis/", "trust/")):
+        section = path.split("/", 1)[0]
+        guide_title = {"crisis": "Why Does Everything Feel Like a Crisis?",
+                       "trust": "Who to Trust When It All Breaks Down?"}[section]
+        guide_url = BASE + section + "/"
+        notes_url = guide_url + "notes.html"
         schema.update({"@type": "Article", "@id": url + "#article", "headline": title,
                        "mainEntityOfPage": url, "datePublished": "2026-10-09"})
-        if path == "crisis/index.html":
-            schema["hasPart"] = {"@type": "Article", "@id": BASE + "crisis/notes.html#article",
-                                 "url": BASE + "crisis/notes.html", "name": "Source Notes"}
-            schema["citation"] = BASE + "crisis/notes.html"
+        if path.endswith("index.html"):
+            schema["hasPart"] = {"@type": "Article", "@id": notes_url + "#article",
+                                 "url": notes_url, "name": "Source Notes"}
+            schema["citation"] = notes_url
         else:
-            schema["isPartOf"] = {"@type": "Article", "@id": BASE + "crisis/#article",
-                                  "url": BASE + "crisis/", "name": "Why Does Everything Feel Like a Crisis?"}
-    search_title = "Practical Guides: Official Services, Language and News" if current == "hub" else f"{title} | Practical Guides"
+            schema["isPartOf"] = {"@type": "Article", "@id": guide_url + "#article",
+                                  "url": guide_url, "name": guide_title}
+    search_title = "Practical Guides: Services, Language, News and Trust" if current == "hub" else f"{title} | Practical Guides"
     doc = f'''<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -94,7 +103,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
 <link rel="canonical" href="{url}">
 <link rel="sitemap" type="application/xml" href="{BASE}sitemap.xml">
 <link rel="alternate" type="text/markdown" href="{source_url}">
-<meta property="og:type" content="{'article' if path.startswith('crisis/') else 'website'}">
+<meta property="og:type" content="{'article' if path.startswith(('crisis/', 'trust/')) else 'website'}">
 <meta property="og:title" content="{escape(search_title, quote=True)}">
 <meta property="og:description" content="{escape(description, quote=True)}">
 <meta property="og:url" content="{url}">
@@ -150,12 +159,15 @@ def build():
     source = (SUITE / "homepage.md").read_text()
     primary, supporting = source.split("\n---\n", 1)
     intro, *rest = primary.split("\n### ")
-    hub_links = {"../../how-to-hear-a-bully.md": "../", "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/", "methods.md": "methods.html"}
+    hub_links = {"../../how-to-hear-a-bully.md": "../",
+                 "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/",
+                 "../trust-guide/who-to-trust-when-it-all-breaks-down.md": "../trust/",
+                 "methods.md": "methods.html"}
     intro = markdown(intro, hub_links)
     intro = intro.replace("<p>", '<p class="pg-lede">', 1)
-    labels = ["Official routes", "Language and power", "Information and action"]
+    labels = ["Official routes", "Language and power", "Information and action", "Evidence and trust"]
     if len(rest) != len(labels):
-        raise ValueError("The homepage must contain the three primary guide cards")
+        raise ValueError("The homepage must contain the four primary guide cards")
     cards = []
     for label, card in zip(labels, rest):
         cards.append(f'<section class="pg-card"><span class="pg-label">{label}</span>{markdown("## " + card, hub_links)}</section>')
@@ -168,7 +180,7 @@ def build():
 {supporting_html}
 </main>'''
     page("practical-guides/index.html", "What would help right now?",
-         "Find official service routes, examine manipulative language, and judge alarming information. Free guides with sources, limits, and practical next steps.",
+         "Find official service routes, examine language, judge alarming information, and weigh conflicting claims. Free guides with sources and practical next steps.",
          body, "hub", "CollectionPage")
     links = {"why-does-everything-feel-like-a-crisis-notes.md": "notes.html",
              "why-does-everything-feel-like-a-crisis.md": "index.html"}
@@ -180,13 +192,25 @@ def build():
             "Nine source notes for the crisis guide: study designs, verified findings, uncertainties, and limits of the evidence.",
             "Sources and limits", '<a href="./">Back to the guide</a> · Editorial review: 9 October 2026', links,
             '<p class="pg-endlinks"><a href="./">Back to the guide</a> · <a href="../docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md">Markdown notes</a></p>', notes=True)
+    trust_links = {"who-to-trust-when-it-all-breaks-down-notes.md": "notes.html",
+                   "who-to-trust-when-it-all-breaks-down.md": "index.html"}
+    reading("trust/index.html", TRUST / "who-to-trust-when-it-all-breaks-down.md",
+            "A practical guide to conflicting claims, expertise, and uncertainty: five questions, two exercises, and source notes to help decide whom to rely on and for what.",
+            "Evidence and trust", "Editorial review: 9 October 2026 · About 1,900 words", trust_links,
+            '<p class="pg-endlinks"><a href="notes.html">Read the source notes</a> · <a href="../docs/trust-guide/who-to-trust-when-it-all-breaks-down.md">Markdown text</a></p>')
+    reading("trust/notes.html", TRUST / "who-to-trust-when-it-all-breaks-down-notes.md",
+            "Seven source notes for the trust guide: lateral reading, online search, expertise, study findings, and the limits of the evidence.",
+            "Sources and limits", '<a href="./">Back to the guide</a> · Editorial review: 9 October 2026', trust_links,
+            '<p class="pg-endlinks"><a href="./">Back to the guide</a> · <a href="../docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md">Markdown notes</a></p>', notes=True)
     reading("practical-guides/methods.html", SUITE / "methods.md",
             "What each Practical Guides project covers, how evidence and limits are recorded, what review dates mean, and how to report a correction.",
             "Methods and limits", '<a href="./">All guides</a>',
             {"homepage.md": "./", "../../how-to-hear-a-bully-notes.md": "../notes.html",
              "../../how-to-hear-a-bully.md": "../",
              "../crisis-guide/why-does-everything-feel-like-a-crisis-notes.md": "../crisis/notes.html",
-             "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/"})
+             "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/",
+             "../trust-guide/who-to-trust-when-it-all-breaks-down-notes.md": "../trust/notes.html",
+             "../trust-guide/who-to-trust-when-it-all-breaks-down.md": "../trust/"})
 
 
 if __name__ == "__main__":
