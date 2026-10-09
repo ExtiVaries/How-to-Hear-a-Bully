@@ -21,6 +21,14 @@ Collection: https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/
 
 [Plant Climate Map](https://plantclimatemap.org/) appears separately under **Climate and growing**. It explores Köppen–Geiger climate classifications and USDA plant hardiness zones across the contiguous United States. Keep it a separate app with its own sources, scope, and reuse terms. Middleman is also hosted separately; this repository contains the guides and collection, not those applications.
 
+## Community claim tracker planning
+
+The owner requested a first-version written specification and a Claude adversarial-review handoff for a **Community claim tracker**, a planned interactive resource within Practical Guides. The packet is in [docs/claim-tracker/](docs/claim-tracker/): [v1 specification](docs/claim-tracker/v1.md) and [Claude review handoff](docs/claim-tracker/claude.md). This is a proposed product, not a published guide or functioning service. No tracker application, live connector, schedule, or completed Claude review is included.
+
+The proposed pilot accepts member submissions and scheduled candidates from specifically configured, authorized community sources. Human reviewers assess exact claims against reviewed evidence; members can propose contrary evidence, request corrections, and follow material updates. Keep intake acceptance separate from evidentiary support, popularity separate from credibility, repeated reporting separate from independent corroboration, and new developments separate from corrections of earlier mistakes. Apply the same standards across communities and political viewpoints. AI-assisted review is not expert certification.
+
+Start by reviewing the specification adversarially using the handoff. Initial review is read-only; return prioritized findings and concrete acceptance checks. Record a later authorized review in `docs/claim-tracker/review.md`. Implementation, initial niche/source selection, provider permissions, hosting, and public availability remain open. This planning addition does not authorize changing the published guides, adding their backend dependencies, or extending Bully's reuse terms to the tracker or its data.
+
 ## Publication checkpoint
 
 **Complain or Constrain?** has completed text drafting, review, and bounded corrections. The approved manuscript, source notes, and handoff are in [docs/complain-guide/](docs/complain-guide/). The user authorized pushing this packet to GitHub on a separate branch. It has no website edition yet. A successful docket check and legal review of the Tennessee section remain open before that section goes live. Preserve the accepted article wording; its length is intentionally flexible under the user's instruction to prioritize quality.
@@ -48,6 +56,7 @@ GitHub Pages publishes from `claude/project-thread-i83pmv`, at the repository ro
 | [docs/crisis-guide/](docs/crisis-guide/) | Crisis manuscript, notes, and review records |
 | [docs/trust-guide/](docs/trust-guide/) | Trust manuscript, seven notes, research history, and reviews |
 | [docs/complain-guide/](docs/complain-guide/) | Accepted Complain manuscript, thirteen source notes, and review handoff; website publication pending |
+| [docs/claim-tracker/](docs/claim-tracker/) | Draft community claim tracker specification and Claude adversarial-review handoff; implementation and review pending |
 | [docs/practical-guides/homepage.md](docs/practical-guides/homepage.md) | Current collection copy |
 | [docs/practical-guides/methods.md](docs/practical-guides/methods.md) | Current methods, limits, corrections, and reuse information |
 | `index.html`, `notes.html` | Bully reading pages |

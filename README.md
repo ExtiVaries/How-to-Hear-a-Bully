@@ -22,6 +22,15 @@ The collection includes a small hub, a methods page, and the reviewed Crisis and
 
 The collection's web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/), [read the Crisis guide](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/), or [read the Trust guide](https://extivaries.github.io/How-to-Hear-a-Bully/trust/).
 
+### Planned community claim tracker
+
+The collection is also planning an interactive resource for people who ask, "Is this true?" Community submissions and authorized source imports would feed a claim tracker with reviewed evidence, scoped assessments, visible corrections, and followed updates.
+
+- [First-version product specification](docs/claim-tracker/v1.md)
+- [Claude adversarial-review handoff](docs/claim-tracker/claude.md)
+
+The packet is a draft for review. There is no functioning tracker, live import, or completed Claude review yet. The app's hosting, sources, initial niche, and reuse terms remain open. The existing collection continues to serve static reading pages.
+
 ### Build and preview
 
 The site is static HTML, served without a build step by GitHub Pages. To update the collection, Crisis or Trust pages, edit the Markdown in `docs/practical-guides/`, `docs/crisis-guide/` or `docs/trust-guide/`, then run:
