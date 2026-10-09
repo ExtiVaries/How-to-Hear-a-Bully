@@ -2,7 +2,7 @@
 
 Reviewed editorial files · 9 October 2026
 
-These files are available here for reading, downloading, and the next publication step. The guide and source notes have passed editorial review. The suite homepage remains a copy draft pending its methods page and live-site checks.
+These files are available here for reading, downloading, and the next publication step. The guide and source notes have passed editorial review. The original suite homepage copy is retained as a draft. The current collection copy and methods page are in [docs/practical-guides](../practical-guides/); generated web pages are included in this branch for publication review.
 
 - [Read the guide](why-does-everything-feel-like-a-crisis.md)
 - [Read the source notes](why-does-everything-feel-like-a-crisis-notes.md)
