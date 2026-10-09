@@ -12,6 +12,8 @@ ISSUES = "https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues"
 CRISIS = ROOT / "docs/crisis-guide"
 TRUST = ROOT / "docs/trust-guide"
 SUITE = ROOT / "docs/practical-guides"
+CHANGES = ROOT / "docs/changes"
+OUTPUTS = {}
 COLLECTION = BASE + "practical-guides/"
 MARKDOWN_SOURCES = {
     "practical-guides/index.html": "docs/practical-guides/homepage.md",
@@ -20,6 +22,9 @@ MARKDOWN_SOURCES = {
     "crisis/notes.html": "docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md",
     "trust/index.html": "docs/trust-guide/who-to-trust-when-it-all-breaks-down.md",
     "trust/notes.html": "docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md",
+    "changes/index.html": "docs/changes/guide.md",
+    "changes/timeline.html": "docs/changes/timeline.md",
+    "changes/methodology.html": "docs/changes/methodology.md",
 }
 
 
@@ -38,7 +43,7 @@ def navigation(prefix, current=""):
     return f'''<a class="suite-skip" href="#main-content">Skip to content</a>
 <nav class="suite-nav" aria-label="Main navigation">
   <a class="suite-brand" href="{prefix}practical-guides/">Practical Guides</a>
-  <div class="suite-links"><a href="{prefix}practical-guides/"{active('hub')}>All guides</a><a href="{prefix}practical-guides/methods.html"{active('methods')}>How we check our work</a></div>
+  <div class="suite-links"><a href="{prefix}practical-guides/"{active('hub')}>All guides</a><a href="{prefix}changes/">What changed?</a><a href="{prefix}changes/timeline.html">U.S. timeline</a><a href="{prefix}practical-guides/methods.html"{active('methods')}>How we check our work</a></div>
 </nav>'''
 
 
@@ -64,7 +69,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
         schema["relatedLink"] = "https://plantclimatemap.org/"
         schema["mainEntity"] = {
             "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListUnordered",
-            "numberOfItems": 4,
+            "numberOfItems": 5,
             "itemListElement": [
                 {"@type": "ListItem", "position": index,
                  "item": {"@type": "WebPage", "name": name, "url": target}}
@@ -73,6 +78,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
                     ("How to Hear a Bully", BASE),
                     ("Why Does Everything Feel Like a Crisis?", BASE + "crisis/"),
                     ("Who to Trust When It All Breaks Down?", BASE + "trust/"),
+                    ("What Actually Changed?", BASE + "changes/"),
                 ], 1)
             ]}
     else:
@@ -93,6 +99,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
             schema["isPartOf"] = {"@type": "Article", "@id": guide_url + "#article",
                                   "url": guide_url, "name": guide_title}
     search_title = "Practical Guides: Services, Language, News and Trust" if current == "hub" else f"{title} | Practical Guides"
+    extra_head = '<link rel="alternate" type="application/json" href="timeline.json"><script src="../assets/timeline.js" defer></script>' if path == 'changes/timeline.html' else ''
     doc = f'''<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -112,6 +119,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
 <meta name="twitter:title" content="{escape(search_title, quote=True)}">
 <meta name="twitter:description" content="{escape(description, quote=True)}">
 <link rel="stylesheet" href="../assets/practical-guides.css">
+{extra_head}
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head><body class="pg-page">
 {navigation('../', current)}
@@ -120,9 +128,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
 {footer('../')}
 </div></body></html>
 '''
-    destination = ROOT / path
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    destination.write_text(doc)
+    OUTPUTS[path] = doc
 
 
 def contents(html):
@@ -132,7 +138,7 @@ def contents(html):
 
 
 def reading(path, source, description, eyebrow, meta, links, extra="", notes=False):
-    text = source.read_text()
+    text = source.read_text(encoding='utf-8')
     title, text = text.split("\n", 1)
     title = title.removeprefix("# ")
     if notes:
@@ -156,18 +162,24 @@ def reading(path, source, description, eyebrow, meta, links, extra="", notes=Fal
 
 
 def build():
-    source = (SUITE / "homepage.md").read_text()
+    OUTPUTS.clear()
+    # Validate and render all additions before replacing any generated page.
+    from render_timeline import render
+    timeline_body, timeline_md, timeline_json = render(json.loads((CHANGES / 'timeline.json').read_text(encoding='utf-8')))
+    source = (SUITE / "homepage.md").read_text(encoding='utf-8')
     primary, supporting = source.split("\n---\n", 1)
     intro, *rest = primary.split("\n### ")
     hub_links = {"../../how-to-hear-a-bully.md": "../",
                  "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/",
                  "../trust-guide/who-to-trust-when-it-all-breaks-down.md": "../trust/",
+                 "../changes/guide.md": "../changes/",
+                 "../changes/timeline.md": "../changes/timeline.html",
                  "methods.md": "methods.html"}
     intro = markdown(intro, hub_links)
     intro = intro.replace("<p>", '<p class="pg-lede">', 1)
-    labels = ["Official routes", "Language and power", "Information and action", "Evidence and trust"]
+    labels = ["Official routes", "Language and power", "Information and action", "Evidence and trust", "Decisions and consequences"]
     if len(rest) != len(labels):
-        raise ValueError("The homepage must contain the four primary guide cards")
+        raise ValueError("The homepage must contain the five primary guide cards")
     cards = []
     for label, card in zip(labels, rest):
         cards.append(f'<section class="pg-card"><span class="pg-label">{label}</span>{markdown("## " + card, hub_links)}</section>')
@@ -210,7 +222,32 @@ def build():
              "../crisis-guide/why-does-everything-feel-like-a-crisis-notes.md": "../crisis/notes.html",
              "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/",
              "../trust-guide/who-to-trust-when-it-all-breaks-down-notes.md": "../trust/notes.html",
-             "../trust-guide/who-to-trust-when-it-all-breaks-down.md": "../trust/"})
+             "../trust-guide/who-to-trust-when-it-all-breaks-down.md": "../trust/",
+             "../changes/guide.md": "../changes/",
+             "../changes/methodology.md": "../changes/methodology.html",
+             "../changes/timeline.md": "../changes/timeline.html"})
+    change_links = {'timeline.md': 'timeline.html', 'guide.md': './', 'methodology.md': 'methodology.html',
+                    '../../changes/timeline.json': 'timeline.json',
+                    '../../how-to-hear-a-bully.md': '../',
+                    '../crisis-guide/why-does-everything-feel-like-a-crisis.md': '../crisis/',
+                    '../trust-guide/who-to-trust-when-it-all-breaks-down.md': '../trust/'}
+    reading('changes/index.html', CHANGES / 'guide.md',
+            'Six questions for telling announcements, legal changes, institutional action, and practical consequences apart. With a sourced U.S. timeline.',
+            'Decisions and consequences', 'Draft edition · 9 October 2026 · Teaching method, not legal advice', change_links,
+            '<p class="pg-endlinks"><a href="timeline.html">Apply the questions: U.S. timeline</a> · <a href="methodology.html">Methods and source notes</a></p>')
+    reading('changes/methodology.html', CHANGES / 'methodology.md',
+            'Coverage, source notes, evidence standards, per-entry dates, visible corrections, and limits of the What Actually Changed? timeline.',
+            'Sources and limits', 'Initial research through 9 October 2026 · Draft edition', change_links)
+    page('changes/timeline.html', 'U.S. timeline: What actually changed?',
+         'Selected U.S. events with distinct dates, scope, legal status, documented consequences, public sources, and linked revision history.', timeline_body)
+    OUTPUTS['docs/changes/timeline.md'] = timeline_md
+    OUTPUTS['changes/timeline.json'] = timeline_json
+    # All parsing, validation, and Pandoc calls have succeeded. OS write failures
+    # must still block release; deployment is a separate reviewed operation.
+    for path, text in OUTPUTS.items():
+        destination = ROOT / path
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text(text, encoding='utf-8')
 
 
 if __name__ == "__main__":

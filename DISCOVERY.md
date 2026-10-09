@@ -1,6 +1,6 @@
 # Making Practical Guides discoverable
 
-The collection address is https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/. Bully remains at https://extivaries.github.io/How-to-Hear-a-Bully/, Crisis uses https://extivaries.github.io/How-to-Hear-a-Bully/crisis/, and Trust uses https://extivaries.github.io/How-to-Hear-a-Bully/trust/. The eight pages are ordinary HTML with visible text and stable section anchors. Every page advertises its Markdown alternative and sitemap. The collection metadata identifies its four primary projects and a related Plant Climate Map link; article metadata connects each guide to its notes without claiming expert certification. Middleman and Plant Climate Map retain their own hosting and discovery configuration.
+The collection address is https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/. Bully remains at https://extivaries.github.io/How-to-Hear-a-Bully/, Crisis uses https://extivaries.github.io/How-to-Hear-a-Bully/crisis/, and Trust uses https://extivaries.github.io/How-to-Hear-a-Bully/trust/. The eleven pages are ordinary HTML with visible text and stable section anchors. Every page advertises its Markdown alternative and sitemap. The collection metadata identifies its five primary projects and a related Plant Climate Map link; article metadata connects each guide to its notes without claiming expert certification. Middleman and Plant Climate Map retain their own hosting and discovery configuration.
 
 These features help services identify and retrieve the material. They do not guarantee indexing, ranking, inclusion in an AI answer, or an assessment that the guide is impartial. Google says its AI search features use ordinary Search requirements and do not require special AI files or special schema: [Google's AI features guidance](https://developers.google.com/search/docs/appearance/ai-features).
 
@@ -8,7 +8,7 @@ These features help services identify and retrieve the material. They do not gua
 
 Keep the existing Google HTML verification file and Bing XML file in place. The owner previously completed the account-verification steps; rebuilding the collection does not require adding a new property or changing those tokens.
 
-The shared sitemap is https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml and lists all eight HTML reading pages. In the existing **URL-prefix property** `https://extivaries.github.io/How-to-Hear-a-Bully/`:
+The shared sitemap is https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml and lists all eleven HTML reading pages. In the existing **URL-prefix property** `https://extivaries.github.io/How-to-Hear-a-Bully/`:
 
 1. In [Google Search Console](https://search.google.com/search-console/), confirm that this sitemap remains submitted. Use URL Inspection for the collection, methods, Crisis guide and notes, and Trust guide and notes if their indexing status needs checking. Request indexing for a newly published page when appropriate; repeated requests do not speed it up. See [Google's recrawl guidance](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl).
 2. In [Bing Webmaster Tools](https://www.bing.com/webmasters/), confirm the same sitemap is registered. [Bing's sitemap guidance](https://blogs.bing.com/webmaster/2025/7/Keeping-Content-Discoverable-with-Sitemaps-in-AI-Powered-Search/) explains its role in discovery.
@@ -22,18 +22,18 @@ A public HTTP check can establish that pages and verification files are reachabl
 After the changed pages are deployed:
 
 ```sh
-# Preview the eight sitemap URLs without sending a request.
+# Preview the eleven sitemap URLs without sending a request.
 python3 scripts/submit_indexnow.py
 
 # Notify engines once for a changed page (repeat --url if needed).
 python3 scripts/submit_indexnow.py --submit --url https://extivaries.github.io/How-to-Hear-a-Bully/trust/
 ```
 
-`--submit` without `--url` sends all eight sitemap pages. The script checks the live ownership file and that the submitted pages return HTTP 200 before sending. It reports the actual response: 200 means received; 202 means received with key validation pending. Neither means indexed. Submit real changes, not repeated unchanged URLs. IndexNow does not replace the sitemap and Google Search Console workflow.
+`--submit` without `--url` sends all eleven sitemap pages. The script checks the live ownership file and that the submitted pages return HTTP 200 before sending. It reports the actual response: 200 means received; 202 means received with key validation pending. Neither means indexed. Submit real changes, not repeated unchanged URLs. IndexNow does not replace the sitemap and Google Search Console workflow.
 
 ## Search crawling and AI training are separate
 
-OpenAI documents `OAI-SearchBot` for ChatGPT search and `GPTBot` for possible model training. Search visibility does not require opting into training: [OpenAI crawler documentation](https://developers.openai.com/api/docs/bots). Bully alone is licensed under CC BY 4.0 with an extra author permission (see the README); Crisis, Trust and collection reuse terms remain undecided. These discovery changes do not change licenses or make a separate choice about training permissions.
+OpenAI documents `OAI-SearchBot` for ChatGPT search and `GPTBot` for possible model training. Search visibility does not require opting into training: [OpenAI crawler documentation](https://developers.openai.com/api/docs/bots). Bully alone is licensed under CC BY 4.0 with an extra author permission (see the README); Crisis, Trust, What Actually Changed? and collection reuse terms remain undecided. These discovery changes do not change licenses or make a separate choice about training permissions.
 
 Crawler rules for this host belong at `https://extivaries.github.io/robots.txt`. A file at `/How-to-Hear-a-Bully/robots.txt` would not control crawling. If host-wide rules are added later, check that they allow the desired search crawlers to reach all guide and collection pages and their supporting files. See [Google's robots.txt location rules](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt).
 
@@ -52,4 +52,8 @@ The source and correction practices follow [Google's people-first content guidan
 
 ## Collection, Crisis and Trust pages
 
-The same sitemap also lists `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. The collection uses `CollectionPage` structured data with a list matching its four primary project links and a `relatedLink` matching the visible Plant Climate Map link. Crisis, Trust and their notes use `Article`; the methods page uses `WebPage`. Metadata connects the sources and canonical pages, without invented authorship, an assigned Crisis or Trust license, expert-review claims or a new research-review date. The existing Google and Bing verification files are retained unchanged. The `llms.txt` index describes the collection and related tool, with links to sources, limits and correction routes.
+The same sitemap also lists `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. The collection uses `CollectionPage` structured data with a list matching its five primary project links and a `relatedLink` matching the visible Plant Climate Map link. Crisis, Trust and their notes use `Article`; the methods page uses `WebPage`. Metadata connects the sources and canonical pages, without invented authorship, an assigned Crisis or Trust license, expert-review claims or a new research-review date. The existing Google and Bing verification files are retained unchanged. The `llms.txt` index describes the collection and related tool, with links to sources, limits and correction routes.
+
+## What Actually Changed? draft
+
+The new guide (changes/), curated timeline (changes/timeline.html), and methodology (changes/methodology.html) join the sitemap. Public JSON is changes/timeline.json; Markdown alternatives come from the same canonical sources. Entry anchors are stable. Publication and source-check dates remain distinct; rebuilding does not renew research. The collection metadata now describes five visible resources. No IndexNow notification or production deployment has been performed for this draft. Follow the existing post-deployment notification process only after publication approval and live URL verification.

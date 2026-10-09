@@ -13,7 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
          "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
-         "trust/index.html", "trust/notes.html"]
+         "trust/index.html", "trust/notes.html", "changes/index.html",
+         "changes/timeline.html", "changes/methodology.html"]
 
 
 class Document(HTMLParser):
@@ -32,6 +33,8 @@ class Document(HTMLParser):
             self.ids.append(attrs["id"])
         if tag == "a" and "href" in attrs:
             self.links.append(attrs["href"])
+        if tag == 'script' and 'src' in attrs:
+            self.links.append(attrs['src'])
         if tag == "link" and attrs.get("rel") == "canonical":
             self.canonicals.append(attrs["href"])
         if tag == "link" and attrs.get("rel") in ("stylesheet", "alternate", "sitemap"):
@@ -63,13 +66,13 @@ class Document(HTMLParser):
 
 def main():
     failures = []
-    before = {name: (ROOT / name).read_bytes() for name in PAGES[2:]}
+    before = {name: (ROOT / name).read_bytes() for name in PAGES[2:] + ['changes/timeline.json', 'docs/changes/timeline.md']}
     subprocess.run([sys.executable, str(ROOT / "scripts/build_suite.py")], check=True)
     for name, content in before.items():
         if (ROOT / name).read_bytes() != content:
             failures.append(f"{name}: generated page was stale; rebuilt it, rerun check")
 
-    docs = {name: Document((ROOT / name).read_text()) for name in PAGES}
+    docs = {name: Document((ROOT / name).read_text(encoding='utf-8')) for name in PAGES}
     links_checked = 0
     for name, doc in docs.items():
         duplicates = [key for key, count in Counter(doc.ids).items() if count > 1]
@@ -92,7 +95,7 @@ def main():
                 failures.append(f"{name}: structured data has the wrong page identity or access status")
             if schema.get("encoding", {}).get("contentUrl") not in doc.alternates:
                 failures.append(f"{name}: structured data and Markdown alternative differ")
-            if name.startswith(("crisis/", "trust/", "practical-guides/")) and "license" in schema:
+            if name.startswith(("crisis/", "trust/", "practical-guides/", "changes/")) and "license" in schema:
                 failures.append(f"{name}: new material has no assigned reuse license")
         for href in doc.links:
             resolved = urlsplit(urljoin(BASE + name, href))
@@ -109,7 +112,7 @@ def main():
             if not target.is_file():
                 failures.append(f"{name}: missing destination {href}")
             elif resolved.fragment and target.suffix == ".html":
-                target_doc = docs.get(relative) or Document(target.read_text())
+                target_doc = docs.get(relative) or Document(target.read_text(encoding='utf-8'))
                 if unquote(resolved.fragment) not in target_doc.ids:
                     failures.append(f"{name}: missing fragment {href}")
             links_checked += 1
@@ -118,9 +121,9 @@ def main():
     listed = [item["item"]["url"] for item in collection["mainEntity"]["itemListElement"]]
     visible_targets = {urljoin(BASE + "practical-guides/", href) for href in docs["practical-guides/index.html"].links}
     expected_projects = {"https://dont-pay-a-middleman.vercel.app/", BASE,
-                         BASE + "crisis/", BASE + "trust/"}
-    if len(listed) != 4 or set(listed) != expected_projects or any(url not in visible_targets for url in listed) or collection["mainEntity"].get("numberOfItems") != 4:
-        failures.append("Collection structured data must describe the four visible project links")
+                         BASE + "crisis/", BASE + "trust/", BASE + 'changes/'}
+    if len(listed) != 5 or set(listed) != expected_projects or any(url not in visible_targets for url in listed) or collection["mainEntity"].get("numberOfItems") != 5:
+        failures.append("Collection structured data must describe the five visible project links")
     if collection.get("relatedLink") != "https://plantclimatemap.org/" or collection["relatedLink"] not in visible_targets:
         failures.append("The related Plant Climate Map link must be visible and match its metadata")
     reciprocal_notes = 0
@@ -140,7 +143,18 @@ def main():
     locations = [element.text for element in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
     expected = [BASE + name.removesuffix("index.html") for name in PAGES]
     if sorted(locations) != sorted(expected):
-        failures.append("Sitemap does not match the eight publication pages")
+        failures.append("Sitemap does not match the publication pages")
+
+    from update_timeline import read
+    timeline = read(ROOT / 'docs/changes/timeline.json')
+    if timeline != json.loads((ROOT / 'changes/timeline.json').read_text(encoding='utf-8')):
+        failures.append('Public JSON differs from canonical timeline')
+    for event in timeline['events']:
+        if event['id'] not in docs['changes/timeline.html'].ids:
+            failures.append('Missing stable event anchor: ' + event['id'])
+    # The accepted, unpublished manuscript is intentionally not a web route.
+    if (ROOT / 'complain/index.html').exists() or any('complain/' in location for location in locations):
+        failures.append('Pending Complain website must not be published by this build')
 
     if failures:
         print("\n".join(failures), file=sys.stderr)

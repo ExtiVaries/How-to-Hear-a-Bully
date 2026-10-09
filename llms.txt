@@ -7,7 +7,7 @@
 - [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
 - [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
 - [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
-- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the eight HTML pages hosted in this project. Middleman has its own hosting and sitemap.
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the eleven HTML pages hosted in this project. Middleman has its own hosting and sitemap.
 
 ## Don't Pay a Middleman
 
@@ -42,6 +42,15 @@ Editorial review: 9 October 2026. First web publication: 9 October 2026. The tea
 - [Notes in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md)
 
 Editorial review: 9 October 2026. The questions are an untested teaching aid, not a validated trust score. The title describes a loss of bearings when familiar sources disagree; it does not claim that every institution has failed. Canonical citation links are the guide and source-note URLs above; section and numbered-note anchors provide more precise references.
+
+## What Actually Changed?
+
+- [Guide](https://extivaries.github.io/How-to-Hear-a-Bully/changes/): six questions for distinguishing announcements, legal changes, institutional action, and practical consequences. A teaching method, not legal certification.
+- [Curated U.S. timeline](https://extivaries.github.io/How-to-Hear-a-Bully/changes/timeline.html): selected linked histories from August 2019 through research on 9 October 2026. Separate event, recorded, revised, effective, and successful source-check dates; documented effects and visible revisions. Not a comprehensive national record.
+- [Methods and source notes](https://extivaries.github.io/How-to-Hear-a-Bully/changes/methodology.html): selection, evidence limits, dates, corrections, and reuse.
+- [Guide Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/changes/guide.md)
+- [Timeline Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/changes/timeline.md)
+- [Public JSON](https://extivaries.github.io/How-to-Hear-a-Bully/changes/timeline.json): generated from the same canonical source; check individual topic dates and access notes.
 
 ## Related tool: Climate and growing
 

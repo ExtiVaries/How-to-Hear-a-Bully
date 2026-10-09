@@ -13,6 +13,8 @@
 
 These resources help you examine a claim or find a route. They do not certify businesses, diagnose people or establish anyone's motives merely from a disagreement.
 
+**[What Actually Changed?](../changes/guide.md)** adds six questions for distinguishing announcements, legal changes, institutional action, and practical consequences. Its [curated U.S. timeline](../changes/timeline.md) records separate dates, scope, effects, sources, related developments, and visible revision history. Read its [methods and source limits](../changes/methodology.md) before relying on an entry; per-entry checks are not continuous monitoring or independent legal certification.
+
 The collection also links to [Plant Climate Map](https://plantclimatemap.org/) under **Climate and growing**. It is a separate app for exploring climate classifications and plant hardiness zones. Its map information and data sources remain on its own site; the guide review dates and reuse terms below do not cover the map or its data.
 
 ## Sources, interpretation and uncertainty
@@ -52,4 +54,4 @@ For Middleman, use its [corrections and feedback page](https://dont-pay-a-middle
 
 Free access and permission to reuse are separate. Bully's guide and notes carry **CC BY 4.0**, with the author's additional permission for noncommercial use without credit; see the [license details](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license) and exclusions for others' quotations and translations.
 
-Reuse terms for the Crisis guide, Trust guide and collection material remain undecided. Grouping these projects does not extend Bully's license to them, to Middleman, or to linked sources.
+Reuse terms for the Crisis guide, Trust guide, What Actually Changed? guide and timeline, and collection material remain undecided. Grouping these projects does not extend Bully's license to them, to Middleman, or to linked sources.

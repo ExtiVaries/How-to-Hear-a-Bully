@@ -18,16 +18,18 @@ The collection includes a small hub, a methods page, and the reviewed Crisis and
 - [Crisis editorial review record](docs/crisis-guide/FINAL-CHECK.md)
 - [Who to Trust When It All Breaks Down?](docs/trust-guide/who-to-trust-when-it-all-breaks-down.md) and [seven source notes](docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md)
 - [Trust editorial review record](docs/trust-guide/FINAL-CHECK.md)
+- [What Actually Changed?](docs/changes/guide.md), [U.S. timeline](docs/changes/timeline.md), and [methods and source notes](docs/changes/methodology.md)
+- [Timeline update workflow](docs/changes/WORKFLOW.md), [record format](docs/changes/SCHEMA.md), [draft review and tests](docs/changes/REVIEW.md), [proposed schedule](docs/changes/schedule.json), and [exact proposed task prompt](docs/changes/schedule-prompt.txt)
 - [Original collection website checks](docs/practical-guides/PUBLICATION-CHECK.md) and [Trust website checks](docs/trust-guide/PUBLICATION-CHECK.md)
 
-The collection's web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/), [read the Crisis guide](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/), or [read the Trust guide](https://extivaries.github.io/How-to-Hear-a-Bully/trust/).
+The collection's existing web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. This draft adds the three `changes/` routes described below. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/), [read the Crisis guide](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/), or [read the Trust guide](https://extivaries.github.io/How-to-Hear-a-Bully/trust/).
 
 ### Build and preview
 
-The site is static HTML, served without a build step by GitHub Pages. To update the collection, Crisis or Trust pages, edit the Markdown in `docs/practical-guides/`, `docs/crisis-guide/` or `docs/trust-guide/`, then run:
+The site is static HTML, served without a build step by GitHub Pages. To update the collection, Crisis, Trust, or Changes pages, edit their canonical sources in `docs/practical-guides/`, `docs/crisis-guide/`, `docs/trust-guide/`, or `docs/changes/`, then run:
 
 ```sh
-# Python 3.9+ and Pandoc 3 are required to regenerate the six collection, Crisis and Trust pages.
+# Python 3.9+ and Pandoc 3 are required to regenerate the collection and guide pages.
 python3 scripts/build_suite.py
 python3 scripts/check_site.py
 python3 -m http.server 8765
@@ -35,7 +37,13 @@ python3 -m http.server 8765
 
 Open `http://localhost:8765/practical-guides/`. Commit the generated HTML alongside source changes. The builder deliberately does not regenerate the existing Bully pages; keep their HTML and Markdown synchronized when editing their prose. The shared navigation styling lives in `assets/practical-guides.css`.
 
-The collection, Crisis and Trust pages have no client-side JavaScript, analytics, external fonts, or form backend. The JSON-LD script blocks contain metadata only. A link to GitHub issues is the correction route; it requires a GitHub account and posts publicly. Research dates are editorial dates, not link-check or build dates.
+The collection, Crisis and Trust pages have no client-side JavaScript, analytics, external fonts, or form backend. The What Actually Changed? timeline adds optional local search and history filtering; all entries and sources remain readable without JavaScript. The JSON-LD script blocks contain metadata only. A link to GitHub issues is the correction route; it requires a GitHub account and posts publicly. Research dates are editorial dates, not link-check or build dates.
+
+### What Actually Changed? draft
+
+The new routes are `changes/`, `changes/timeline.html`, and `changes/methodology.html`. `docs/changes/timeline.json` is canonical; the builder validates it and produces `changes/timeline.json` and `docs/changes/timeline.md` alongside HTML. Run `python scripts/test_timeline.py` for the update safeguards. The builder renders all pages before writing output; a build or validation failure must block release. No recurring writer or automatic merge is enabled. The existing research process is retained. See the workflow for candidate hashes, exclusive locking, partial checks, source amendments, immutable corrections, and activation requirements.
+
+Complain or Constrain? remains an accepted manuscript, with no website route. Its Tennessee docket check and legal-review publication conditions are unchanged. Original Bully Markdown and HTML remain separately maintained; this addition changes navigation, not their accepted article text.
 
 ### Search and AI retrieval
 
@@ -74,4 +82,4 @@ Copyright 2026 Exti. *How to Hear a Bully* and its notes are licensed under the 
 
 Quotations and translations of other people's words (Thucydides, Confucius, Orwell, politicians, journalists and others) belong to their own authors or translators and are not covered by this license. They are quoted here for commentary and education.
 
-Reuse terms for the Crisis guide, Trust guide and collection material have not been chosen. The Bully license and extra permission above apply only to *How to Hear a Bully* and its notes; they do not extend to the new material, Middleman, or linked sources.
+Reuse terms for the Crisis guide, Trust guide, What Actually Changed? guide, timeline, and collection material have not been chosen. The Bully license and extra permission above apply only to *How to Hear a Bully* and its notes; they do not extend to the new material, Middleman, or linked sources.

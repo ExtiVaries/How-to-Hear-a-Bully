@@ -23,6 +23,8 @@ Collection: https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/
 
 ## Publication checkpoint
 
+**What Actually Changed?** is a new review draft on `codex/what-changed`, not an approved release. Canonical sources, public structured data, methodology, workflow proposal, schema, and review results are in `docs/changes/`. Generated routes are `changes/`, `changes/timeline.html`, `changes/methodology.html`, and `changes/timeline.json`. Build with the existing suite script; run timeline tests and the site checker. The original Bully HTML receives navigation edits only; its Markdown remains separately maintained. No new license, recurring public writer, merge, or deployment is authorized by this handoff. Keep the existing research automation and Complain publication conditions intact. Consult `docs/changes/REVIEW.md` for evidence gaps before strengthening legal or practical claims.
+
 **Complain or Constrain?** has completed text drafting, review, and bounded corrections. The approved manuscript, source notes, and handoff are in [docs/complain-guide/](docs/complain-guide/). The user authorized pushing this packet to GitHub on a separate branch. It has no website edition yet. A successful docket check and legal review of the Tennessee section remain open before that section goes live. Preserve the accepted article wording; its length is intentionally flexible under the user's instruction to prioritize quality.
 
 At this snapshot, the Trust guide completed drafting, adversarial review, corrections, final manuscript checking, website construction, and publication. There is no outstanding task to publish that version.
@@ -52,7 +54,9 @@ GitHub Pages publishes from `claude/project-thread-i83pmv`, at the repository ro
 | [docs/practical-guides/methods.md](docs/practical-guides/methods.md) | Current methods, limits, corrections, and reuse information |
 | `index.html`, `notes.html` | Bully reading pages |
 | `crisis/`, `trust/`, `practical-guides/` | Generated reading pages |
-| [scripts/build_suite.py](scripts/build_suite.py) | Generates the six collection, Crisis, and Trust pages |
+| [scripts/build_suite.py](scripts/build_suite.py) | Generates collection, Crisis, Trust, and What Actually Changed? pages; public timeline JSON and Markdown |
+| [docs/changes/](docs/changes/) | New guide, canonical timeline, methodology, schema, review, and proposed update workflow |
+| [scripts/update_timeline.py](scripts/update_timeline.py) | Review-gated local candidate validation, locking, and immutable revisions |
 | [scripts/check_site.py](scripts/check_site.py) | Checks reproducibility, links, anchors, metadata, and sitemap |
 | [assets/practical-guides.css](assets/practical-guides.css) | Shared styling |
 | [DISCOVERY.md](DISCOVERY.md), [sitemap.xml](sitemap.xml), [llms.txt](llms.txt) | Discovery instructions and indexes |

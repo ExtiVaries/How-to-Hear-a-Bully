@@ -1,0 +1,26 @@
+{
+  "name": "What Actually Changed — curated draft review",
+  "status": "PROPOSED_NOT_CREATED",
+  "kind": "heartbeat",
+  "execution_environment": "local",
+  "destination": "current review thread; draft PR for repository changes",
+  "repository": "https://github.com/ExtiVaries/How-to-Hear-a-Bully",
+  "checkout": "Dedicated How-to-Hear-a-Bully checkout; never an unrelated project",
+  "model_and_reasoning": "Inherit the configured task defaults",
+  "notification_policy": "Report findings and failures to the operator in the task",
+  "prompt_file": "docs/changes/schedule-prompt.txt",
+  "cadence": "daily at 09:00",
+  "timezone": "America/New_York",
+  "timezone_confirmation": "Required before activation",
+  "automatic_merge": false,
+  "public_write_policy": "No unattended public writes approved",
+  "overlap_policy": "One writer; exclusive record lock; no automatic stale-lock removal",
+  "failure_signal": "Task failure to operator; canonical record and deployed last good site retained",
+  "activation_requirements": [
+    "Confirm timezone and cadence",
+    "Approve exact scheduled prompt and editorial publication policy",
+    "Test scheduler-host GitHub authentication and least-privilege branch/PR write access",
+    "Test build dependencies and checkout refresh on scheduler host",
+    "Approve activation; preserve existing Notion automation until replacement is tested"
+  ]
+}

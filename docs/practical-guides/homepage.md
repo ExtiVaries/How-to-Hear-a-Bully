@@ -28,6 +28,12 @@ When accounts conflict, ask who could know, what the evidence supports, and what
 
 **[Read the Trust guide](../trust-guide/who-to-trust-when-it-all-breaks-down.md)**
 
+### What Actually Changed?
+
+Tell an announcement, a legal change, and a practical consequence apart. Follow selected U.S. developments through the documents, decisions, and remaining uncertainty.
+
+**[Read the guide](../changes/guide.md) · [Explore the U.S. timeline](../changes/timeline.md)**
+
 ---
 
 ## Climate and growing

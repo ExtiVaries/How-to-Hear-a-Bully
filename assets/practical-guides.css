@@ -62,3 +62,30 @@
 @media(max-width:850px){.pg-grid{grid-template-columns:1fr}.pg-card{padding:1.5rem}.pg-card h2{max-width:30ch}.pg-card p{max-width:65ch}.pg-hero{padding-top:2.75rem}}
 @media(max-width:480px){.suite-nav{padding:.75rem 1.1rem;gap:0 .7rem}.suite-nav .suite-links{gap:0 1rem;font-size:.8rem}.pg-shell{padding:0 1.1rem}.pg-page{font-size:1.05rem;line-height:1.7}.pg-reading{padding-top:2rem}.pg-hero .pg-lede{font-size:1.2rem}.pg-card{padding:1.35rem}.pg-reading blockquote{padding:1rem}.pg-page h2{font-size:1.45rem}}
 @media print{.suite-nav,.suite-skip,.pg-toc,.suite-footer{display:none}.pg-page{background:white;color:black;font-size:11pt}.pg-page a{color:inherit}.pg-shell,.pg-reading{max-width:none;padding:0}.pg-reading header{margin-bottom:1rem}.pg-reading h1{font-size:26pt}.pg-page h2{break-after:avoid}.pg-grid{display:block}.pg-card{break-inside:avoid;margin-bottom:1rem}.pg-reading blockquote{background:none;border-color:black}}
+
+/* What changed: static timeline first, optional filtering second. */
+.wc-timeline{max-width:50rem}
+.wc-event{margin:2rem 0;padding:1.4rem;border:1px solid var(--pg-rule);border-top:3px solid var(--pg-accent);background:var(--pg-panel)}
+.wc-event h2{margin:.6rem 0 1.2rem;font-size:1.5rem}
+.wc-event p,.wc-event li{font-size:1rem;line-height:1.7}
+.wc-event .pg-eyebrow{font-size:.75rem}
+.wc-event .pg-meta{font-size:.85rem}
+.wc-event details{border-top:1px solid var(--pg-rule);margin-top:1rem;padding-top:.8rem}
+.wc-event summary{font:600 .95rem/1.6 var(--pg-heading);cursor:pointer;padding:.5rem 0}
+.wc-event .wc-effects-label{margin-bottom:.3rem}
+.wc-dates{font: .9rem/1.6 var(--pg-heading)}
+.wc-dates dt{font-weight:650;margin-top:.5rem}.wc-dates dd{margin-left:0}
+.wc-sources li{font-size:.9rem}
+.wc-related{margin:1rem 0 0!important;font-family:var(--pg-heading)}
+.wc-filters{font-family:var(--pg-heading);font-size:1rem;border:1px solid var(--pg-rule);padding:1rem;background:var(--pg-mark);display:flex;flex-wrap:wrap;gap:.8rem}
+.wc-filters label{display:block;font-weight:650;margin-bottom:.3rem}
+.wc-filters div{flex:1 1 14rem;min-width:0}
+.wc-filters input,.wc-filters select,.wc-filters button{font:inherit;color:var(--pg-ink);background:var(--pg-panel);border:1px solid var(--pg-muted);padding:.6rem;max-width:100%;min-height:44px}
+.wc-filters input,.wc-filters select{width:100%}
+.wc-filters button{align-self:end;cursor:pointer}
+.wc-filters #timeline-count{flex-basis:100%;margin:0;font-size:.85rem}
+.wc-overdue{border-left:3px solid var(--pg-accent);padding-left:.7rem}
+.wc-timeline pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.85rem;padding:1rem;background:var(--pg-mark)}
+[hidden]{display:none!important}
+@media(max-width:480px){.wc-event{padding:1rem}.wc-event h2{font-size:1.3rem}}
+@media print{.wc-filters{display:none}.wc-event{border-color:black}.wc-event[hidden]{display:block!important}}
