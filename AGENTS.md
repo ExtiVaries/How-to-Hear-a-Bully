@@ -23,6 +23,8 @@ Collection: https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/
 
 ## Publication checkpoint
 
+**Complain or Constrain?** has completed text drafting, review, and bounded corrections. The approved manuscript, source notes, and handoff are in [docs/complain-guide/](docs/complain-guide/). The user authorized pushing this packet to GitHub on a separate branch. It has no website edition yet. A successful docket check and legal review of the Tennessee section remain open before that section goes live. Preserve the accepted article wording; its length is intentionally flexible under the user's instruction to prioritize quality.
+
 At this snapshot, the Trust guide completed drafting, adversarial review, corrections, final manuscript checking, website construction, and publication. There is no outstanding task to publish that version.
 
 - Trust guide: https://extivaries.github.io/How-to-Hear-a-Bully/trust/
@@ -45,6 +47,7 @@ GitHub Pages publishes from `claude/project-thread-i83pmv`, at the repository ro
 | [how-to-hear-a-bully.md](how-to-hear-a-bully.md), [how-to-hear-a-bully-notes.md](how-to-hear-a-bully-notes.md) | Bully manuscript and source notes |
 | [docs/crisis-guide/](docs/crisis-guide/) | Crisis manuscript, notes, and review records |
 | [docs/trust-guide/](docs/trust-guide/) | Trust manuscript, seven notes, research history, and reviews |
+| [docs/complain-guide/](docs/complain-guide/) | Accepted Complain manuscript, thirteen source notes, and review handoff; website publication pending |
 | [docs/practical-guides/homepage.md](docs/practical-guides/homepage.md) | Current collection copy |
 | [docs/practical-guides/methods.md](docs/practical-guides/methods.md) | Current methods, limits, corrections, and reuse information |
 | `index.html`, `notes.html` | Bully reading pages |
