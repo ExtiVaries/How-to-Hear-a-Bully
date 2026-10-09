@@ -10,7 +10,7 @@
 
 ## Practical Guides collection
 
-This branch adds a small collection hub, a methods page, and the reviewed crisis guide. The existing Bully reading address stays the same. The original crisis homepage copy is retained as an editorial draft; the current web copy is in `docs/practical-guides/homepage.md`.
+The collection includes a small hub, a methods page, and the reviewed crisis guide. The Bully reading address stays the same. The original crisis homepage copy is retained as an editorial draft; the current web copy is in `docs/practical-guides/homepage.md`.
 
 - [Collection homepage source](docs/practical-guides/homepage.md)
 - [How we check our work](docs/practical-guides/methods.md)
@@ -18,7 +18,7 @@ This branch adds a small collection hub, a methods page, and the reviewed crisis
 - [Editorial review record](docs/crisis-guide/FINAL-CHECK.md)
 - [Website checks and release steps](docs/practical-guides/PUBLICATION-CHECK.md)
 
-The new web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, and `crisis/notes.html`. They become public when these changes are merged into the GitHub Pages branch, `claude/project-thread-i83pmv`.
+The collection's web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, and `crisis/notes.html`. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/) or [read the crisis guide online](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/).
 
 ### Build and preview
 
