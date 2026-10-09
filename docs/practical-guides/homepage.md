@@ -24,6 +24,16 @@ Explore what is happening, what reaches you, whom it affects, and what action fi
 
 ---
 
+## Climate and growing
+
+**Plant Climate Map**
+
+Explore Köppen–Geiger climate classifications and USDA plant hardiness zones across the 48 contiguous United States. This related tool runs as a separate app, with its own map information and data sources.
+
+**[Explore the map](https://plantclimatemap.org/)**
+
+---
+
 ## [How we check our work](methods.md)
 
 What each project covers, where its information comes from, when it was last reviewed, what remains uncertain, and how to report a correction.

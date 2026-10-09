@@ -12,6 +12,8 @@
 
 These resources help you examine a claim or find a route. They do not certify businesses, diagnose people or establish anyone's motives merely from a disagreement.
 
+The collection also links to [Plant Climate Map](https://plantclimatemap.org/) under **Climate and growing**. It is a separate app for exploring climate classifications and plant hardiness zones. Its map information and data sources remain on its own site; the guide review dates and reuse terms below do not cover the map or its data.
+
 ## Sources, interpretation and uncertainty
 
 Primary sources are the starting point where available: an agency's requirements, an original statement, a historical text in an identified translation, or a research paper. Context and relevant contrary evidence matter too. A primary source is evidence of what it actually records; it does not make every claim inside it true.

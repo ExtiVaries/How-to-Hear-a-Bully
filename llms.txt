@@ -34,6 +34,10 @@ Citation: Exti. How to Hear a Bully: Recognizing the Language of Power and Manip
 
 Editorial review: 9 October 2026. First web publication: 9 October 2026. The teaching method has not been tested with readers; it is not a clinical treatment or a validated danger score. Canonical citation links are the guide and source-note URLs above; section and numbered-note anchors provide more precise references.
 
+## Related tool: Climate and growing
+
+- [Plant Climate Map](https://plantclimatemap.org/): explore Köppen–Geiger climate classifications and USDA plant hardiness zones across the 48 contiguous United States. A separate app with its own map information and data sources; the guides' editorial review dates and reuse terms do not cover the map or its data.
+
 ## Corrections and reuse
 
 - [Report a correction for Bully, Crisis or the collection](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues): public GitHub issues, requiring a GitHub account.

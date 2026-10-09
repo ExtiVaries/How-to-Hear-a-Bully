@@ -58,6 +58,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
     if schema_type == "CollectionPage":
         schema["@id"] = COLLECTION + "#collection"
         schema["name"] = "Practical Guides"
+        schema["relatedLink"] = "https://plantclimatemap.org/"
         schema["mainEntity"] = {
             "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListUnordered",
             "numberOfItems": 3,
@@ -147,20 +148,24 @@ def reading(path, source, description, eyebrow, meta, links, extra="", notes=Fal
 
 def build():
     source = (SUITE / "homepage.md").read_text()
-    intro, *rest = source.split("\n### ")
-    last_card, methods = rest[-1].split("\n---\n", 1)
-    rest[-1] = last_card
+    primary, supporting = source.split("\n---\n", 1)
+    intro, *rest = primary.split("\n### ")
     hub_links = {"../../how-to-hear-a-bully.md": "../", "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/", "methods.md": "methods.html"}
     intro = markdown(intro, hub_links)
     intro = intro.replace("<p>", '<p class="pg-lede">', 1)
     labels = ["Official routes", "Language and power", "Information and action"]
+    if len(rest) != len(labels):
+        raise ValueError("The homepage must contain the three primary guide cards")
     cards = []
     for label, card in zip(labels, rest):
         cards.append(f'<section class="pg-card"><span class="pg-label">{label}</span>{markdown("## " + card, hub_links)}</section>')
+    supporting_html = "\n".join(
+        f'<section class="pg-methods-link">{markdown(section, hub_links)}</section>'
+        for section in supporting.split("\n---\n"))
     body = f'''<main id="main-content">
 <header class="pg-hero"><p class="pg-eyebrow">Free public resources</p>{intro}</header>
 <div class="pg-grid">{''.join(cards)}</div>
-<section class="pg-methods-link">{markdown(methods, hub_links)}</section>
+{supporting_html}
 </main>'''
     page("practical-guides/index.html", "What would help right now?",
          "Find official service routes, examine manipulative language, and judge alarming information. Free guides with sources, limits, and practical next steps.",
