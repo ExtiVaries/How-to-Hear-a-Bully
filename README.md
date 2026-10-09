@@ -35,6 +35,12 @@ Open `http://localhost:8765/practical-guides/`. Commit the generated HTML alongs
 
 The new pages have no client-side JavaScript, analytics, external fonts, or form backend. The JSON-LD script blocks contain metadata only. A link to GitHub issues is the correction route; it requires a GitHub account and posts publicly. Research dates are editorial dates, not link-check or build dates.
 
+### Search and AI retrieval
+
+Each page supplies a canonical URL, structured metadata, a sitemap link and a Markdown alternative. The collection's [text index](llms.txt) points readers and tools to the guides, their sources and their limits. These features support retrieval and citation; they do not guarantee search rankings or inclusion in AI answers.
+
+[Discovery maintenance](DISCOVERY.md) covers the existing Google/Bing setup and IndexNow notifications after publication. `python3 scripts/submit_indexnow.py` previews the URLs without sending; add `--submit` after deployment to notify participating engines of actual changes. No research date or reuse license is changed by this setup.
+
 ## Cite it
 
 Exti. *How to Hear a Bully: Recognizing the Language of Power and Manipulation*. Second edition, October 2026. https://extivaries.github.io/How-to-Hear-a-Bully/

@@ -1,34 +1,42 @@
-# How to Hear a Bully: Recognizing the Language of Power and Manipulation
+# Practical Guides
 
-> A free, nonpartisan civic-literacy guide (second edition, October 2026) to recognizing manipulative political accusations and labels. It separates four questions: whether a claim is supported, whether the wording suggests more than the evidence shows, whether the speaker corrects misleading impressions when challenged, and whether there is intimidation or misuse of power. It allows "not enough evidence to know" as an answer.
+> Free public resources for finding official service routes, examining manipulative language, and judging alarming information. Each project records its own scope, sources and limits. This index helps readers and tools find the published material; it does not certify impartiality or verification.
 
-The guide covers historical context (Thucydides 3.82, Analects 13.3, Tacitus, English seditious libel, Orwell), five warning signs illustrated with sourced examples across parties and countries (McCarthy, Reid, Trump, Biden, Putin), the research on ambiguity, repetition and correction, a short explanation of U.S. defamation law (Sullivan, Greenbelt, Milkovich), and a five-question checklist. Numbered notes link historical, political, psychological, and legal claims to sources; the verification appendix records uncertainties. Each political case has a verification record listing original sources, contrary evidence and remaining uncertainty.
+## Collection and methods
 
-## Guide
-- [Guide (HTML)](https://extivaries.github.io/How-to-Hear-a-Bully/): the main reading text, about 3,800 words
-- [Guide (Markdown)](https://extivaries.github.io/How-to-Hear-a-Bully/how-to-hear-a-bully.md): the same text in plain Markdown
+- [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
+- [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
+- [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the six HTML pages hosted in this project. Middleman has its own hosting and sitemap.
 
-## Supporting material
-- [Notes and verification (HTML)](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html): source notes, case verification records, and the revision ledger
-- [Notes and verification (Markdown)](https://extivaries.github.io/How-to-Hear-a-Bully/how-to-hear-a-bully-notes.md)
+## Don't Pay a Middleman
 
-## Citation and corrections
+- [Directory](https://dont-pay-a-middleman.vercel.app/): official U.S. federal self-service routes and fees. Government fees and payments to a helper are different; paid expertise, translation or representation may be valuable.
+- [Methods and verification](https://dont-pay-a-middleman.vercel.app/about#verification): source checks and their limits. Check current requirements and fees with the official agency before acting.
+- [Corrections and contact](https://dont-pay-a-middleman.vercel.app/about#contact): this project has its own contact route and privacy/response limits.
 
-- Author: Exti. Second edition, October 2026.
-- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), plus an author permission: noncommercial use needs no credit; commercial use must credit "How to Hear a Bully, by Exti" with a link. Third-party quotations are not covered.
-- [Revision history](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html#revision-ledger)
-- [Report a correction](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues)
+## How to Hear a Bully
 
-This file is an optional content index. It does not certify neutrality or verification, and it is not a condition for search indexing or AI citation. Consult the source notes and uncertainties when evaluating a claim.
+- [Guide](https://extivaries.github.io/How-to-Hear-a-Bully/): a civic-literacy guide to manipulative political accusations and labels. It distinguishes disagreement, unsupported claims, misleading impressions, corrections, and intimidation or misuse of power; "not enough evidence to know" remains a valid conclusion. About 3,800 words.
+- [Source notes and verification](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html): historical texts, political case records, psychological research, U.S. defamation law, contrary evidence and remaining uncertainties.
+- [Guide in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/how-to-hear-a-bully.md)
+- [Notes in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/how-to-hear-a-bully-notes.md)
+- [Revision ledger](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html#revision-ledger)
 
-## Practical Guides collection
+Citation: Exti. How to Hear a Bully: Recognizing the Language of Power and Manipulation. Second edition, October 2026. The edition date does not establish when every source was last checked. Historical context includes Thucydides, Confucius, Tacitus, seditious libel and Orwell; political examples include McCarthy, Reid, Trump, Biden and Putin. Apply the same questions to favored and disfavored speakers.
 
-- [All guides](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): a collection connecting official service routes, scrutiny of manipulative language, and judging alarming information.
-- [Methods and limits](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes, and project-specific reuse terms.
-- [Don't Pay a Middleman](https://dont-pay-a-middleman.vercel.app/): official U.S. federal service routes and fees; paid assistance may be useful.
-- [Why Does Everything Feel Like a Crisis?](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/): a short guide to judging alarming information, with five questions and fictional flood exercises.
-- [Crisis source notes](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/notes.html): study designs, findings, uncertainties, and limits. Editorial review: 9 October 2026. The teaching method has not been tested with readers.
-- [Crisis Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/crisis-guide/why-does-everything-feel-like-a-crisis.md)
-- [Crisis notes Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md)
+## Why Does Everything Feel Like a Crisis?
 
-The Bully citation and license above apply to Bully only. Reuse terms for the crisis guide and collection material remain undecided. The collection does not establish shared licensing or an endorsement by the sources it cites.
+- [Guide](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/): judging alarming information and choosing a response, with five questions and two fictional flood exercises. About 1,900 words. The questions can support greater concern as well as reassurance; current emergency instructions take priority.
+- [Nine source notes](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/notes.html): study designs, findings, uncertainties and access limits. Clicks, bodily responses, mood, stress symptoms, opinions and actual danger are different outcomes.
+- [Guide in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/crisis-guide/why-does-everything-feel-like-a-crisis.md)
+- [Notes in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md)
+
+Editorial review: 9 October 2026. First web publication: 9 October 2026. The teaching method has not been tested with readers; it is not a clinical treatment or a validated danger score. Canonical citation links are the guide and source-note URLs above; section and numbered-note anchors provide more precise references.
+
+## Corrections and reuse
+
+- [Report a correction for Bully, Crisis or the collection](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues): public GitHub issues, requiring a GitHub account.
+- [Reuse terms](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html#reading-and-reuse): Bully and its notes use CC BY 4.0 plus an author permission for noncommercial use without credit. Commercial use requires the specified credit and link; third-party quotations are excluded. This license does not extend to the other projects. Reuse terms for Crisis and collection material remain undecided.
+
+This optional link index is not required for search indexing or AI citation and cannot guarantee either. The linked source notes, not this index, provide the evidence for the guides' factual claims. Research dates are not automatically renewed when metadata or links change.
