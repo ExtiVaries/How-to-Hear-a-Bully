@@ -26,6 +26,26 @@ This is a growing set of documented examples for practicing the guide's five que
 
 ---
 
+## October 9, 2026 — Markwayne Mullin redirects a question about deportation aircraft
+
+**Speaker:** U.S. Homeland Security Secretary Markwayne Mullin. **Setting:** Press conference about ICE officers shooting Oscar Belgal in New York City.
+
+**What happened:** A reporter challenged Mullin's assertion that immigration enforcement was being “ramped up” ahead of the midterms. Mullin denied any increase, saying ICE was doing its regular work. The reporter then asked whether DHS would continue using aircraft purchased under the prior administration for deportations. Mullin declined to answer, called the question an attempt to divert attention from the arrest, criticized “fake news,” and suggested the reporter was defending someone he described as dangerous.
+
+**Why this is an example:** **Questioning the questioner's loyalties rather than addressing the question.** Asking about the use of government aircraft does not, by itself, imply support for the person arrested. The response associated an operational oversight question with a position the reporter had not expressed.
+
+**Alternative reading and limits:** Mullin was holding a press conference about a specific shooting and could reasonably prefer questions about that incident. He did answer the enforcement-surge question with a denial; it would be inaccurate to say he refused to address both topics. The transcript does not prove his private intentions, whether the aircraft were luxury aircraft, or whether an alleged arrest-increase directive existed.
+
+**Question to ask:** *“Can you answer the question about the aircraft without assuming that asking it means defending the person who was arrested?”*
+
+**Evidence:**
+- [CNN transcript of the press-conference exchange, October 9, 2026](https://transcripts.cnn.com/show/cnc/date/2026-10-09/segment/06)
+- [Reuters reporting on the press conference and ICE shooting](https://www.reuters.com/legal/government/ice-officials-defend-shooting-new-york-man-attack-sanctuary-policies-2026-10-09/)
+
+**Status:** Exchange verified from transcript; rhetorical classification is editorial analysis. **Last checked:** October 10, 2026.
+
+---
+
 ## How new examples are added
 
 Include the original date and speaker, an accessible primary recording or transcript where possible, the full relevant context, the exact claim (short quotations only), the best-supported classification, an alternative reading, the evidence limits, a calm question readers can use, and a last-checked date. If a claim cannot be verified, do not present it as a confirmed example. Prefer a new entry to silently rewriting an older record; document substantive corrections.
