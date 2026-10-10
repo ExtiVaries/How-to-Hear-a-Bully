@@ -1,5 +1,7 @@
 # How to Hear a Bully: Recognizing the Language of Power and Manipulation
 
+*Companion: [Rhetoric in Practice — verified examples](rhetoric-examples.md).*
+
 *Second edition, October 2026. The numbered notes link to a separate file, [Notes and Verification](how-to-hear-a-bully-notes.md), which also holds the case-by-case verification appendix and the revision ledger. You don't need them to follow the guide.*
 
 ---
