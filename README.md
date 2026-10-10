@@ -4,6 +4,7 @@
 
 ## Read it
 
+- [Rhetoric in Practice — verified examples tracker](rhetoric-examples.md) ([web page](https://extivaries.github.io/How-to-Hear-a-Bully/rhetoric-examples.html))
 - [The guide](how-to-hear-a-bully.md) (second edition, October 2026)
 - [Notes and verification](how-to-hear-a-bully-notes.md), with source notes, case-by-case verification records and the revision ledger
 - [Read the guide online](https://extivaries.github.io/How-to-Hear-a-Bully/) or [open its sources and verification records](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html).
