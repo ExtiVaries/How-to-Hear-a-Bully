@@ -95,3 +95,7 @@ Whether the change was a success depends on what you care about: a busier Saturd
 This guide can't tell you who is right in any particular dispute, and it can't replace someone with the expertise a serious decision needs. The research cited here studied particular groups doing particular tasks. None of it tested these five questions, and they haven't been tried with readers. Apply them to this guide too: ask how we could know, and check the notes.
 
 A next step you can take today: the next time two sources you rely on disagree about something that matters to you, write the two claims as short sentences and ask the first question. That may be enough. If it isn't, ask how each source could know, and stop when the answer is good enough for the decision in front of you.
+
+---
+
+*Original text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with an extra permission from the author: noncommercial use needs no credit. Commercial use, meaning anything you sell or use to make money, must credit "Who to Trust When It All Breaks Down?, by Exti" with a link to [its canonical page](https://extivaries.github.io/How-to-Hear-a-Bully/trust/) and say whether you changed it. Other CC BY 4.0 terms still apply. Quotations and translations of others' words are not covered. Details: [README](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license).*

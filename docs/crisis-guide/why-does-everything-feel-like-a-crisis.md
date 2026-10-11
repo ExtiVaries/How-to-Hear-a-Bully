@@ -90,3 +90,7 @@ Changing how you follow the news is one option, and it can be worth trying. Noti
 Many concerns call for other responses: getting help, protecting your household, preparing, helping a neighbor, pressing a local office to fix something, or joining people already working on the problem. What's possible depends on time, money, transport, health, caregiving and whether institutions have earned your trust. If you can't step away or take a precaution, that is a constraint, not a failure.
 
 Sometimes the honest answer is "I don't know yet." You can stay concerned, take reasonable precautions and decide when to look again. These questions are meant to stay useful wherever they lead, including to the conclusion that things are worse than you thought.
+
+---
+
+*Original text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with an extra permission from the author: noncommercial use needs no credit. Commercial use, meaning anything you sell or use to make money, must credit "Why Does Everything Feel Like a Crisis?, by Exti" with a link to [its canonical page](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/) and say whether you changed it. Other CC BY 4.0 terms still apply. Quotations and translations of others' words are not covered. Details: [README](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license).*

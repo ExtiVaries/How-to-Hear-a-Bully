@@ -43,3 +43,5 @@ Explore Köppen–Geiger climate classifications and USDA plant hardiness zones 
 ## [How we check our work](methods.md)
 
 What each project covers, where its information comes from, when it was last reviewed, what remains uncertain, and how to report a correction.
+
+*Original text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with an extra permission from the author: noncommercial use needs no credit. Commercial use, meaning anything you sell or use to make money, must credit "Practical Guides, by Exti" with a link to [its canonical page](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/) and say whether you changed it. Other CC BY 4.0 terms still apply. Quotations and translations of others' words are not covered. Details: [README](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license).*

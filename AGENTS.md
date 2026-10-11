@@ -97,7 +97,7 @@ IndexNow accepted notifications for the Trust guide, Trust notes, collection, an
 
 Do not renew research dates merely because a page was rebuilt or a link checked. Keep original publication dates and update sitemap modification dates only for real changes.
 
-Consult the current [README license section](README.md#license) and [LICENSE](LICENSE) before making reuse claims. At this snapshot, Bully has CC BY 4.0 plus the owner's additional noncommercial permission. **Crisis, Trust, and collection reuse terms remain undecided.** Do not extend Bully's license automatically to them, other apps, or third-party material. Author credits are not a major priority for the owner; that does not select a license.
+Consult the current [README license section](README.md#license) and [LICENSE](LICENSE) before making reuse claims. The owner approved aligning original written-resource reuse notices on 11 October 2026: the original Bully, Crisis and Trust guides and notes, and collection and methods prose, carry CC BY 4.0 plus additional permission for noncommercial use without author credit. Commercial use requires the resource-specific credit, canonical link and change disclosure in the README and methods page; other CC BY 4.0 terms still apply. Preserve the standard LICENSE and third-party quotation/translation exclusions. This grant does not cover implementation code, upstream datasets, linked sources, or the separate Middleman and Plant Climate Map applications. Their original prose and software/data licensing scopes need separate explicit decisions. This content/navigation update is prepared locally; no commit, push, PR, merge or deployment is authorized by this handoff.
 
 ## Collaboration
 

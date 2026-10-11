@@ -34,4 +34,4 @@ The five questions are an editorial teaching aid, not a tested trust score. The 
 
 [Report a correction](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues) with the passage and a source or explanation. GitHub issues are public and require an account.
 
-Reuse terms for this guide have not been chosen; the Bully guide's license does not automatically apply.
+The original guide and notes use CC BY 4.0 with the author's extra noncommercial credit permission. Commercial use must credit "Who to Trust When It All Breaks Down?, by Exti", link to https://extivaries.github.io/How-to-Hear-a-Bully/trust/, and say whether you changed it. Third-party quotations and translations are excluded; other CC BY 4.0 terms still apply. See the [license details](../../README.md#license).
