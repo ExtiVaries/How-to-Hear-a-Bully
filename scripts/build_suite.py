@@ -57,6 +57,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
               "@id": url + "#page", "name": title, "url": url,
               "description": description, "inLanguage": "en",
               "isAccessibleForFree": True,
+              "license": "https://creativecommons.org/licenses/by/4.0/",
               "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown", "contentUrl": source_url}}
     if schema_type == "CollectionPage":
         schema["@id"] = COLLECTION + "#collection"

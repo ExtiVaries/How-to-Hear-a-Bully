@@ -13,4 +13,4 @@ These are the reviewed source files for the crisis guide and its source notes, a
 
 The guide is 1,892 readable words. All nine source-note links and return anchors were checked under the filenames above. The sources and limitations are in the notes; the teaching method has not undergone reader testing.
 
-Keep these filenames together when downloading. Any conversion to HTML should preserve the anchors and update link destinations consistently. Reuse terms for the crisis guide remain undecided; this upload does not assign a new license.
+Keep these filenames together when downloading. Any conversion to HTML should preserve the anchors and update link destinations consistently. The original guide and notes use CC BY 4.0 with the author's extra noncommercial credit permission. Commercial use must credit "Why Does Everything Feel Like a Crisis?, by Exti", link to https://extivaries.github.io/How-to-Hear-a-Bully/crisis/, and say whether you changed it. Third-party quotations and translations are excluded; other CC BY 4.0 terms still apply. See the [license details](../../README.md#license).

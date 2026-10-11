@@ -75,4 +75,13 @@ Copyright 2026 Exti. *How to Hear a Bully* and its notes are licensed under the 
 
 Quotations and translations of other people's words (Thucydides, Confucius, Orwell, politicians, journalists and others) belong to their own authors or translators and are not covered by this license. They are quoted here for commentary and education.
 
-Reuse terms for the Crisis guide, Trust guide and collection material have not been chosen. The Bully license and extra permission above apply only to *How to Hear a Bully* and its notes; they do not extend to the new material, Middleman, or linked sources.
+The same CC BY 4.0 license and extra noncommercial credit permission apply to the original Crisis and Trust guides and their notes, and to the original collection and methods prose. Share them, copy them, translate them, adapt them, or teach from them freely. Commercial use, meaning anything you sell or use to make money, must credit the matching work below, link to its canonical address, and say whether you changed it. Other CC BY 4.0 terms still apply; the extra permission waives author credit for noncommercial use.
+
+| Original written resource | Commercial credit | Canonical address |
+| --- | --- | --- |
+| Why Does Everything Feel Like a Crisis? and its notes | "Why Does Everything Feel Like a Crisis?, by Exti" | https://extivaries.github.io/How-to-Hear-a-Bully/crisis/ |
+| Who to Trust When It All Breaks Down? and its notes | "Who to Trust When It All Breaks Down?, by Exti" | https://extivaries.github.io/How-to-Hear-a-Bully/trust/ |
+| Practical Guides | "Practical Guides, by Exti" | https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/ |
+| How we check our work | "How we check our work, by Exti" | https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html |
+
+This permission covers the original prose on the Practical Guides collection and methods pages, and the original Bully, Crisis and Trust guides and their notes. It does not cover application implementation code, upstream datasets, linked sources, or third-party materials, including quotations and translations of other people's words. Don't Pay a Middleman and Plant Climate Map remain separate applications with their own scope, sources and reuse terms.

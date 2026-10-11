@@ -122,3 +122,7 @@ US National Weather Service. "Flood Warning vs. Watch." [Official guidance](http
 ## What this guide does not claim
 
 It does not estimate how much anyone's distress comes from news, algorithms, attention or material conditions. It does not claim the world is getting better or worse overall, that the present is uniquely frightening, or that any group of people is more fearful than another. It does not offer a validated intervention or a recommended daily amount of news.
+
+---
+
+*Original text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with an extra permission from the author: noncommercial use needs no credit. Commercial use, meaning anything you sell or use to make money, must credit "Why Does Everything Feel Like a Crisis?, by Exti" with a link to [its canonical page](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/) and say whether you changed it. Other CC BY 4.0 terms still apply. Quotations and translations of others' words are not covered. Details: [README](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license).*

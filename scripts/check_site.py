@@ -92,8 +92,8 @@ def main():
                 failures.append(f"{name}: structured data has the wrong page identity or access status")
             if schema.get("encoding", {}).get("contentUrl") not in doc.alternates:
                 failures.append(f"{name}: structured data and Markdown alternative differ")
-            if name.startswith(("crisis/", "trust/", "practical-guides/")) and "license" in schema:
-                failures.append(f"{name}: new material has no assigned reuse license")
+            if name.startswith(("crisis/", "trust/", "practical-guides/")) and schema.get("license") != "https://creativecommons.org/licenses/by/4.0/":
+                failures.append(f"{name}: original prose must carry the approved CC BY 4.0 metadata")
         for href in doc.links:
             resolved = urlsplit(urljoin(BASE + name, href))
             if resolved.netloc != urlsplit(BASE).netloc:

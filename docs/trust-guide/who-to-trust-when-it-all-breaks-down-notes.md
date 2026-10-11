@@ -86,3 +86,7 @@ International Committee of Medical Journal Editors (updated January 2026). *Reco
 - **Limits:** Written for medical journals; it does not show that any journal or author complies, and it is not a general credibility test. Applying the same questions to civic information is the authors' adaptation. Disclosure does not eliminate a conflict, and a correction neither proves general reliability nor shows dishonesty.
 
 [↩ Back to text](who-to-trust-when-it-all-breaks-down.md#r7)
+
+---
+
+*Original text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with an extra permission from the author: noncommercial use needs no credit. Commercial use, meaning anything you sell or use to make money, must credit "Who to Trust When It All Breaks Down?, by Exti" with a link to [its canonical page](https://extivaries.github.io/How-to-Hear-a-Bully/trust/) and say whether you changed it. Other CC BY 4.0 terms still apply. Quotations and translations of others' words are not covered. Details: [README](https://github.com/ExtiVaries/How-to-Hear-a-Bully#license).*
