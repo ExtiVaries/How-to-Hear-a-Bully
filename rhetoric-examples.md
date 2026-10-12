@@ -46,6 +46,28 @@ This is a growing set of documented examples for practicing the guide's five que
 
 ---
 
+## October 10, 2026 — Mike Rogers endorses a “terrorist” label in a football dispute
+
+**Speaker:** Mike Rogers, Republican nominee for U.S. Senate in Michigan. **Setting:** A repost on X of a message from sports commentator Dave Portnoy about Rogers's Democratic opponent, Abdul El-Sayed.
+
+**What happened:** El-Sayed, a University of Michigan graduate, joked about whether Michigan football could win without cheating. Portnoy, a Michigan fan, posted the clip and wrote, “This guy really is a terrorist.” Rogers reposted it, adding, “@StoolPresidente is exactly right.” When *The Detroit News* asked whether Rogers literally believed the allegation, his campaign spokeswoman responded with a joke about Ohio State talking points rather than a direct yes or no.
+
+**Why this is an example:** **Amplifying a loaded label while leaving its intended meaning open.** The clip concerns a football rivalry, not evidence of terrorist activity. “Terrorist” ordinarily alleges a connection to political violence; an endorsement by a Senate candidate can be read either as sports hyperbole or as a more serious insinuation. That ambiguity is relevant because Rogers had raised separate allegations involving El-Sayed's family and terrorist organizations during their October 8 debate; contemporary reporting found no evidence that El-Sayed personally supported those groups.
+
+**Alternative reading and limits:** Football fans routinely use exaggerated insults, and Portnoy's initial remark is plausibly a joke. The spokeswoman's response emphasized that sports context. This record does **not** establish that either man was making a literal allegation, intended to intimidate El-Sayed, or committed unlawful incitement. It also does not adjudicate every disputed claim raised during the earlier debate. The same test—does the context support the label, and will the speaker clarify its meaning?—applies regardless of party.
+
+**Question to ask:** *“Was your agreement only football banter, or were you alleging that your opponent is actually involved in terrorism? If the latter, what evidence supports that?”*
+
+**Evidence:**
+- [Rogers's October 10 X post (primary post linked by *The Detroit News*)](https://x.com/MikeRogersForMI/status/2108924755705291160)
+- [*The Detroit News*, October 10: full football context, Rogers's response, and spokeswoman's clarification (syndicated copy)](https://www.aol.com/articles/rogers-shares-portnoy-sports-post-180523000.html)
+- [OutKick, October 11: independent report of the posts and El-Sayed's reply](https://www.foxnews.com/outkick-sports/abdul-el-sayed-feuds-dave-portnoy-response-michigan-cheating-allegation-comments)
+- [Michigan Public Radio, October 9: report on the October 8 debate and the evidence limits of earlier allegations](https://www.wgvunews.org/news/2026-10-09/rogers-el-sayed-trade-attacks-in-contentious-michigan-senate-debate)
+
+**Status:** Wording and sports context corroborated by contemporaneous reporting and a linked original post; direct X access was restricted during this check. Rhetorical analysis is editorial. **Last checked:** October 12, 2026.
+
+---
+
 ## How new examples are added
 
 Include the original date and speaker, an accessible primary recording or transcript where possible, the full relevant context, the exact claim (short quotations only), the best-supported classification, an alternative reading, the evidence limits, a calm question readers can use, and a last-checked date. If a claim cannot be verified, do not present it as a confirmed example. Prefer a new entry to silently rewriting an older record; document substantive corrections.
