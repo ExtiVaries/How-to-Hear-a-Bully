@@ -1,6 +1,6 @@
 # Complain or Constrain? — Notes and Verification
 
-*Research and source inspection: 9 October 2026. Draft for review, not publication approval.*
+*Research and source inspection: 9 October 2026; official Ward docket recheck: 13 October 2026. This recheck updates note 13 only and does not renew other sources’ research dates. Not publication approval.*
 
 [Read the draft](complain-or-constrain.md). [Editorial note and suggested repository links](editorial-note.md).
 
@@ -182,7 +182,13 @@ The Tennessee lead was initially inaccessible, then verified through the origina
 
 **Framework fit:** A legitimate right to defend oneself in court can coexist with concern about the inferential use of admitted evidence. Relevance, the weight evidence deserves, and the danger of unfair prejudice are distinct. This example does not establish that Ward’s entire request was unjustified: the appellate court ruled in his favor on exclusion. It is included as a short complication after the six core cases, not a forced binary classification.
 
-**Factual and publication limits:** The complete trial record, unredacted exhibits, underlying briefs, medical history, and evidence outside the opinion were not independently inspected. No finding is made about Lee’s actual strength, Ward’s credibility or guilt on retrial, or the judges’ intentions. **Docket recheck attempted 9 October 2026:** the official Tennessee courts public-case-history entry page returned a browser challenge. The [Appellate Case Search](https://pch.tncourts.gov/) loaded, but submissions for `W2025-01186-CCA-R3-CD` returned the search form without case history. That is not a verified negative search. Subsequent rehearing, discretionary review, or retrial developments remain unconfirmed; no claim is made that no appeal has been filed. The article now states its as-of date and that further appeal is possible. A successful docket check remains due before publication. Do not describe the decision as acquitting Ward, legalizing violence against transgender people, holding identity alone sufficient for self-defense, or establishing that the killing was justified.
+**Factual and publication limits:** The complete trial record, unredacted exhibits, underlying briefs, medical history, and evidence outside the opinion were not independently inspected. No finding is made about Lee’s actual strength, Ward’s credibility or guilt on retrial, or the judges’ intentions. Do not describe the decision as acquitting Ward, legalizing violence against transgender people, holding identity alone sufficient for self-defense, or establishing that the killing was justified.
+
+**Historical access record — 9 October 2026:** The official Tennessee courts public-case-history entry page returned a browser challenge. The [Appellate Case Search](https://pch.tncourts.gov/) loaded, but submissions for `W2025-01186-CCA-R3-CD` returned the search form without case history. That unsuccessful retrieval was not a verified negative search.
+
+**Successful public-docket recheck — 13 October 2026:** The [official case history](https://pch.tncourts.gov/CaseDetails.aspx?Number=True&id=92346) identifies this case and lists the 5 October 2026 opinion as its latest recorded event, with disposition **Reverse**. The Supreme Court appeal-date and closed-date fields are blank. The displayed chronology is consistent with the opinion’s identity, panel, date, and reversal; the new-trial order and sufficiency ruling are established by the opinion, not by the disposition label alone. See the [dated research evidence](DOCKET-RECHECK-2026-10-13.md).
+
+**Remaining uncertainty and publication gate:** No later event appears in this displayed appellate history. That does not establish the absence of rehearing, discretionary review, a mandate, or trial-court proceedings; their status remains unconfirmed. The previously unsuccessful docket-access check is now satisfied as a dated public-docket inspection, not a certificate of finality. Refresh the docket before eventual publication. Independent legal review of the Tennessee section remains outstanding and separate; the supplied AI-assisted review does not satisfy it. The publication hold remains in place.
 
 
 ## Adversarial checks
