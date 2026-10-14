@@ -23,7 +23,7 @@ Collection: https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/
 
 ## Publication checkpoint
 
-**Complain or Constrain?** has completed text drafting, review, and bounded corrections. The approved manuscript, source notes, and handoff are in [docs/complain-guide/](docs/complain-guide/). The user authorized pushing this packet to GitHub on a separate branch. It has no website edition yet. A successful docket check and legal review of the Tennessee section remain open before that section goes live. Preserve the accepted article wording; its length is intentionally flexible under the user's instruction to prioritize quality.
+**Complain or Constrain?** has completed text drafting, review, and bounded corrections. The approved manuscript, source notes, and handoff are in [docs/complain-guide/](docs/complain-guide/). The user authorized pushing this packet to GitHub on a separate branch. It has no website edition yet. **Update — 13 October 2026:** the official public-docket check succeeded, as recorded in [the dated evidence](docs/complain-guide/DOCKET-RECHECK-2026-10-13.md). This satisfies the previously unsuccessful access check, not a finding of finality. Independent legal review of the Tennessee section remains outstanding and separate. Refresh the docket before eventual publication; the publication hold remains in place. Preserve the accepted article wording; its length is intentionally flexible under the user's instruction to prioritize quality.
 
 At this snapshot, the Trust guide completed drafting, adversarial review, corrections, final manuscript checking, website construction, and publication. There is no outstanding task to publish that version.
 

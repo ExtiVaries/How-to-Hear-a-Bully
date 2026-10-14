@@ -2,7 +2,7 @@
 
 *Prepared 9 October 2026. Review draft only.*
 
-**Repository handoff:** the user subsequently accepted the text and authorized pushing the packet to GitHub. The manuscript and notes are preserved unchanged from the text-ready ZIP. The preparation history below records earlier authorization and publication status; it is not a statement that the later GitHub push was unauthorized. The Tennessee docket check and legal review remain open before website publication.
+**Repository handoff:** the user subsequently accepted the text and authorized pushing the packet to GitHub. The manuscript and notes were preserved unchanged from the text-ready ZIP when added through PR #5. The preparation history below records earlier authorization and publication status; it is not a statement that the later GitHub push was unauthorized. **Status update — 13 October 2026:** the official public-docket check succeeded; independent legal review remains outstanding. The publication hold remains in place. See the [dated docket evidence](DOCKET-RECHECK-2026-10-13.md). The dated preparation history below is retained rather than rewritten as current status.
 
 ## What is ready for review
 
@@ -89,3 +89,9 @@ The user clarified that quality takes priority over a word target. The repositor
 The user supplied a second independent review accepting all bounded corrections and confirming the text is ready. Two optional touch-ups were applied: Rule 403 now uses “probative value,” and straight apostrophes in the prose were standardized to curly apostrophes. No other article wording changed; its closing line and all thirteen citations remain intact. This copy edit does not renew source-research dates.
 
 Two items remain open before the Tennessee section goes live: a successful check of subsequent docket developments and legal review of the section. Neither is marked complete. No website or repository publication is authorized or performed by this text-acceptance record.
+
+## Docket evidence update — 13 October 2026
+
+The official appellate history was successfully inspected and compared with the accepted manuscript and note 13. The previously unsuccessful access check is satisfied as a dated inspection; it does not establish finality or resolve proceedings outside the displayed history. The detailed evidence, unresolved questions, and scope of verification are recorded in [DOCKET-RECHECK-2026-10-13.md](DOCKET-RECHECK-2026-10-13.md).
+
+The article’s sole change is its Tennessee currency line. Note 13 preserves the October 9 failure and adds the October 13 successful inspection. No substantive editorial conclusion changes. Independent legal review remains a separate prepublication requirement; this research update is not that review. Refresh the docket before eventual publication. No website edition, route, navigation, generated HTML, hosting setting, or deployment is included in this update.
