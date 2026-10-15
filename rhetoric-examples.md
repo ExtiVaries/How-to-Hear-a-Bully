@@ -68,6 +68,34 @@ This is a growing set of documented examples for practicing the guide's five que
 
 ---
 
+## October 11, 2026 — Donald Trump announces an energy ceasefire
+
+**Speaker and setting:** U.S. President Donald Trump, in a Truth Social post.
+
+**What he said:** On October 11, 2026, Donald Trump announced an immediately effective energy ceasefire between Russia and Ukraine and wrote, 'Both parties have agreed.' His wording presented mutual agreement and an immediate start as settled. The public responses examined here did not establish the same certainty about the arrangement's terms and status.
+
+**Context:** Ukraine welcomed the announcement and said it was ready to refrain from striking Russian energy infrastructure. It also sought details of the American–Russian dialogue and expected reciprocal Russian restraint. On October 12 and 13, Interfax reported that Kremlin spokesman Dmitry Peskov said contacts were continuing.
+
+**Editorial interpretation, alternative reading and limits:** The useful distinction is between a confident announcement and what listeners can verify. These sources do not establish what private assurances Trump had received, whether he knowingly misstated anything, or whether every relevant term remained unresolved. Ukraine's welcome and stated readiness are important counterevidence to any suggestion that both parties rejected the proposal. Reports of subsequent attacks raise a separate question about scope and compliance; attacks alone would not prove that no agreement existed.
+
+**Practical question:** What has each side confirmed, which facilities are covered, when does the agreement begin, and how will compliance be checked?
+
+**Apply the same standard:** Apply the same questions to a leader you support. This statement alone does not establish bullying or a pattern of manipulation.
+
+**Evidence:**
+
+- [American Presidency Project archive: October 11, 2026, 10:16 a.m. ET; full post](https://www.presidency.ucsb.edu/documents/truth-social-posts-october-11-2026)
+- [Original Truth Social link (no readable post text returned; not directly inspected)](https://truthsocial.com/@realDonaldTrump/117422699218841250)
+- [President of Ukraine: October 11 address title and date (video not independently transcribed)](https://www.president.gov.ua/en/videos/ukrayina-gotova-ne-zavdavati-udariv-po-rosijskij-energetici-8933)
+- [Official government reprint of the address, published October 12: full text checked](https://fisu.gov.ua/en/news-media/news/ukraine-is-ready-to-refrain-from-striking-russian-energy-infrastructure--and-we-count-on-the-same-readiness-from-russia--address-by-the-president)
+- [Interfax, October 12: report of Peskov comments](https://www.interfax.ru/russia/1121843)
+- [Interfax, October 13: report of Peskov comments](https://www.interfax.ru/amp/1122071)
+- [Associated Press, syndicated by CityNews: announcement and Ukraine response (direct AP URL inaccessible)](https://toronto.citynews.ca/2026/10/11/kyiv-pushes-back-on-trumps-call-for-a-new-ukrainian-president-as-drones-hit-russian-data-hub/)
+
+**Status:** Announcement checked through an archive plus corroborating reporting; Ukrainian response checked through an official government reprint. Original Kremlin transcript or recording not located; Peskov comments are attributed to Interfax reports. Interpretation is editorial; implementation and compliance are not verified. **Last checked:** October 15, 2026.
+
+---
+
 ## How new examples are added
 
 Include the original date and speaker, an accessible primary recording or transcript where possible, the full relevant context, the exact claim (short quotations only), the best-supported classification, an alternative reading, the evidence limits, a calm question readers can use, and a last-checked date. If a claim cannot be verified, do not present it as a confirmed example. Prefer a new entry to silently rewriting an older record; document substantive corrections.
