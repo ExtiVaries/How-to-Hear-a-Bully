@@ -96,6 +96,10 @@ This is a growing set of documented examples for practicing the guide's five que
 
 ---
 
+**October 20, 2026 — When a pollster calls fabrication an experiment.** See [the Wedgewood worked example in the Trust guide](/How-to-Hear-a-Bully/trust/#wedgewood-polls-2026-10-20) for the distinction between an admission, an explanation and a correction. The label alone does not establish motive or bullying.
+
+---
+
 ## How new examples are added
 
 Include the original date and speaker, an accessible primary recording or transcript where possible, the full relevant context, the exact claim (short quotations only), the best-supported classification, an alternative reading, the evidence limits, a calm question readers can use, and a last-checked date. If a claim cannot be verified, do not present it as a confirmed example. Prefer a new entry to silently rewriting an older record; document substantive corrections.

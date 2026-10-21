@@ -86,6 +86,8 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
         notes_url = guide_url + "notes.html"
         schema.update({"@type": "Article", "@id": url + "#article", "headline": title,
                        "mainEntityOfPage": url, "datePublished": "2026-10-09"})
+        if path == "trust/index.html":
+            schema["dateModified"] = "2026-10-21"
         if path.endswith("index.html"):
             schema["hasPart"] = {"@type": "Article", "@id": notes_url + "#article",
                                  "url": notes_url, "name": "Source Notes"}
@@ -196,8 +198,8 @@ def build():
     trust_links = {"who-to-trust-when-it-all-breaks-down-notes.md": "notes.html",
                    "who-to-trust-when-it-all-breaks-down.md": "index.html"}
     reading("trust/index.html", TRUST / "who-to-trust-when-it-all-breaks-down.md",
-            "A practical guide to conflicting claims, expertise, and uncertainty: five questions, two exercises, and source notes to help decide whom to rely on and for what.",
-            "Evidence and trust", "Editorial review: 9 October 2026 · About 1,900 words", trust_links,
+            "A practical guide to conflicting claims, expertise, and uncertainty: five questions, a dated real case, two fictional exercises, and source notes to help decide whom to rely on and for what.",
+            "Evidence and trust", "Editorial review: 9 October 2026 · Real case added: 21 October 2026", trust_links,
             '<p class="pg-endlinks"><a href="notes.html">Read the source notes</a> · <a href="../docs/trust-guide/who-to-trust-when-it-all-breaks-down.md">Markdown text</a></p>')
     reading("trust/notes.html", TRUST / "who-to-trust-when-it-all-breaks-down-notes.md",
             "Seven source notes for the trust guide: lateral reading, online search, expertise, study findings, and the limits of the evidence.",
