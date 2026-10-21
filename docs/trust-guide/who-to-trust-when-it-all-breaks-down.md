@@ -68,6 +68,33 @@ Answers can be partial: "supported for this narrow question," "plausible but unr
 
 **When to stop:** stop when a check that fits the decision answers the actual question well enough. If it doesn't, say what's missing and choose a next step you can actually take.
 
+## Worked example: when a pollster calls fabrication an experiment {#wedgewood-polls-2026-10-20}
+
+*Real case: October 20–21, 2026 · Sources checked: October 21, 2026*
+
+On October 20, Wedgewood Polls acknowledged fabricating data behind most of its releases. It described an experiment to expose polling-industry weaknesses and claimed one genuine Nebraska poll as an exception. Those are three separate claims: an admission about the data, an explanation of purpose, and an asserted exception.
+
+**What exactly differs?** The admission is evidence about what Wedgewood says it did. It does not independently establish the purpose or the Nebraska exception.
+
+**How could each source know?** FiftyPlusOne reports investigating the data and requesting comment before the admission. Its account supports its reported actions; this guide has not independently audited the survey files.
+
+**Are these separate reasons?** Several outlets repeating the same poll do not supply several independent confirmations. Ask what records or checks each added. This does not establish that every publisher knowingly repeated falsehoods.
+
+**Which account fits, including its limits?** “Would they have told us if nobody caught them?” is a fair question, but timing cannot answer it. A private plan could have existed. A secondary report says Wedgewood later claimed it planned three more polls and a reveal after the midterms. The original reply, its timestamp and any advance record remain unverified. The report does not independently establish an advance plan or erase admitted fabrication. [Sources](#wedgewood-sources)
+
+**What would change the answer, and what now?** Authenticated earlier records could support the explanation. Ask what was supposed to end the project and how people who relied on the polls would be told. Silver Bulletin announced Wedgewood’s permanent exclusion from its averages and forecasts; an announced response does not establish that every affected output was corrected or every reader reached.
+
+You can reject admitted fabricated results while leaving motive unresolved. Purpose, justification and repair are separate questions. Apply the same standard when the claimed lesson supports your own views.
+
+<a id="wedgewood-sources"></a>
+
+> **Sources and limits · checked October 21, 2026**
+>
+> - **Admission and explanation:** [Wedgewood’s statement](https://x.com/WedgewoodPolls/status/2112669955917242510), inspected through the supplied screenshot; direct post access was unavailable. Its purpose and Nebraska exception remain claims.
+> - **Investigation:** [FiftyPlusOne’s account](https://blog.fiftyplusone.news/p/fiftyplusone-just-caught-a-pollster) describes its checks and request for comment. The underlying files were not independently audited here.
+> - **Response:** [Silver Bulletin’s October 21 notice](https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model) announces permanent exclusion. Correction of every output or audience impression was not verified.
+> - **Reported disclosure plan:** [Secondary report](https://hannity.com/media-room/fake-news-fake-polls-pollster-admits-it-made-up-numbers-that-duped-new-york-times/) of three more polls and a post-midterm reveal. Indexed text was inspected; direct article retrieval was unavailable. The original reply, timestamp and any advance record remain unverified. This does not independently establish an earlier plan.
+
 ## Practice
 
 Both exercises are invented. Every place, date and number in them is fictional. They show reasoning; they are not evidence that the method works.
