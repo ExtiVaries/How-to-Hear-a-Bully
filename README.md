@@ -23,6 +23,17 @@ The collection includes a small hub, a methods page, and the reviewed Crisis and
 
 The collection's web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/), [read the Crisis guide](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/), or [read the Trust guide](https://extivaries.github.io/How-to-Hear-a-Bully/trust/).
 
+### Planned community claim tracker
+
+The collection is planning an interactive resource for people who ask, "Is this true?" The first release would be a bounded manual pilot with reviewed evidence, assessments of claims as they circulate, visible corrections, and followed updates. Authorized automatic discovery is a later gated stage.
+
+- [First-version product specification](docs/claim-tracker/v1.md)
+- [Next Claude verification handoff](docs/claim-tracker/claude.md)
+- [Initial review summary](docs/claim-tracker/review.md), [full original report](docs/claim-tracker/review-detailed.md), and [historical follow-up](docs/claim-tracker/FOLLOWUP.md)
+- [Response to initial and follow-up findings](docs/claim-tracker/REVISIONS.md)
+
+The follow-up judged the earlier revision ready after specified revisions and found the five initial blockers resolved in writing. The latest spec addresses its remaining report-triage, removal-accountability, private-record expiry, lead-evidence, and revision-type requirements. Verification of these latest edits and implementation checks remain pending. There is no functioning tracker or live import yet. Hosting, sources, initial niche, participation notice, and contribution/reuse terms remain launch decisions. The existing collection continues to serve static reading pages.
+
 ### Build and preview
 
 The site is static HTML, served without a build step by GitHub Pages. To update the collection, Crisis or Trust pages, edit the Markdown in `docs/practical-guides/`, `docs/crisis-guide/` or `docs/trust-guide/`, then run:
