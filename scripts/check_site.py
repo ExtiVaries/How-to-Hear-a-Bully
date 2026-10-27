@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
          "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
-         "trust/index.html", "trust/notes.html"]
+         "trust/index.html", "trust/notes.html", "pra-release-tracker.html"]
 
 
 class Document(HTMLParser):

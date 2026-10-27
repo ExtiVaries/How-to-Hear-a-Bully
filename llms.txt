@@ -7,7 +7,7 @@
 - [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
 - [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
 - [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
-- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the eight HTML pages hosted in this project. Middleman has its own hosting and sitemap.
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the nine HTML pages hosted in this project. Middleman has its own hosting and sitemap.
 
 ## Don't Pay a Middleman
 
@@ -24,6 +24,11 @@
 - [Revision ledger](https://extivaries.github.io/How-to-Hear-a-Bully/notes.html#revision-ledger)
 
 Citation: Exti. How to Hear a Bully: Recognizing the Language of Power and Manipulation. Second edition, October 2026. The edition date does not establish when every source was last checked. Historical context includes Thucydides, Confucius, Tacitus, seditious libel and Orwell; political examples include McCarthy, Reid, Trump, Biden and Putin. Apply the same questions to favored and disfavored speakers.
+
+## Records transparency tracker
+
+- [Presidential Records Release & Extension Tracker](https://extivaries.github.io/How-to-Hear-a-Bully/pra-release-tracker.html): a selected, source-linked register of confirmed PRA review extensions; separates proposed dates from actual publication, with limitations.
+- [Tracker source](https://extivaries.github.io/How-to-Hear-a-Bully/pra-release-tracker.md) and [machine-readable cases](https://extivaries.github.io/How-to-Hear-a-Bully/docs/pra-extension-tracker/events.csv): two notice-level illustrative examples, not a comprehensive count or a comparative use rate.
 
 ## Why Does Everything Feel Like a Crisis?
 
