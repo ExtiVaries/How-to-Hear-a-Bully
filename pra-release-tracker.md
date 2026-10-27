@@ -6,7 +6,7 @@ This tracker follows what happened after the National Archives and Records Admin
 
 ## How this process works
 
-- [44 U.S.C. § 2208(a)(3)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title44-section2208) generally gives the incumbent and former president 60 **working** days after NARA's notification to review proposed releases. Either may invoke **one extension of no more than 30 additional working days** by filing a written statement that additional review is needed. [36 C.F.R. § 1270.48(c)](https://www.ecfr.gov/current/title-36/chapter-XII/subchapter-B/part-1270/section-1270.48) implements that rule.
+- [44 U.S.C. § 2208(a)(3)](https://www.law.cornell.edu/uscode/text/44/2208) generally gives the incumbent and former president 60 **working** days after NARA's notification to review proposed releases. Either may invoke **one extension of no more than 30 additional working days** by filing a written statement that additional review is needed. [36 C.F.R. § 1270.48(c)](https://www.law.cornell.edu/cfr/text/36/1270.48) implements that rule.
 - The notice is public, but seeing standard language about *possible* extensions in a notice **does not prove** anyone invoked one. An extension is not, by itself, an executive-privilege claim, a withholding decision, or misconduct. A proposed date is not proof that records were delivered.
 - This **PRA review extension** is separate from a federal agency's ordinary FOIA response-time extension for unusual circumstances under [5 U.S.C. § 552(a)(6)(B)](https://www.foia.gov/foia-statute.html). Do not combine them into one statistic. Nor should a court scheduling order be counted as a PRA extension.
 
