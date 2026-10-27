@@ -40,6 +40,16 @@ Explore Köppen–Geiger climate classifications and USDA plant hardiness zones 
 
 ---
 
+## Records and transparency
+
+**Presidential Records Release & Extension Tracker**
+
+Follow documented uses of the Presidential Records Act's review-extension process, distinguish proposed opening dates from actual releases, and inspect evidence and unanswered questions.
+
+**[Open the records tracker](https://extivaries.github.io/How-to-Hear-a-Bully/pra-release-tracker.html)**
+
+---
+
 ## [How we check our work](methods.md)
 
 What each project covers, where its information comes from, when it was last reviewed, what remains uncertain, and how to report a correction.
