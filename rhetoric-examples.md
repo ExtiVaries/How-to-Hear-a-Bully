@@ -128,6 +128,26 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 ---
 
+## October 2026 — Texas mailers: verify authorship before assigning blame {#tent-mailers-2026-10}
+
+**What happened:** October texts and mailers directed Texans to the Transgender Education Network of Texas (TENT). CNN reported that the mailers used its photographs, logo and a nearly matching return address. [TENT denies authorizing or distributing the communications](https://transtexas.org/) and calls them impersonations. According to [CNN's account of TENT's court filing](https://kesq.com/news/national-world/cnn-national/2026/10/28/texas-nonprofit-says-it-was-impersonated-in-lgbtq-mailers-a-judge-cleared-the-way-to-find-the-sender/), TENT reported violent threats and suspended normal programming.
+
+**Institutional response:** Rep. Jeff Leach [initially requested an attorney-general investigation of TENT](https://www.texastribune.org/2026/10/14/texas-transgender-texts-cease-desist/); a subsequent letter [sought the actual sender's identity after doubts about attribution emerged](https://www.texastribune.org/2026/10/22/texas-transgender-pamphlet-da-investigation/). That request does not establish that the attorney general opened an investigation. Separately, District Attorney Sarah Stogner opened a potential-forgery investigation into the mailers.
+
+**Why this example:** Discovered through a reader-supplied CNN report, it illustrates a question about authorship: a genuine logo, photograph or web link does not establish who authorized a message. Verify that connection before treating the communication as evidence against the organization named in it. See the [Trust guide's source questions](/How-to-Hear-a-Bully/trust/#how-could-each-source-know).
+
+**Alternative reading:** Texas Transgender Student Union LLC, the Wyoming entity associated with the mailers, [argues that the communications discuss public resources and are protected anonymous speech](https://www.aol.com/articles/wyoming-llc-hires-paxton-impeachment-171141000.html). Citing someone else's work can be legitimate. Its defense and TENT's denial require examination of the actual presentation and authorization; neither settles every legal question.
+
+**Accountability and limits:** [Reporting describes an October 27 ruling authorizing pre-suit discovery, followed by an appeal](https://www.texastribune.org/2026/10/28/texas-transgender-mailer-text-court-order-deposition/). Responsibility and liability remain unresolved. The reviewed evidence does not establish the ultimate sponsor, funding source or electoral purpose. [KUT reported scheduled questioning](https://www.kut.org/politics/2026-10-28/transgender-texts-mail-court-hearing-austin), while [KXAN reported a pause following the appeal](https://www.aol.com/articles/wyoming-llc-hires-paxton-impeachment-171141000.html). The operative timetable and any resulting public disclosure remain unconfirmed in this check.
+
+**A calm question:** “What establishes who authorized and sent this material, and what was checked before treating it as evidence against the organization named in it?”
+
+**Repair to check:** Do corrections reach the original audience, and can disrupted services resume safely?
+
+**Evidence status:** TENT's statement was read directly; court actions and harms are attributed to reporting. Underlying orders were not independently inspected. Interpretation is editorial. **Last checked:** October 29, 2026.
+
+---
+
 ## How new examples are added
 
 Include the original date and speaker, an accessible primary recording or transcript where possible, the full relevant context, the exact claim (short quotations only), the best-supported classification, an alternative reading, the evidence limits, a calm question readers can use, and a last-checked date. If a claim cannot be verified, do not present it as a confirmed example. Prefer a new entry to silently rewriting an older record; document substantive corrections.
