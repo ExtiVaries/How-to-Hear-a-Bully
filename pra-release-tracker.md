@@ -1,6 +1,6 @@
 # Presidential Records Release & Extension Tracker
 
-*An evidence-based tracker for the Practical Guides collection. Case research snapshot: October 27, 2026. Request status updated October 29, 2026. This is a **selected set of documented notices**, not a national census or a measure of how frequently presidents use extensions.*
+*An evidence-based tracker for the Practical Guides collection. Case research snapshot: October 27, 2026. Request status updated October 29, 2026. Historical comparisons added October 29, 2026. This is a **selected set of documented notices**, not a national census or a measure of how frequently presidents use extensions.*
 
 This tracker follows what happened after the National Archives and Records Administration (NARA) formally **proposed** opening presidential or vice-presidential records. It separates a routine statutory review extension from executive privilege, restricted material, court proceedings, and the later event of an **actual release**. The relevant unit is generally a **PRA notification**, which can cover several FOIA requests—not one extension per FOIA case.
 
@@ -40,6 +40,38 @@ This tracker follows what happened after the National Archives and Records Admin
 **Extension confirmation:** In *America First Legal Foundation v. National Archives and Records Administration*, **D.D.C. No. 1:22-cv-02713, ECF 25, filed September 30, 2024**, a **joint status report** stated that the 30-working-day extension had been invoked for NARA's June 27 notification. [Read the filed report (PDF copy hosted by a litigant; page 2)](https://aflegal.org/wp-content/uploads/2024/10/25-JSR-1.pdf).
 
 **Evidence limits:** The joint filing confirms **use of the extension**, but its passage does **not identify which individual representative invoked it**, establish any motive, prove a privilege claim, or document eventual public release. One party's later public characterization of why the extension was used is not equivalent to a court finding. This is a historical comparison case, not a conclusion about the merits of the underlying requests.
+
+## FOIA comparisons and related cases
+
+*Historical context added and sources checked October 29, 2026. These are not new release alerts.*
+
+These examples illustrate different outcomes of public-records work. **They are not additional PRA review-extension confirmations and do not enter the extension register or its count.** The Biden vice-presidential case above remains the closest procedural comparison. Requester receipt, public posting, preservation problems, and court-directed production must be recorded separately.
+
+### Fake-elector certificates — publicly posted records
+
+**Records and access:** NARA's [public collection of 2020 unofficial electoral certificates](https://www.archives.gov/foia/2020-presidential-election-unofficial-certificates) includes certificates, postal-envelope scans, and related correspondence received by the Office of the Federal Register. The seven state slates listed are Arizona, Georgia, Michigan, New Mexico, Nevada, Pennsylvania, and Wisconsin. NARA says these submissions were not accepted as evidence of official state action; they are distinct from the official electoral certificates.
+
+**FOIA connection:** American Oversight [reports obtaining copies in March 2021](https://americanoversight.org/analysis/defense-department-and-army-failed-to-preserve-jan-6-text-messages/). That is the requester's reported receipt month, not a verified date when NARA first posted its online collection. The current NARA page independently establishes public access.
+
+**What this illustrates:** Actual inspectable disclosure, rather than a notice identifying records for possible future opening. These Office of the Federal Register records should not be treated as another first-term White House PRA notification.
+
+### Pentagon January 6 texts — preservation and search limits
+
+**Request and reported litigation history:** American Oversight's [August 2, 2022 account](https://americanoversight.org/analysis/defense-department-and-army-failed-to-preserve-jan-6-text-messages/) identifies requests submitted on **January 12, 2021**, and says a March 2022 joint status report in its Defense Department/Army litigation reported that certain departing officials' texts had not been preserved and could not be searched. The linked filing was not independently retrieved in this review; that procedural account is attributed to the requester.
+
+**Official follow-up:** NARA's [records-management correspondence, UD-2022-0056](https://www.archives.gov/files/records-mgmt/resources/ud-2022-0056-dod-open-close.pdf), includes a **June 15, 2023** letter concerning the Office of the Secretary of Defense. NARA states that carrier inquiries yielded communications metadata, not the relevant message or voice contents, and closes that records-management case. This closure is **not** confirmation that the texts were recovered, that every Army record was unavailable, or that the FOIA litigation ended.
+
+**What this illustrates:** Preservation and searchability are different questions from review time or disclosure. This historical case does not establish that the Hutchinson or Liddell records in PA 2026-099 are missing, and it does not establish a motive for deletion.
+
+### Afghanistan Papers — delivery before publication
+
+**Documented timeline:** The Congressional Research Service's **January 28, 2020 report, R46197**, records FOIA requests beginning in **August 2016**, a lawsuit in **October 2017**, and delivery of the final interview batch to The Washington Post in **August 2019**. The newspaper published the investigation and documents on **December 9, 2019**. See the [official CRS record](https://www.congress.gov/crs-product/R46197) and the [report copy inspected for this review, pages 1–2](https://www.everycrsreport.com/files/20200128_R46197_9f1b67a1b995b179acf078b24f4bb2be6eba2dc5.pdf).
+
+**Records and limits:** The comparison concerns SIGAR interview notes and transcripts, including redactions. It does not mean every requested detail was disclosed or that a later redaction dispute is still pending today. Direct retrieval of the Congress.gov PDF was unsuccessful; the CRS text and PDF were inspected through the clearly identified third-party mirror.
+
+**What this illustrates:** **Release to a requester and publication for the public are different milestones.** This is an agency FOIA/litigation example, not a PRA review extension.
+
+**Monitoring boundary:** These historical entries do not expand the live January 6 release watch or trigger repeat alerts. Potential live additions require separate primary-source verification; see the [dated comparison review and candidate notes](docs/pra-extension-tracker/COMPARISON-REVIEW-2026-10-29.md).
 
 ## Can we find every time an extension was used?
 
