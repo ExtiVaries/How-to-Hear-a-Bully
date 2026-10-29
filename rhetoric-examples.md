@@ -4,6 +4,34 @@
 
 This is a growing set of documented examples for practicing the guide's five questions. **An entry is not a verdict that the speaker is a bully or intended to deceive.** We distinguish the original wording, its context, the rhetorical mechanism, contrary evidence, and unresolved questions. We apply the same standard across parties and countries.
 
+## March 27, 2025 — When a label is paired with the power to remove {#rubio-visa-label-2025-03-27}
+
+**Speaker and event:** Marco Rubio, March 27, 2025 joint press availability in Georgetown, Guyana. **Evidence status:** Full State Department written transcript verified in an October 12, 2025 archive capture, alongside the official video and court record. Audio was not independently checked. **Last checked:** October 29, 2026. This is a historical rhetoric case study, not a report of today's appellate outcome.
+
+**Why this example:** It was found through [Who He Hired's Rubio profile](https://whohehired.com/people/rubio), a directory of one administration's hires and selected because the original exchange, conduct-based defense, individual record, and court limits can be checked together. These are the inclusion criteria regardless of party. This is not a representative sample, party comparison, or judgment about other hires.
+
+“Every time I find one of these lunatics, I take away their visa.” The [archived official written transcript](https://perma.cc/6LUR-TL7J) places this sentence after a question about reports of 300 revoked visas. After another count-confirmation question, Rubio describes people “tearing things up.” Earlier, a reporter asked about a Turkish student in the Boston area and what conduct justified revocation. The court identifies her as Rümeysa Öztürk, arrested in Somerville, Massachusetts. Rubio's answer invoked vandalism, harassment, takeovers, riots, and visa misrepresentation. The written transcript, [rendered official video transcript](https://www.youtube.com/watch?v=AtHuznPn7lo), and [court record](https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_25-cv-10685/pdf/USCOURTS-mad-1_25-cv-10685-3.pdf) support this order and context.
+
+The mechanism worth examining is a disparaging category linked to an official consequence. The strongest objection to this reading is concrete: Rubio attached the label to alleged misconduct in the same exchange. It may be shorthand for that stated conduct, not a substitute for evidence. The critical question is whether the conduct was established for each affected person. This is an interpretation to test, not a measured audience effect, a diagnosis, or proof that an insult made a policy unlawful.
+
+Protecting students from harassment and keeping buildings accessible are legitimate concerns. Harsh language does not decide legality; statutory discretion does not resolve a constitutional challenge. Check whether the category matches individual evidence and whether the same rule would apply to another viewpoint.
+
+The individual record matters. The district court reproduces a State memorandum acknowledging that DHS supplied no evidence of Öztürk's antisemitic activity. It identifies Senior Bureau Official John Armstrong as the revocation decisionmaker, and discusses the op-ed, criticism, and claimed organizational connection. Do not infer from Rubio's first-person wording that he personally signed or decided this revocation. An absence of evidence supplied to the memo is not a universal finding about everything a person has ever done.
+
+The district court found viewpoint-discriminatory enforcement chilling protected speech unconstitutional (p. 101), with related Administrative Procedure Act violations discussed at pp. 138–144. It rejected a separate constitutional violation under the specific threats theory before it. Those are district-court findings, not a verdict on all immigration enforcement.
+
+Both sides appealed following the [January 22, 2026 annotated judgment](https://iptp-production.s3.amazonaws.com/media/documents/2026.01.22_Annotated_Judgement_-_AAUP_v._Rubio.pdf), ECF 313: the government in [No. 26-1141](https://dockets.justia.com/docket/circuit-courts/ca1/26-1141) and plaintiffs in [No. 26-1195](https://dockets.justia.com/docket/circuit-courts/ca1/26-1195). The reproduced April 7 order grants an unopposed partial stay limited to the Part IV sanction pending further order. Available docket copies cover only August 2026, not today's disposition. A limited remedy stay is not a merits reversal.
+
+Slow down the category. Which person's conduct is at issue? What evidence supports the consequence? Does the rule concern unlawful acts, protected expression, or an association between them? Who can test the decision, and what remedy is available? Apply these questions to officials of any party.
+
+Remove the insult and restate the rule neutrally. If consistent application and specific evidence still support the consequence, the rhetoric alone does not settle the policy question. If the case depends on the label, ask what evidence it replaces.
+
+**A calm question:** “What specific conduct, rather than a political viewpoint or a label, makes this person subject to this action, and where can we check the rule and the evidence?”
+
+**Limits:** This example does not decide an individual's immigration case, infer private motives, or label Rubio a bully. Attribution rests on the archived official written record, not an independent audio check. Contrary evidence may change the interpretation. The archive is an official-origin record preserved by a third party; the dockets are third-party reproductions, not complete current official coverage.
+
+---
+
 ## October 8, 2026 — JD Vance defines “socialism”
 
 **Speaker:** U.S. Vice President JD Vance. **Setting:** Press conference about alleged employment-visa abuse, during questions from reporters.
