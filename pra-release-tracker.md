@@ -1,6 +1,6 @@
 # Presidential Records Release & Extension Tracker
 
-*An evidence-based tracker for the Practical Guides collection. Case research snapshot: October 27, 2026. Request status updated October 28, 2026. This is a **selected set of documented notices**, not a national census or a measure of how frequently presidents use extensions.*
+*An evidence-based tracker for the Practical Guides collection. Case research snapshot: October 27, 2026. Request status updated October 29, 2026. This is a **selected set of documented notices**, not a national census or a measure of how frequently presidents use extensions.*
 
 This tracker follows what happened after the National Archives and Records Administration (NARA) formally **proposed** opening presidential or vice-presidential records. It separates a routine statutory review extension from executive privilege, restricted material, court proceedings, and the later event of an **actual release**. The relevant unit is generally a **PRA notification**, which can cover several FOIA requests—not one extension per FOIA case.
 
@@ -55,7 +55,9 @@ A defensible audit would:
 
 ## Research status
 
-**October 28, 2026 — FOIA request submitted; acknowledgment and tracking number not yet verified.** The editor sent NARA a request on **October 27, 2026, at 16:28 UTC**, seeking existing records:
+**October 29, 2026 — Official acknowledgment and tracking number verified.** NARA's Operational FOIA Division sent an acknowledgment on **October 28, 2026, at 19:10 UTC**, confirming receipt of the request on **October 27, 2026** and assigning tracking number **NGC27-065**. NARA instructs that this number be included in future correspondence about the case.
+
+**Request history:** The editor sent NARA the request on **October 27, 2026, at 16:28 UTC**, seeking existing records:
 
 1. Extension registers, logs, spreadsheets, or reports covering **January 1, 2016–October 27, 2026**, with available notice identifiers, dates, invoking parties, and associated FOIA cases.
 2. Written extension statements and formal acknowledgments for **PA 2026-099** and **LW 2024-084**.
@@ -63,9 +65,11 @@ A defensible audit would:
 
 The request distinguishes PRA review extensions from ordinary FOIA response extensions, executive-privilege claims, and litigation scheduling changes. It requests a public-interest fee waiver and authorizes no billable fees without separate written approval.
 
-**Pending verification:** The inspected conversation contains the outgoing request but no subsequent NARA acknowledgment, assigned tracking number, or responsive records; an acknowledgment may exist elsewhere. Verify acknowledgment and tracking details, then assess any records received before updating extension or release status. Submission does not establish that NARA maintains a centralized register, that any additional extension occurred, or that records were released.
+**Processing and production:** The acknowledgment confirms receipt and case assignment only. It does not establish that responsive records exist, that NARA maintains a centralized extension register, that the requested public-interest fee waiver was approved, or that records were produced. No later substantive processing determination or responsive records for this request were found in the correspondence checked on **October 29, 2026**. Assess any later response separately before changing extension or release status; this acknowledgment provides no new evidence of an additional PRA extension, an executive-privilege claim, or release of the underlying presidential or vice-presidential records.
 
-**Source:** Editor-held sent correspondence, reviewed October 28, 2026; not publicly posted. Personal contact information omitted.
+**Correction history — October 29, 2026:** [PR #13](https://github.com/ExtiVaries/How-to-Hear-a-Bully/pull/13), merged on **October 28 at 15:48 UTC**, recorded the acknowledgment and tracking number as unverified. NARA's acknowledgment arrived later that day, at **19:10 UTC**. This update verifies those details while preserving the October 27 case research snapshot and the extension-event register.
+
+**Sources:** Editor-held October 27 sent request and October 28 official acknowledgment, reviewed October 29, 2026; correspondence not publicly posted. Personal contact information omitted. See the [dated verification record](docs/pra-extension-tracker/ACKNOWLEDGMENT-REVIEW-2026-10-29.md) for the evidence limits and checks.
 
 ## Fields, status rules, and corrections
 
@@ -73,6 +77,6 @@ The [machine-readable event register](docs/pra-extension-tracker/events.csv) sto
 
 **Labels used:** *Proposed* = records identified for opening, not delivered; *extension confirmed* = reliable evidence an extension was invoked; *privilege claimed* = separately documented assertion; *released to requester* = delivery verified but not necessarily publicly posted; *publicly published* = inspectable access link; *unknown* = the available evidence does not establish the event.
 
-**Editorial boundaries:** The purpose is to make public-records process visible, not to infer hidden motivations, accuse officials of unlawful conduct, or suggest that every delay has the same cause. Verify official records across administrations by the same rules. This research has **not** audited all past NARA notifications, nor requested a complete set of extension statements. See the [October 28 research status](#research-status) for the subsequent bounded request.
+**Editorial boundaries:** The purpose is to make public-records process visible, not to infer hidden motivations, accuse officials of unlawful conduct, or suggest that every delay has the same cause. Verify official records across administrations by the same rules. This research has **not** audited all past NARA notifications, nor requested a complete set of extension statements. See the [October 29 research status](#research-status) for the subsequent bounded request and acknowledgment.
 
 **Corrections:** [Report a source or status correction on GitHub](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues). This tracker is informational, not legal advice.
