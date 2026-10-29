@@ -4,7 +4,7 @@
 
 The owner approved a first expansion containing three historical comparisons: the 2020 unofficial electoral certificates, Pentagon January 6 texts, and the Afghanistan Papers. The existing Biden vice-presidential PRA comparison remains in place. Clinton-email and torture-records cases are deferred, not part of this change.
 
-This update adds context to `pra-release-tracker.md` and its HTML edition. It does not add events to `events.csv`, alter the two notification-level extension confirmations, change the live watch, or claim any new release of the three Trump-library collections. The October 27 case snapshot and October 28 request-status snapshot remain dated as originally recorded; this update is not a fresh audit of those statuses.
+This update adds context to `pra-release-tracker.md` and its HTML edition. It does not add events to `events.csv`, alter the two notification-level extension confirmations, change the live watch, or claim any new release of the three Trump-library collections. The October 27 case snapshot remains dated as originally recorded. The independently merged October 29 NGC27-065 acknowledgment update is preserved during integration; this comparison review does not re-audit the editor-held correspondence.
 
 ## Source checks and limits
 
@@ -42,7 +42,7 @@ https://www.judicialwatch.org/documents/jw-v-cia-j6-rolling-productions-order-02
 
 No independently retrieved official court-hosted docket entry or order was obtained in this review. The quoted order is a lead, not a verified official-development alert. No production or public posting is established. Verify the exact case and order, then separately verify delivery/publication before any monitoring expansion; a similarly numbered or similarly titled case is not a substitute.
 
-## Validation performed
+## Initial authoring validation
 
 - Original Markdown reconstructed from a fresh GitHub read and its Git blob hash matched `2303d6408a5a6b2f744202aaf84b86c5fe05e6f9`.
 - Removing the comparison section and its introductory date sentence restores the original Markdown exactly.
@@ -52,4 +52,26 @@ No independently retrieved official court-hosted docket entry or order was obtai
 - Chromium checks at 320, 390 and 1280 pixels, in light and dark modes: no page-level horizontal overflow; three comparison subsections; keyboard skip link works; no JavaScript errors. Mobile and desktop screenshots inspected. Tests used the exact page content with the unchanged stylesheet inlined for the local browser harness, not a deployed URL.
 - Changes limited to tracker Markdown/HTML, this review note and the tracker sitemap modification date. The extension event register is unchanged.
 
-**Validation limit:** The full repository could not be cloned in the working environment, so `scripts/build_suite.py` and `scripts/check_site.py` were not run here. The targeted checks above are not a full-site build, external-link availability guarantee, independent expert review, merge, or deployment verification.
+**Initial validation limit:** The full repository could not be cloned in the author's working environment, so `scripts/build_suite.py` and `scripts/check_site.py` were not run at that stage. The targeted checks above were not a full-site build, external-link availability guarantee, independent expert review, merge, or deployment verification. The integration review below addresses the missing repository checks.
+
+## Independent integration review — October 29, 2026
+
+Reviewed the original PR #14 head `b0f0d2c35a49096f1b985385c54d8c9e32777964` against the complete publishing-branch source at `3dd04979bd2d31b370fd14f890b73fbe293dd465`, including merged PRs #15, #16, and #17. All 53 source blobs were verified against GitHub's recursive tree; the reconstructed root tree exactly matched `847ab7aa24fa97b32feaa5195a86bde154dd9219`. This is an AI-assisted independent integration review, not expert certification.
+
+### Evidence and editorial findings
+
+- Reopened NARA's unofficial-certificates collection and American Oversight's August 2, 2022 account. NARA identifies the seven state collections, associated correspondence, and envelope scans. The March 2021 receipt remains attributed to the requester, without assigning that month to NARA's first public posting.
+- Reopened NARA's six-page UD-2022-0056 correspondence and visually inspected PDF page 5. The June 15, 2023 OSD letter supports the distinction between communications metadata and message contents and the closure of that records-management case. The requester-attributed litigation narrative is supported by American Oversight's account; the linked court filing remains unverified. No text recovery, Army-wide conclusion, litigation closure, or motive is inferred.
+- Reopened the CRS report's labeled mirror and PDF and visually inspected printed pages 1–2 (PDF pages 4–5). They support the August 2016 request, October 2017 lawsuit, August 2019 final-batch receipt, and December 9, 2019 publication sequence, with redactions. Direct Congress.gov retrieval remained unavailable; no current redaction-litigation status is claimed.
+- The three comparisons retain their distinct evidentiary roles and do not become PRA extension events. The Biden comparison, October 27 case research date, unknown release outcomes, and December 2 proposed-date qualification are preserved. The CIA lead remains outside live monitoring; deferred cases remain deferred.
+
+### Integration corrections and verification
+
+- Integrated the historical section and its introductory date into the current tracker rather than replacing it with the older PR snapshot. Removing only those additions reproduces the current Markdown and HTML exactly. The already merged NGC27-065 acknowledgment section and its separate verification note are unchanged and appear once. Its private correspondence was not re-audited for this comparison review.
+- The tracker sitemap and structured-data modification dates were already October 29 after PR #16 and remain unchanged. All other source and history are retained.
+- A pristine check of the current publishing branch reproduced one existing build mismatch: Pandoc 3.1.3 adds `header`, `odd`, and `even` classes to three table rows in `practical-guides/methods.html`. Retained only those generated attributes so the committed suite reproduces cleanly. The page's text, links, IDs, and source Markdown are unchanged; this is a build-consistency repair, not an editorial expansion.
+- `python3 scripts/build_suite.py` and `python3 scripts/check_site.py` pass on the complete integrated repository with Pandoc 3.1.3: 9 pages, 265 local links, 16 reciprocal notes, current generated output, matching sitemap, and consistent structured data and Markdown alternatives.
+- Additional checks cover full tracker Markdown/HTML text, heading and link parity; stable pre-existing anchors; a two-row case table; unchanged acknowledgment text; and byte-for-byte preservation of `events.csv` (Git blob `2fa383e896665e3382cdeffde5a37429af9372c6`). A broader HTML check covers all 11 HTML files and 274 local links, including pages outside the suite checker's nine-page list. Whitespace and change-scope checks pass.
+- No Chromium executable is installed for a fresh browser run in this integration environment. The author's six viewport/theme checks remain separately reported evidence; they are not reclassified as independently repeated tests.
+
+The reviewed integration changes only tracker Markdown/HTML, this comparison-review record, and the three generated methods-table attributes. No automation, live-watch scope, private correspondence, held manuscript, publication safeguard, extension count, or release status is changed. A merge and any deployment require separate observed verification; the repository checks alone do not establish either.

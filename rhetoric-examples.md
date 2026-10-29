@@ -4,6 +4,34 @@
 
 This is a growing set of documented examples for practicing the guide's five questions. **An entry is not a verdict that the speaker is a bully or intended to deceive.** We distinguish the original wording, its context, the rhetorical mechanism, contrary evidence, and unresolved questions. We apply the same standard across parties and countries.
 
+## March 27, 2025 — When a label is paired with the power to remove {#rubio-visa-label-2025-03-27}
+
+**Speaker and event:** Marco Rubio, March 27, 2025 joint press availability in Georgetown, Guyana. **Evidence status:** Full State Department written transcript verified in an October 12, 2025 archive capture, alongside the official video and court record. Audio was not independently checked. **Last checked:** October 29, 2026. This is a historical rhetoric case study, not a report of today's appellate outcome.
+
+**Why this example:** It was found through [Who He Hired's Rubio profile](https://whohehired.com/people/rubio), a directory of one administration's hires and selected because the original exchange, conduct-based defense, individual record, and court limits can be checked together. These are the inclusion criteria regardless of party. This is not a representative sample, party comparison, or judgment about other hires.
+
+“Every time I find one of these lunatics, I take away their visa.” The [archived official written transcript](https://perma.cc/6LUR-TL7J) places this sentence after a question about reports of 300 revoked visas. After another count-confirmation question, Rubio describes people “tearing things up.” Earlier, a reporter asked about a Turkish student in the Boston area and what conduct justified revocation. The court identifies her as Rümeysa Öztürk, arrested in Somerville, Massachusetts. Rubio's answer invoked vandalism, harassment, takeovers, riots, and visa misrepresentation. The written transcript, [rendered official video transcript](https://www.youtube.com/watch?v=AtHuznPn7lo), and [court record](https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_25-cv-10685/pdf/USCOURTS-mad-1_25-cv-10685-3.pdf) support this order and context.
+
+The mechanism worth examining is a disparaging category linked to an official consequence. The strongest objection to this reading is concrete: Rubio attached the label to alleged misconduct in the same exchange. It may be shorthand for that stated conduct, not a substitute for evidence. The critical question is whether the conduct was established for each affected person. This is an interpretation to test, not a measured audience effect, a diagnosis, or proof that an insult made a policy unlawful.
+
+Protecting students from harassment and keeping buildings accessible are legitimate concerns. Harsh language does not decide legality; statutory discretion does not resolve a constitutional challenge. Check whether the category matches individual evidence and whether the same rule would apply to another viewpoint.
+
+The individual record matters. The district court reproduces a State memorandum acknowledging that DHS supplied no evidence of Öztürk's antisemitic activity. It identifies Senior Bureau Official John Armstrong as the revocation decisionmaker, and discusses the op-ed, criticism, and claimed organizational connection. Do not infer from Rubio's first-person wording that he personally signed or decided this revocation. An absence of evidence supplied to the memo is not a universal finding about everything a person has ever done.
+
+The district court found viewpoint-discriminatory enforcement chilling protected speech unconstitutional (p. 101), with related Administrative Procedure Act violations discussed at pp. 138–144. It rejected a separate constitutional violation under the specific threats theory before it. Those are district-court findings, not a verdict on all immigration enforcement.
+
+Both sides appealed following the [January 22, 2026 annotated judgment](https://iptp-production.s3.amazonaws.com/media/documents/2026.01.22_Annotated_Judgement_-_AAUP_v._Rubio.pdf), ECF 313: the government in [No. 26-1141](https://dockets.justia.com/docket/circuit-courts/ca1/26-1141) and plaintiffs in [No. 26-1195](https://dockets.justia.com/docket/circuit-courts/ca1/26-1195). The reproduced April 7 order grants an unopposed partial stay limited to the Part IV sanction pending further order. Available docket copies cover only August 2026, not today's disposition. A limited remedy stay is not a merits reversal.
+
+Slow down the category. Which person's conduct is at issue? What evidence supports the consequence? Does the rule concern unlawful acts, protected expression, or an association between them? Who can test the decision, and what remedy is available? Apply these questions to officials of any party.
+
+Remove the insult and restate the rule neutrally. If consistent application and specific evidence still support the consequence, the rhetoric alone does not settle the policy question. If the case depends on the label, ask what evidence it replaces.
+
+**A calm question:** “What specific conduct, rather than a political viewpoint or a label, makes this person subject to this action, and where can we check the rule and the evidence?”
+
+**Limits:** This example does not decide an individual's immigration case, infer private motives, or label Rubio a bully. Attribution rests on the archived official written record, not an independent audio check. Contrary evidence may change the interpretation. The archive is an official-origin record preserved by a third party; the dockets are third-party reproductions, not complete current official coverage.
+
+---
+
 ## October 8, 2026 — JD Vance defines “socialism”
 
 **Speaker:** U.S. Vice President JD Vance. **Setting:** Press conference about alleged employment-visa abuse, during questions from reporters.
@@ -97,6 +125,26 @@ This is a growing set of documented examples for practicing the guide's five que
 ---
 
 **October 20, 2026 — When a pollster calls fabrication an experiment.** See [the Wedgewood worked example in the Trust guide](/How-to-Hear-a-Bully/trust/#wedgewood-polls-2026-10-20) for the distinction between an admission, an explanation and a correction. The label alone does not establish motive or bullying.
+
+---
+
+## October 2026 — Texas mailers: verify authorship before assigning blame {#tent-mailers-2026-10}
+
+**What happened:** October texts and mailers directed Texans to the Transgender Education Network of Texas (TENT). CNN reported that the mailers used its photographs, logo and a nearly matching return address. [TENT denies authorizing or distributing the communications](https://transtexas.org/) and calls them impersonations. According to [CNN's account of TENT's court filing](https://kesq.com/news/national-world/cnn-national/2026/10/28/texas-nonprofit-says-it-was-impersonated-in-lgbtq-mailers-a-judge-cleared-the-way-to-find-the-sender/), TENT reported violent threats and suspended normal programming.
+
+**Institutional response:** Rep. Jeff Leach [initially requested an attorney-general investigation of TENT](https://www.texastribune.org/2026/10/14/texas-transgender-texts-cease-desist/); a subsequent letter [sought the actual sender's identity after doubts about attribution emerged](https://www.texastribune.org/2026/10/22/texas-transgender-pamphlet-da-investigation/). That request does not establish that the attorney general opened an investigation. Separately, District Attorney Sarah Stogner opened a potential-forgery investigation into the mailers.
+
+**Why this example:** Discovered through a reader-supplied CNN report, it illustrates a question about authorship: a genuine logo, photograph or web link does not establish who authorized a message. Verify that connection before treating the communication as evidence against the organization named in it. See the [Trust guide's source questions](/How-to-Hear-a-Bully/trust/#how-could-each-source-know).
+
+**Alternative reading:** Texas Transgender Student Union LLC, the Wyoming entity associated with the mailers, [argues that the communications discuss public resources and are protected anonymous speech](https://www.aol.com/articles/wyoming-llc-hires-paxton-impeachment-171141000.html). Citing someone else's work can be legitimate. Its defense and TENT's denial require examination of the actual presentation and authorization; neither settles every legal question.
+
+**Accountability and limits:** [Reporting describes an October 27 ruling authorizing pre-suit discovery, followed by an appeal](https://www.texastribune.org/2026/10/28/texas-transgender-mailer-text-court-order-deposition/). Responsibility and liability remain unresolved. The reviewed evidence does not establish the ultimate sponsor, funding source or electoral purpose. [KUT reported scheduled questioning](https://www.kut.org/politics/2026-10-28/transgender-texts-mail-court-hearing-austin), while [KXAN reported a pause following the appeal](https://www.aol.com/articles/wyoming-llc-hires-paxton-impeachment-171141000.html). The operative timetable and any resulting public disclosure remain unconfirmed in this check.
+
+**A calm question:** “What establishes who authorized and sent this material, and what was checked before treating it as evidence against the organization named in it?”
+
+**Repair to check:** Do corrections reach the original audience, and can disrupted services resume safely?
+
+**Evidence status:** TENT's statement was read directly; court actions and harms are attributed to reporting. Underlying orders were not independently inspected. Interpretation is editorial. **Last checked:** October 29, 2026.
 
 ---
 

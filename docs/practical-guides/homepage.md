@@ -50,6 +50,12 @@ Follow documented uses of the Presidential Records Act's review-extension proces
 
 ---
 
+## Check spending authority
+
+Use a dated historical example to separate a proposed cut, the authority to withhold funds, and the account records that show what happened. The [spending-authority worksheet](methods.md#spending-authority) sets out the competing arguments, source limits, and a question to ask. Our [example-selection policy](methods.md#example-selection) explains why these pilots cannot support comparisons across administrations.
+
+---
+
 ## [How we check our work](methods.md)
 
 What each project covers, where its information comes from, when it was last reviewed, what remains uncertain, and how to report a correction.
