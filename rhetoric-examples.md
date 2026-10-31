@@ -146,6 +146,19 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 **Evidence status:** TENT's statement was read directly; court actions and harms are attributed to reporting. Underlying orders were not independently inspected. Interpretation is editorial. **Last checked:** October 29, 2026.
 
+### October 30–31, 2026 — Court stay and attribution update
+
+**October 30 update — disclosure paused:** The [Texas Tribune’s October 30 report](https://www.texastribune.org/2026/10/30/texas-trans-mailers-supreme-court-block-deposition/) says the Texas Supreme Court temporarily blocked questioning of Texas Transgender Student Union LLC. The court gave no explanation. TENT’s response is due November 2 at 10 a.m.; this is a filing deadline, not a promised disclosure or decision date. The stay does not determine whether the mailers were lawful.
+
+**Keep the attribution separate:** An earlier deposition identified the Republican Women’s Caucus Fund and an individual named John Braun in connection with the texts. The fund and Washington state Sen. John Braun deny involvement. TENT’s lawyer suspects a common source for texts and mailers but acknowledges no evidence yet linking them. Neither the printed mailers’ sponsorship nor individual lawmakers’ involvement is established by this report.
+
+**Possible procedural reasons — not findings:** A pause can preserve meaningful review before identities are irreversibly disclosed, allow responses, or permit examination of the requirements and scope of pre-suit questioning. [Texas Rule 202](https://www.txcourts.gov/media/1462349/texas-rules-of-civil-procedure.pdf) requires specified findings for such depositions; [appellate Rule 52.10](https://www.txcourts.gov/media/1463134/texas-rules-of-appellate-procedure-02062026.pdf) permits temporary relief. Anonymity claims may also need examination. These are possible explanations, not the court’s stated reasons or a conclusion that the lower judge erred.
+
+**Effect and motive:** The delay could leave voters without answers before November 3. That consequence does not establish a political motive. TENT’s lawyer says it can sue some responsible parties, and the Tribune reports a separate forgery investigation. A stay, an investigation, an allegation and a finding of liability are different events.
+
+**Question to follow:** What does the next order actually decide, what evidence identifies each sender, and what remains undisclosed? **Update checked:** October 31, 2026. Court developments are attributed to reporting; the full case-specific order and emergency motion were not independently inspected. This dated update supplements the October 29 record above.
+
+
 ---
 
 ## How new examples are added
