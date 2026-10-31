@@ -20,6 +20,8 @@ MARKDOWN_SOURCES = {
     "crisis/notes.html": "docs/crisis-guide/why-does-everything-feel-like-a-crisis-notes.md",
     "trust/index.html": "docs/trust-guide/who-to-trust-when-it-all-breaks-down.md",
     "trust/notes.html": "docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md",
+    "trust/clara-tan.html": "docs/trust-guide/cases/clara-tan.md",
+    "trust/clara-tan-sources.html": "docs/trust-guide/cases/clara-tan-sources.md",
 }
 
 
@@ -78,7 +80,20 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
             ]}
     else:
         schema["isPartOf"] = {"@type": "CollectionPage", "@id": COLLECTION + "#collection", "url": COLLECTION, "name": "Practical Guides"}
-    if path.startswith(("crisis/", "trust/")):
+    if path in ("trust/clara-tan.html", "trust/clara-tan-sources.html"):
+        case_url = BASE + "trust/clara-tan.html"
+        sources_url = BASE + "trust/clara-tan-sources.html"
+        schema.update({"@type": "Article", "@id": url + "#article", "headline": title,
+                       "mainEntityOfPage": url, "dateCreated": "2026-10-31",
+                       "dateModified": "2026-10-31", "creativeWorkStatus": "Draft; publication held"})
+        if path == "trust/clara-tan.html":
+            schema["hasPart"] = {"@type": "Article", "url": sources_url,
+                                 "@id": sources_url + "#article", "name": "Sources and evidence limits"}
+            schema["citation"] = sources_url
+        else:
+            schema["isPartOf"] = {"@type": "Article", "url": case_url,
+                                  "@id": case_url + "#article", "name": "Clara Tan case study"}
+    elif path.startswith(("crisis/", "trust/")):
         section = path.split("/", 1)[0]
         guide_title = {"crisis": "Why Does Everything Feel Like a Crisis?",
                        "trust": "Who to Trust When It All Breaks Down?"}[section]
@@ -87,7 +102,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
         schema.update({"@type": "Article", "@id": url + "#article", "headline": title,
                        "mainEntityOfPage": url, "datePublished": "2026-10-09"})
         if path == "trust/index.html":
-            schema["dateModified"] = "2026-10-21"
+            schema["dateModified"] = "2026-10-31"
         if path.endswith("index.html"):
             schema["hasPart"] = {"@type": "Article", "@id": notes_url + "#article",
                                  "url": notes_url, "name": "Source Notes"}
@@ -199,12 +214,24 @@ def build():
                    "who-to-trust-when-it-all-breaks-down.md": "index.html"}
     reading("trust/index.html", TRUST / "who-to-trust-when-it-all-breaks-down.md",
             "A practical guide to conflicting claims, expertise, and uncertainty: five questions, a dated real case, two fictional exercises, and source notes to help decide whom to rely on and for what.",
-            "Evidence and trust", "Editorial review: 9 October 2026 · Real case added: 21 October 2026", trust_links,
+            "Evidence and trust", "Editorial review: 9 October 2026 · Real case added: 21 October 2026 · Related case link added: 31 October 2026", trust_links,
             '<p class="pg-endlinks"><a href="notes.html">Read the source notes</a> · <a href="../docs/trust-guide/who-to-trust-when-it-all-breaks-down.md">Markdown text</a></p>')
     reading("trust/notes.html", TRUST / "who-to-trust-when-it-all-breaks-down-notes.md",
             "Seven source notes for the trust guide: lateral reading, online search, expertise, study findings, and the limits of the evidence.",
             "Sources and limits", '<a href="./">Back to the guide</a> · Editorial review: 9 October 2026', trust_links,
             '<p class="pg-endlinks"><a href="./">Back to the guide</a> · <a href="../docs/trust-guide/who-to-trust-when-it-all-breaks-down-notes.md">Markdown notes</a></p>', notes=True)
+    case_links = {"clara-tan-sources.md": "clara-tan-sources.html",
+                  "clara-tan.md": "clara-tan.html",
+                  "../who-to-trust-when-it-all-breaks-down.md": "index.html",
+                  "../../practical-guides/methods.md": "../practical-guides/methods.html"}
+    reading("trust/clara-tan.html", TRUST / "cases/clara-tan.md",
+            "A dated Clara Tan case study separating an acknowledged arrest, allegations about treatment, written detention rules, and unanswered accountability questions.",
+            "Case study · Evidence and accountability", "Prepared and checked: 31 October 2026 · Draft; publication held", case_links,
+            '<p class="pg-endlinks"><a href="clara-tan-sources.html">Sources and evidence limits</a> · <a href="./">Trust guide</a></p>')
+    reading("trust/clara-tan-sources.html", TRUST / "cases/clara-tan-sources.md",
+            "Sources, version differences, regulatory references, records not inspected, and update criteria for the Clara Tan case study.",
+            "Case sources and limits", "Sources checked: 31 October 2026 · Draft; publication held", case_links,
+            '<p class="pg-endlinks"><a href="clara-tan.html">Return to the case</a> · <a href="./">Trust guide</a></p>', notes=True)
     reading("practical-guides/methods.html", SUITE / "methods.md",
             "What each Practical Guides project covers, how evidence and limits are recorded, what review dates mean, and how to report a correction.",
             "Methods and limits", '<a href="./">All guides</a>',

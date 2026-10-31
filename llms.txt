@@ -7,7 +7,7 @@
 - [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
 - [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
 - [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
-- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the nine HTML pages hosted in this project. Middleman has its own hosting and sitemap.
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): reading routes included in this source edition. Middleman has its own hosting and sitemap. Prepared draft routes are not confirmed live merely by appearing here.
 
 ## Don't Pay a Middleman
 
@@ -29,6 +29,11 @@ Citation: Exti. How to Hear a Bully: Recognizing the Language of Power and Manip
 
 - [Presidential Records Release & Extension Tracker](https://extivaries.github.io/How-to-Hear-a-Bully/pra-release-tracker.html): a selected, source-linked register of confirmed PRA review extensions; separates proposed dates from actual publication, with limitations.
 - [Tracker source](https://extivaries.github.io/How-to-Hear-a-Bully/pra-release-tracker.md) and [machine-readable cases](https://extivaries.github.io/How-to-Hear-a-Bully/docs/pra-extension-tracker/events.csv): two notice-level illustrative examples, not a comprehensive count or a comparative use rate.
+
+## Case study: evidence and accountability
+
+- [Clara Tan](https://extivaries.github.io/How-to-Hear-a-Bully/trust/clara-tan.html) and [source notes](https://extivaries.github.io/How-to-Hear-a-Bully/trust/clara-tan-sources.html): prepared October 31, 2026; draft, publication held. Separates acknowledgment, allegations, regulatory text, hypotheses, and findings; not a legal ruling or prevalence estimate.
+- [Case Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/trust-guide/cases/clara-tan.md) and [source Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/trust-guide/cases/clara-tan-sources.md). Check the source edition's release status before treating these as public routes. Case dates do not renew the Trust guide's research review.
 
 ## Why Does Everything Feel Like a Crisis?
 
