@@ -47,6 +47,7 @@ GitHub Pages publishes from `claude/project-thread-i83pmv`, at the repository ro
 | [how-to-hear-a-bully.md](how-to-hear-a-bully.md), [how-to-hear-a-bully-notes.md](how-to-hear-a-bully-notes.md) | Bully manuscript and source notes |
 | [docs/crisis-guide/](docs/crisis-guide/) | Crisis manuscript, notes, and review records |
 | [docs/trust-guide/](docs/trust-guide/) | Trust manuscript, seven notes, research history, and reviews |
+| [docs/trust-guide/cases/](docs/trust-guide/cases/) | Dated case studies and evidence notes; consult each case's review and release status |
 | [docs/complain-guide/](docs/complain-guide/) | Accepted Complain manuscript, thirteen source notes, and review handoff; website publication pending |
 | [docs/practical-guides/homepage.md](docs/practical-guides/homepage.md) | Current collection copy |
 | [docs/practical-guides/methods.md](docs/practical-guides/methods.md) | Current methods, limits, corrections, and reuse information |
@@ -58,6 +59,8 @@ GitHub Pages publishes from `claude/project-thread-i83pmv`, at the repository ro
 | [DISCOVERY.md](DISCOVERY.md), [sitemap.xml](sitemap.xml), [llms.txt](llms.txt) | Discovery instructions and indexes |
 
 Read the latest [Trust final check](docs/trust-guide/FINAL-CHECK.md) and [website check](docs/trust-guide/PUBLICATION-CHECK.md) before changing that work. Older research packets and handoffs are historical and can contain superseded findings. The original Crisis homepage draft is historical; use the current collection copy above.
+
+**October 31, 2026 — Clara Tan addition:** the owner requested a fully developed case and appropriate hub integration. The prepared routes are `trust/clara-tan.html` and `trust/clara-tan-sources.html`, built from `docs/trust-guide/cases/`. The [dated review record](docs/trust-guide/cases/clara-tan-review-2026-10-31.md) records verification and remaining gates. Preserve the existing publication hold. Case-specific review dates do not renew the original Trust research review. No automatic case monitoring is created. Keep this case separate from the TENT draft in PR #18.
 
 ## Editing, build, and release
 

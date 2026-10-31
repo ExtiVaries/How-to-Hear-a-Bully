@@ -50,6 +50,14 @@ Follow documented uses of the Presidential Records Act's review-extension proces
 
 ---
 
+## Cases: evidence and accountability
+
+**[Clara Tan: an acknowledged arrest and unanswered custody questions](https://extivaries.github.io/How-to-Hear-a-Bully/trust/clara-tan.html)**
+
+A dated application of the Trust guide: distinguish partial confirmation, firsthand allegations, written rules, and findings. Includes [source and version notes](https://extivaries.github.io/How-to-Hear-a-Bully/trust/clara-tan-sources.html), competing explanations, and questions for further review. Prepared October 31, 2026; draft, publication held.
+
+---
+
 ## Check spending authority
 
 Use a dated historical example to separate a proposed cut, the authority to withhold funds, and the account records that show what happened. The [spending-authority worksheet](methods.md#spending-authority) sets out the competing arguments, source limits, and a question to ask. Our [example-selection policy](methods.md#example-selection) explains why these pilots cannot support comparisons across administrations.

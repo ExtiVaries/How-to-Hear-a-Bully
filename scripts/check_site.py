@@ -13,7 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
          "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
-         "trust/index.html", "trust/notes.html", "pra-release-tracker.html"]
+         "trust/index.html", "trust/notes.html", "pra-release-tracker.html",
+         "trust/clara-tan.html", "trust/clara-tan-sources.html"]
 
 
 class Document(HTMLParser):
@@ -140,7 +141,14 @@ def main():
     locations = [element.text for element in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
     expected = [BASE + name.removesuffix("index.html") for name in PAGES]
     if sorted(locations) != sorted(expected):
-        failures.append("Sitemap does not match the eight publication pages")
+        failures.append("Sitemap does not match the checked reading routes")
+
+    case = docs["trust/clara-tan.html"].schemas[0]
+    case_sources = docs["trust/clara-tan-sources.html"].schemas[0]
+    case_url = BASE + "trust/clara-tan.html"
+    sources_url = BASE + "trust/clara-tan-sources.html"
+    if case.get("hasPart", {}).get("url") != sources_url or case.get("citation") != sources_url or case_sources.get("isPartOf", {}).get("url") != case_url:
+        failures.append("Clara Tan case and source metadata relationships differ")
 
     if failures:
         print("\n".join(failures), file=sys.stderr)
