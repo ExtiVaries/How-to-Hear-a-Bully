@@ -104,3 +104,9 @@ The original written resources listed below are licensed under [CC BY 4.0](https
 - **[How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html)**: "How we check our work, by Exti".
 
 This permission covers the original prose on the Practical Guides collection and methods pages, and the original Bully, Crisis and Trust guides and their notes. It does not cover application implementation code, upstream datasets, linked sources, or third-party materials, including quotations and translations of other people's words. Don't Pay a Middleman and Plant Climate Map remain separate applications with their own scope, sources and reuse terms.
+
+## Complain or Constrain? — complete web edition
+
+The [complete guide](https://extivaries.github.io/How-to-Hear-a-Bully/complain/) and [13 source notes](https://extivaries.github.io/How-to-Hear-a-Bully/complain/notes.html) were authorized for publication by the owner on 2 November 2026. The approved substantive manuscript is preserved. It distinguishes reported harm from the justification for a remedy; the six questions are an unvalidated civic teaching aid, not a universal legal test. Original research dates remain in the notes. The Tennessee public appellate display was rechecked on November 2; this does not establish finality or exclude unrecorded proceedings.
+
+The owner’s explicit instruction supersedes the earlier editorial publication hold for this guide. Independent qualified legal review, including review of the Tennessee discussion, has not been obtained. Publication is not legal certification or advice. No new reuse license is assigned to Complain or Constrain?, its notes or the [dated K.M.K. companion](https://extivaries.github.io/How-to-Hear-a-Bully/complain/kmk.html); the grants for other named resources do not automatically extend to them. The K.M.K. watch remains stopped. This release does not lift holds on other projects.

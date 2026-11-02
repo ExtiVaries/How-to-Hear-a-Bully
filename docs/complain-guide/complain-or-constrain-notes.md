@@ -1,8 +1,8 @@
 # Complain or Constrain? — Notes and Verification
 
-*Research and source inspection: 9 October 2026; official Ward docket recheck: 13 October 2026. This recheck updates note 13 only and does not renew other sources’ research dates. Not publication approval.*
+*Research and source inspection: 9 October 2026; official Ward docket recheck: 13 October 2026. This recheck updates note 13 only and does not renew other sources’ research dates. These historical reviews are not independent legal approval. The owner authorized this web edition on 2 November 2026; qualified independent legal review has not been obtained.*
 
-[Read the draft](complain-or-constrain.md). [Editorial note and suggested repository links](editorial-note.md).
+[Read the guide](complain-or-constrain.md). [Editorial note and suggested repository links](editorial-note.md).
 
 ## Scope and method
 
@@ -188,8 +188,12 @@ The Tennessee lead was initially inaccessible, then verified through the origina
 
 **Successful public-docket recheck — 13 October 2026:** The [official case history](https://pch.tncourts.gov/CaseDetails.aspx?Number=True&id=92346) identifies this case and lists the 5 October 2026 opinion as its latest recorded event, with disposition **Reverse**. The Supreme Court appeal-date and closed-date fields are blank. The displayed chronology is consistent with the opinion’s identity, panel, date, and reversal; the new-trial order and sufficiency ruling are established by the opinion, not by the disposition label alone. See the [dated research evidence](DOCKET-RECHECK-2026-10-13.md).
 
-**Remaining uncertainty and publication gate:** No later event appears in this displayed appellate history. That does not establish the absence of rehearing, discretionary review, a mandate, or trial-court proceedings; their status remains unconfirmed. The previously unsuccessful docket-access check is now satisfied as a dated public-docket inspection, not a certificate of finality. Refresh the docket before eventual publication. Independent legal review of the Tennessee section remains outstanding and separate; the supplied AI-assisted review does not satisfy it. The publication hold remains in place.
+**Historical uncertainty and publication gate — 13 October 2026:** No later event appears in this displayed appellate history. That does not establish the absence of rehearing, discretionary review, a mandate, or trial-court proceedings; their status remains unconfirmed. The previously unsuccessful docket-access check is now satisfied as a dated public-docket inspection, not a certificate of finality. Refresh the docket before eventual publication. Independent legal review of the Tennessee section remains outstanding and separate; the supplied AI-assisted review does not satisfy it. The publication hold remains in place.
 
+
+**Publication recheck — 2 November 2026:** The [official Tennessee case history](https://pch.tncourts.gov/CaseDetails.aspx?Number=True&id=92346) was inspected again. Its displayed history still ends with the 5 October opinion; disposition is Reverse, and the Supreme Court appeal-date and closed-date fields remain blank. This is a dated observation of the available public display, not proof that no unrecorded or trial-court activity exists. The [judicial text](https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2026/w2025-01186-cca-r3-cd.html) continues to support the distinction between reversal/new trial and rejection of the insufficiency challenge. This check does not renew notes 1–12 or represent independent professional legal review.
+
+**Owner-authorized publication — 2 November 2026:** The owner explicitly requested publication of the complete guide after the separate K.M.K. companion was published. That instruction supersedes the prior editorial publication hold for this guide. It does not establish that qualified independent legal review occurred; that review remains unobtained and is disclosed on the reading pages. No new reuse license is assigned. See the [publication record](PUBLICATION-2026-11-02.md).
 
 ## Adversarial checks
 

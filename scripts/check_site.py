@@ -14,7 +14,7 @@ BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
          "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
          "trust/index.html", "trust/notes.html", "pra-release-tracker.html",
-         "complain/kmk.html"]
+         "complain/kmk.html", "complain/index.html", "complain/notes.html"]
 
 
 class Document(HTMLParser):
@@ -120,13 +120,13 @@ def main():
     listed = [item["item"]["url"] for item in collection["mainEntity"]["itemListElement"]]
     visible_targets = {urljoin(BASE + "practical-guides/", href) for href in docs["practical-guides/index.html"].links}
     expected_projects = {"https://dont-pay-a-middleman.vercel.app/", BASE,
-                         BASE + "crisis/", BASE + "trust/"}
-    if len(listed) != 4 or set(listed) != expected_projects or any(url not in visible_targets for url in listed) or collection["mainEntity"].get("numberOfItems") != 4:
-        failures.append("Collection structured data must describe the four visible project links")
+                         BASE + "crisis/", BASE + "trust/", BASE + "complain/"}
+    if len(listed) != 5 or set(listed) != expected_projects or any(url not in visible_targets for url in listed) or collection["mainEntity"].get("numberOfItems") != 5:
+        failures.append("Collection structured data must describe the five visible project links")
     if collection.get("relatedLink") != "https://plantclimatemap.org/" or collection["relatedLink"] not in visible_targets:
         failures.append("The related Plant Climate Map link must be visible and match its metadata")
     reciprocal_notes = 0
-    for section, count in (("crisis", 9), ("trust", 7)):
+    for section, count in (("crisis", 9), ("trust", 7), ("complain", 13)):
         guide, notes = docs[f"{section}/index.html"], docs[f"{section}/notes.html"]
         notes_url = BASE + section + "/notes.html"
         if guide.schemas[0].get("hasPart", {}).get("url") != notes_url or guide.schemas[0].get("citation") != notes_url or notes.schemas[0].get("isPartOf", {}).get("url") != BASE + section + "/":

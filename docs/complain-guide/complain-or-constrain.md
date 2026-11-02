@@ -2,7 +2,7 @@
 
 ## How to Tell When Someone Needs Protection—and When They’re Asking for Power Over Others
 
-*Draft for review. Sources and factual limits appear in the separate [Notes and Verification](complain-or-constrain-notes.md). The opening and other unnamed everyday situations are invented illustrations.*
+*First web edition: 2 November 2026. Sources and factual limits appear in the separate [Notes and Verification](complain-or-constrain-notes.md). The opening and other unnamed everyday situations are invented illustrations.*
 
 ## Opening — When Fairness Feels Unfair
 
@@ -159,7 +159,7 @@ The decision did not establish that every religious practice must be exempt from
 
 ### A current complication: a fair trial and the risk of prejudice
 
-*Public docket checked October 13, 2026. This section describes the October 5 opinion, which is the latest event listed in the official appellate case history. The Supreme Court appeal-date field is blank. These observations do not establish that no later proceedings exist. Further appeal is possible.*
+*Public docket rechecked November 2, 2026. This section describes the October 5 opinion, which is the latest event listed in the official appellate case history. The Supreme Court appeal-date field is blank. These observations do not establish that no later proceedings exist. Further appeal is possible.*
 
 On October 5, 2026, the Tennessee Court of Criminal Appeals reversed Samuel Ward Jr.’s voluntary manslaughter conviction for killing Paris Lee, a transgender woman, and ordered a new trial. It held that excluding evidence of her sex assigned at birth misapplied the evidence rules and impaired his right to present a defense. It did **not** find the killing justified; it separately found the trial evidence sufficient to support the conviction.[[13]](complain-or-constrain-notes.md#n13)
 

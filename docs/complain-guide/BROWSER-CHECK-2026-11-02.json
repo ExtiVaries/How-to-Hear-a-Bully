@@ -1,0 +1,248 @@
+{
+  "render_checks": [
+    {
+      "route": "complain/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/notes.html",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/kmk.html",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/methods.html",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/notes.html",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/kmk.html",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/methods.html",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/",
+      "width": 1280,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/notes.html",
+      "width": 1280,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/kmk.html",
+      "width": 1280,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/",
+      "width": 1280,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/methods.html",
+      "width": 1280,
+      "theme": "light",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/notes.html",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/kmk.html",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/methods.html",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/notes.html",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/kmk.html",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/methods.html",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/",
+      "width": 1280,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/notes.html",
+      "width": 1280,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "complain/kmk.html",
+      "width": 1280,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/",
+      "width": 1280,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    },
+    {
+      "route": "practical-guides/methods.html",
+      "width": 1280,
+      "theme": "dark",
+      "http": 200,
+      "no_horizontal_overflow": true,
+      "skip_link": true
+    }
+  ],
+  "guide_note_round_trips": 13,
+  "contents_menu": true,
+  "collection_navigation": true,
+  "screenshot_manual_review": false
+}

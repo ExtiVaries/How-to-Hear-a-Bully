@@ -28,6 +28,12 @@ When accounts conflict, ask who could know, what the evidence supports, and what
 
 **[Read the Trust guide](../trust-guide/who-to-trust-when-it-all-breaks-down.md)**
 
+### Complain or Constrain?
+
+Take reported harm seriously, then examine the requested remedy independently. Six questions, six historical cases and a Tennessee legal complication distinguish protection, accommodation and unjustified restrictions.
+
+**[Read the complete Complain or Constrain? guide](../complain-guide/complain-or-constrain.md)**
+
 ---
 
 ## Climate and growing
@@ -58,7 +64,7 @@ Use a dated historical example to separate a proposed cut, the authority to with
 
 ## A reported harm, a disputed remedy
 
-A dated K.M.K. wrestling case study separates the student's reported harm, the requested accommodations, effects on other students and what the courts have actually decided. It is a standalone companion to Complain or Constrain?, not the release of the complete guide.
+A dated K.M.K. wrestling case study separates the student's reported harm, the requested accommodations, effects on other students and what the courts have actually decided. It is a dated companion to the complete Complain or Constrain? guide above.
 
 **[Read the case study — 2 November 2026](https://extivaries.github.io/How-to-Hear-a-Bully/complain/kmk.html)**
 

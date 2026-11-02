@@ -7,7 +7,7 @@
 - [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
 - [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
 - [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
-- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the ten HTML pages hosted in this project. Middleman has its own hosting and sitemap.
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the twelve HTML pages hosted in this project. Middleman has its own hosting and sitemap.
 
 ## Don't Pay a Middleman
 
@@ -57,7 +57,7 @@ Editorial review: 9 October 2026. The questions are an untested teaching aid, no
 - [A reported harm, a disputed remedy](https://extivaries.github.io/How-to-Hear-a-Bully/complain/kmk.html): K.M.K. and girls’ wrestling. A November 2, 2026 snapshot distinguishing the reported harm, applicants’ requested accommodations, other students’ interests, interim orders and unresolved claims.
 - [Case study in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/complain-guide/kmk-case-study.md).
 
-The emergency application was pending at the source check. This is not live coverage; the automated case watch has stopped. This standalone publication does not release the complete guide or clear its separate Tennessee legal-review requirement. No new reuse license is assigned to the case study.
+The emergency application was pending at the source check. This is not live coverage; the automated case watch has stopped. The complete guide was subsequently authorized for publication on November 2; neither publication establishes independent legal review. No new reuse license is assigned to the case study.
 
 ## Corrections and reuse
 
@@ -65,3 +65,11 @@ The emergency application was pending at the source check. This is not live cove
 - [Reuse terms](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html#reading-and-reuse): The original Bully, Crisis and Trust guides and notes, and the collection and methods prose, use CC BY 4.0 plus an author permission for noncommercial use without credit. Commercial use requires the resource-specific credit, canonical link and change disclosure listed on the methods page. Other CC BY 4.0 terms still apply. Third-party quotations and translations, implementation code, upstream datasets and the separate Middleman and Plant Climate Map applications are outside this grant.
 
 This optional link index is not required for search indexing or AI citation and cannot guarantee either. The linked source notes, not this index, provide the evidence for the guides' factual claims. Research dates are not automatically renewed when metadata or links change.
+
+## Complain or Constrain? — complete guide
+
+- [Full guide](https://extivaries.github.io/How-to-Hear-a-Bully/complain/): harm, discomfort, protection, accommodation and remedies; six questions, six historical examples and a Tennessee complication. The substantive approved manuscript is preserved.
+- [All 13 source notes](https://extivaries.github.io/How-to-Hear-a-Bully/complain/notes.html): philosophical, empirical and judicial sources, contrary arguments, access limits and dated review history.
+- [Markdown guide](https://extivaries.github.io/How-to-Hear-a-Bully/docs/complain-guide/complain-or-constrain.md) and [Markdown notes](https://extivaries.github.io/How-to-Hear-a-Bully/docs/complain-guide/complain-or-constrain-notes.md).
+
+First web edition authorized November 2, 2026. This is civic education, not legal advice or independent professional legal certification. No new reuse license is assigned. The teaching framework has not been reader-validated. Original source dates are preserved; a publication date does not renew all research.
