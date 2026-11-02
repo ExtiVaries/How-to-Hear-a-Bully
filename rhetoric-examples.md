@@ -146,6 +146,21 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 **Evidence status:** TENT's statement was read directly; court actions and harms are attributed to reporting. Underlying orders were not independently inspected. Interpretation is editorial. **Last checked:** October 29, 2026.
 
+### October 30–November 2, 2026 — Court stay and attribution update
+
+**October 30 update — administrative stay:** The [official October 30 orders](https://www.txcourts.gov/supreme/orders-opinions/2026/october/october-30-2026/) identify case **26-1246, In re Texas Transgender Student Union LLC**, from Travis County. The [case-specific order](https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=c31f6085-6d37-4d83-9d07-709f81721cef&coa=cossup&DT=ORDER%20ISSUED&MediaID=37d54909-208f-4bc8-a072-43762184f154) pauses the district court’s October 28 order authorizing a pre-suit deposition of the LLC’s corporate representative, without deciding the merits. The mandamus petition and motion for temporary relief remained pending; the published orders list Justice Sullivan as not participating. Neither the underlying dispute nor the mailers’ lawfulness was decided.
+
+**Response deadline and later activity:** The order required TENT, the real party in interest, to respond to the temporary-relief motion by November 2 at 10 a.m. (Central). That was a filing deadline, not a promised ruling date or an automatic expiration of the stay. When checked November 2, the [official case docket](https://search.txcourts.gov/Case.aspx?cn=26-1246&coa=cossup) displayed no event later than October 30 and no response filing. Case Search says its records refresh nightly; this does not establish that no later filing or order exists. Any subsequent development needs separate verification.
+
+**Keep the attribution separate:** According to the [Texas Tribune’s October 30 report](https://www.texastribune.org/2026/10/30/texas-trans-mailers-supreme-court-block-deposition/), an earlier deposition identified the Republican Women’s Caucus Fund and an individual named John Braun in connection with the texts. The fund and Washington state Sen. John Braun deny involvement. TENT’s lawyer suspects a common source for texts and mailers but acknowledges no evidence yet linking them. Neither the printed mailers’ sponsorship nor individual lawmakers’ involvement is established by this report.
+
+**Possible procedural reasons — not findings:** A pause can preserve meaningful review before identities are irreversibly disclosed, allow responses, or permit examination of the requirements and scope of pre-suit questioning. [Texas Rule 202](https://www.txcourts.gov/media/1462349/texas-rules-of-civil-procedure.pdf) requires specified findings for such depositions; [appellate Rule 52.10](https://www.txcourts.gov/media/1463134/texas-rules-of-appellate-procedure-02062026.pdf) permits temporary relief. Anonymity claims may also need examination. These are possible explanations, not the court’s stated reasons or a conclusion that the lower judge erred.
+
+**Effect and motive:** The delay could leave voters without answers before November 3. That consequence does not establish a political motive. TENT’s lawyer says it can sue some responsible parties, and the Tribune reports a separate forgery investigation. A stay, an investigation, an allegation and a finding of liability are different events.
+
+**Question to follow:** What does the next order actually decide, what evidence identifies each sender, and what remains undisclosed? **Update checked:** November 2, 2026. The official docket, published orders, and one-page case-specific order were inspected directly. The emergency motion’s filing was verified on the docket; its substantive arguments were not independently assessed. Text-message attribution, denials, suspected connections to the mailers, and the investigation remain attributed to the Tribune. Possible procedural explanations are editorial, not findings or an account of the court’s motive; the order gives no substantive explanation. This dated update supplements the historical October 29 record above.
+
+
 ---
 
 ## How new examples are added
