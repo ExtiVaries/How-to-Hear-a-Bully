@@ -13,7 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
          "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
-         "trust/index.html", "trust/notes.html", "pra-release-tracker.html"]
+         "trust/index.html", "trust/notes.html", "pra-release-tracker.html",
+         "complain/kmk.html"]
 
 
 class Document(HTMLParser):
@@ -65,6 +66,7 @@ def main():
     failures = []
     before = {name: (ROOT / name).read_bytes() for name in PAGES[2:]}
     subprocess.run([sys.executable, str(ROOT / "scripts/build_suite.py")], check=True)
+    subprocess.run([sys.executable, str(ROOT / "scripts/build_kmk_case.py")], check=True)
     for name, content in before.items():
         if (ROOT / name).read_bytes() != content:
             failures.append(f"{name}: generated page was stale; rebuilt it, rerun check")
@@ -140,7 +142,7 @@ def main():
     locations = [element.text for element in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
     expected = [BASE + name.removesuffix("index.html") for name in PAGES]
     if sorted(locations) != sorted(expected):
-        failures.append("Sitemap does not match the eight publication pages")
+        failures.append("Sitemap does not match the publication pages")
 
     if failures:
         print("\n".join(failures), file=sys.stderr)
