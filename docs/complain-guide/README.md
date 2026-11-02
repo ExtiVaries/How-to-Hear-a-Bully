@@ -1,5 +1,20 @@
 # Complain or Constrain?
 
+## Current status — complete edition authorized, 2 November 2026
+
+The owner explicitly instructed publication of the **complete** guide following the standalone K.M.K. release. This supersedes the publication hold described in the historical record below for this guide only. Independent qualified legal review has not been obtained and is not claimed. The approved substantive manuscript is preserved; only publication/currency lines and source-note status were updated.
+
+- [Complete guide](https://extivaries.github.io/How-to-Hear-a-Bully/complain/)
+- [All 13 source notes](https://extivaries.github.io/How-to-Hear-a-Bully/complain/notes.html)
+- [Dated K.M.K. companion](https://extivaries.github.io/How-to-Hear-a-Bully/complain/kmk.html)
+- [Publication record](PUBLICATION-2026-11-02.md)
+
+No new reuse license is assigned. The wrestling-case watch remains stopped. Run `python3 scripts/build_suite.py` then `python3 scripts/check_site.py` to rebuild and validate the complete edition.
+
+## Historical preparation and companion-release record
+
+The following records describe earlier stages, not the current publication authorization.
+
 **How to Tell When Someone Needs Protection—and When They’re Asking for Power Over Others**
 
 The text has completed review and bounded corrections. The packet was merged through [PR #5](https://github.com/ExtiVaries/How-to-Hear-a-Bully/pull/5) on 9 October 2026; no website edition has been built or published.

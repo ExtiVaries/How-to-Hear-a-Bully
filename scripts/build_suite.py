@@ -65,7 +65,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
         schema["relatedLink"] = "https://plantclimatemap.org/"
         schema["mainEntity"] = {
             "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListUnordered",
-            "numberOfItems": 4,
+            "numberOfItems": 5,
             "itemListElement": [
                 {"@type": "ListItem", "position": index,
                  "item": {"@type": "WebPage", "name": name, "url": target}}
@@ -74,6 +74,7 @@ def page(path, title, description, body, current="", schema_type="WebPage"):
                     ("How to Hear a Bully", BASE),
                     ("Why Does Everything Feel Like a Crisis?", BASE + "crisis/"),
                     ("Who to Trust When It All Breaks Down?", BASE + "trust/"),
+                    ("Complain or Constrain?", BASE + "complain/"),
                 ], 1)
             ]}
     else:
@@ -145,6 +146,7 @@ def reading(path, source, description, eyebrow, meta, links, extra="", notes=Fal
         text = re.sub(r'^<a id="(n\d+)"></a>\n### (.+)$',
                       r'## \2 {#\1}', text, flags=re.M)
     rendered = markdown(text, links)
+    rendered = re.sub(r"(<table\b.*?</table>)", r'<div class="pg-table-scroll" role="region" aria-label="Table; scroll horizontally if needed" tabindex="0">\1</div>', rendered, flags=re.S)
     # Put navigation after the introduction, so the emergency callout stays first.
     first_section = re.search(r'<h2\b', rendered)
     if first_section:
@@ -159,18 +161,21 @@ def reading(path, source, description, eyebrow, meta, links, extra="", notes=Fal
 
 
 def build():
+    from build_complain import build as build_complain
+    build_complain()
     source = (SUITE / "homepage.md").read_text()
     primary, supporting = source.split("\n---\n", 1)
     intro, *rest = primary.split("\n### ")
     hub_links = {"../../how-to-hear-a-bully.md": "../",
                  "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/",
                  "../trust-guide/who-to-trust-when-it-all-breaks-down.md": "../trust/",
+                 "../complain-guide/complain-or-constrain.md": "../complain/",
                  "methods.md": "methods.html"}
     intro = markdown(intro, hub_links)
     intro = intro.replace("<p>", '<p class="pg-lede">', 1)
-    labels = ["Official routes", "Language and power", "Information and action", "Evidence and trust"]
+    labels = ["Official routes", "Language and power", "Information and action", "Evidence and trust", "Protection and remedies"]
     if len(rest) != len(labels):
-        raise ValueError("The homepage must contain the four primary guide cards")
+        raise ValueError("The homepage must contain the five primary guide cards")
     cards = []
     for label, card in zip(labels, rest):
         cards.append(f'<section class="pg-card"><span class="pg-label">{label}</span>{markdown("## " + card, hub_links)}</section>')

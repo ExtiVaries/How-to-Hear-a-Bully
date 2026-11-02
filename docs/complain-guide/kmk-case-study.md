@@ -66,7 +66,7 @@ These links support the factual account; the evaluative questions above are edit
 
 ## Publication and reuse {#publication}
 
-This is a standalone companion case study. It does not release the complete Complain or Constrain? guide or clear that manuscript’s separate Tennessee legal-review requirement. The accepted guide and its source notes remain unchanged.
+This case study was initially published as a standalone companion. The owner subsequently authorized the [complete Complain or Constrain? guide](https://extivaries.github.io/How-to-Hear-a-Bully/complain/) on 2 November 2026. Publication does not establish independent qualified legal approval; that review has not been obtained. The case facts on this page remain the dated snapshot above.
 
 The automated watch for this case has been stopped at the owner’s request. This page is not a promise of continuing updates; use the official docket for current status. Corrections may be reported through the [project’s public issue tracker](https://github.com/ExtiVaries/How-to-Hear-a-Bully/issues); do not submit private information about minors.
 
