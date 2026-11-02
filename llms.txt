@@ -7,7 +7,7 @@
 - [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
 - [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
 - [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
-- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the nine HTML pages hosted in this project. Middleman has its own hosting and sitemap.
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the ten HTML pages hosted in this project. Middleman has its own hosting and sitemap.
 
 ## Don't Pay a Middleman
 
@@ -51,6 +51,13 @@ Editorial review: 9 October 2026. The questions are an untested teaching aid, no
 ## Related tool: Climate and growing
 
 - [Plant Climate Map](https://plantclimatemap.org/): explore Köppen–Geiger climate classifications and USDA plant hardiness zones across the 48 contiguous United States. A separate app with its own map information and data sources; the guides' editorial review dates and reuse terms do not cover the map or its data.
+
+## Complain or Constrain? — standalone case study
+
+- [A reported harm, a disputed remedy](https://extivaries.github.io/How-to-Hear-a-Bully/complain/kmk.html): K.M.K. and girls’ wrestling. A November 2, 2026 snapshot distinguishing the reported harm, applicants’ requested accommodations, other students’ interests, interim orders and unresolved claims.
+- [Case study in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/complain-guide/kmk-case-study.md).
+
+The emergency application was pending at the source check. This is not live coverage; the automated case watch has stopped. This standalone publication does not release the complete guide or clear its separate Tennessee legal-review requirement. No new reuse license is assigned to the case study.
 
 ## Corrections and reuse
 

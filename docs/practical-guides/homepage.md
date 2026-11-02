@@ -56,6 +56,14 @@ Use a dated historical example to separate a proposed cut, the authority to with
 
 ---
 
+## A reported harm, a disputed remedy
+
+A dated K.M.K. wrestling case study separates the student's reported harm, the requested accommodations, effects on other students and what the courts have actually decided. It is a standalone companion to Complain or Constrain?, not the release of the complete guide.
+
+**[Read the case study — 2 November 2026](https://extivaries.github.io/How-to-Hear-a-Bully/complain/kmk.html)**
+
+---
+
 ## [How we check our work](methods.md)
 
 What each project covers, where its information comes from, when it was last reviewed, what remains uncertain, and how to report a correction.
