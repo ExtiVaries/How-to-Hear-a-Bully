@@ -70,6 +70,12 @@ For each candidate, log its **discovery source**, mechanism, administration, pri
 
 This pilot log records selection, not a comparative count. Future candidates found through the GAO index should record that discovery source even when the decision finds no violation.
 
+### A developing accountability case {#developing-cases}
+
+The [Clara Tan case study](/How-to-Hear-a-Bully/trust/clara-tan.html), prepared October 31, 2026, applies the Trust method to a developing report. It was discovered through a reader-supplied [Advocate article](https://www.advocate.com/news/people/transgender-woman-ice-new-york), then checked against original local reporting and federal regulatory text. It concerns ICE during the Trump administration. Its [source record](/How-to-Hear-a-Bully/trust/clara-tan-sources.html) distinguishes firsthand allegations, an agency response reported by journalists, direct reading of rules, and uninspected case records.
+
+The inclusion reason is the teachable distinction between partial confirmation and unanswered treatment questions. It is not a verified-rhetoric entry, a finding of misconduct, or a representative sample. Public interest in accountability does not require publishing private medical or immigration identifiers. Alternative explanations are labeled as hypotheses, not invented official responses. Draft status and the publication hold remain in place; dates identify a bounded check, not automatic monitoring.
+
 ## What the dates mean
 
 Dates identify particular checks, not continuous monitoring.

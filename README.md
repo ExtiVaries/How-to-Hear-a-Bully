@@ -4,6 +4,7 @@
 
 ## Read it
 
+- [Clara Tan case study](docs/trust-guide/cases/clara-tan.md) and [sources and limits](docs/trust-guide/cases/clara-tan-sources.md) — dated evidence and accountability case; draft, publication held. Prepared web editions: [case](trust/clara-tan.html), [sources](trust/clara-tan-sources.html).
 - [Rhetoric in Practice — verified examples tracker](rhetoric-examples.md) ([web page](https://extivaries.github.io/How-to-Hear-a-Bully/rhetoric-examples.html))
 - [Presidential Records Release & Extension Tracker](pra-release-tracker.md) ([web page](https://extivaries.github.io/How-to-Hear-a-Bully/pra-release-tracker.html); [case register](docs/pra-extension-tracker/events.csv)) — selected verified PRA extension cases; publication status tracked separately.
 - [The guide](how-to-hear-a-bully.md) (second edition, October 2026)
@@ -23,6 +24,8 @@ The collection includes a small hub, a methods page, and the reviewed Crisis and
 - [Original collection website checks](docs/practical-guides/PUBLICATION-CHECK.md) and [Trust website checks](docs/trust-guide/PUBLICATION-CHECK.md)
 
 The collection's web routes are `practical-guides/`, `practical-guides/methods.html`, `crisis/`, `crisis/notes.html`, `trust/`, and `trust/notes.html`. GitHub Pages publishes the site from `claude/project-thread-i83pmv`. [Open the collection](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/), [read the Crisis guide](https://extivaries.github.io/How-to-Hear-a-Bully/crisis/), or [read the Trust guide](https://extivaries.github.io/How-to-Hear-a-Bully/trust/).
+
+The Clara Tan case adds prepared routes `trust/clara-tan.html` and `trust/clara-tan-sources.html`. A branch or prepared route is not evidence of publication. Its [review and handoff record](docs/trust-guide/cases/clara-tan-review-2026-10-31.md) records source limits and release gates.
 
 ### Build and preview
 
