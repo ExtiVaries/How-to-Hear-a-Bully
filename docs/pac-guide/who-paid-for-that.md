@@ -36,7 +36,7 @@ Write down the exact entity named in the filing or advertisement, including its 
 
 **Contributed.** Money or something of value was given to a candidate, party, or political committee and is governed by the rules applicable to contributions.
 
-**Forwarded.** A conduit or intermediary passed along a contribution that an individual had directed to a candidate. The individual remains the contributor; the conduit does not become the source merely because its name appears in the transaction record.[[1]](who-paid-for-that-notes.md#n1)
+**Forwarded.** A conduit or intermediary passed along a contribution that an individual had directed to a candidate. The individual remains the contributor; the conduit does not become the source merely because its name appears in the transaction record. If the conduit directs or controls the choice of recipient, however, the contribution can count against both the donor's and the conduit's limits. That does not make it two separate payments.[[1]](who-paid-for-that-notes.md#n1)
 
 **Transferred.** Money moved from one organization or account to another. A transfer identifies the immediate source. It may not reveal every person whose earlier donations supplied the transferring organization’s general treasury.
 
@@ -59,7 +59,7 @@ The labels below describe federal campaign-finance structures. State rules can d
 | **Leadership PAC** | A nonconnected PAC associated with a federal officeholder or political leader, generally used to support other candidates | Yes, within applicable limits | Sponsor information and FEC reports; it is legally separate from the sponsor’s candidate committee[[3]](who-paid-for-that-notes.md#n3) |
 | **Super PAC** | An independent-expenditure-only committee that raises unlimited funds for independent political activity | **No direct candidate contribution**; its spending must remain legally independent | Direct donors reported to the FEC, expenditures, vendors, and candidates supported or opposed[[4]](who-paid-for-that-notes.md#n4) |
 | **Hybrid PAC** | Keeps a limited-contribution account and a separate unlimited non-contribution account | The contribution account may give within limits; the other account funds independent activity | Reports must separate the accounts and activity |
-| **501(c)(4) social-welfare organization** | May lobby as a primary activity and may engage in some candidate-related political activity so long as that is not its primary activity | It is **not itself a PAC merely because it advocates policy**; election spending can trigger separate FEC and tax rules | Public Form 990 information, but generally not the names and addresses of contributors; election-related reports may disclose particular spending or an immediate organizational donor[[5]](who-paid-for-that-notes.md#n5) |
+| **501(c)(4) social-welfare organization** | May lobby as a primary activity and may engage in some candidate-related political activity so long as that is not its primary activity | An **incorporated** 501(c)(4) cannot give treasury funds directly to a federal candidate; a separate eligible PAC may contribute within limits. Tax status alone does not determine corporate form or every election-law obligation | Public Form 990 information, but generally not the names and addresses of contributors; election-related reports may disclose particular spending or an immediate organizational donor[[5]](who-paid-for-that-notes.md#n5) |
 
 “Dark money” is a common political and journalistic description, not one formal entity type. It usually refers to election-influencing money whose original donors are not publicly disclosed. The phrase can describe a genuine transparency gap. It does not, by itself, establish that the money was foreign, illegal, or given for a corrupt bargain.
 
@@ -108,7 +108,7 @@ A serious policy asks both:
 
 ## Foreign money, straw donors, and oversight
 
-Federal law prohibits foreign nationals from directly or indirectly making contributions, donations, expenditures, or independent expenditures in connection with federal, state, or local elections. It also prohibits acting as a conduit for foreign-national money and restricts foreign participation in election-spending decisions.[[11]](who-paid-for-that-notes.md#n11)
+Federal law prohibits foreign nationals from directly or indirectly making contributions, donations, expenditures, or independent expenditures in connection with federal, state, or local elections. It also prohibits acting as a conduit for foreign-national money and restricts foreign participation in election-spending decisions. For individuals, this campaign-finance definition excludes U.S. citizens and people lawfully admitted for permanent residence (green-card holders). A surname or foreign address alone does not establish a prohibited source.[[11]](who-paid-for-that-notes.md#n11)
 
 It is likewise unlawful to make a contribution in another person’s name. An organization cannot lawfully erase a prohibited donor by relabeling an American citizen as the source.[[12]](who-paid-for-that-notes.md#n12)
 
@@ -119,7 +119,9 @@ The oversight system is divided:
 - **The IRS** administers tax-exempt status, returns, and tax rules governing nonprofit political activity.
 - **State regulators** enforce separate state campaign-finance, charity, and election laws.
 
-This is real oversight, but much of it is reactive. The FEC needs at least four affirmative commissioner votes for official action and for each major enforcement stage to proceed. Enforcement matters remain confidential until closed.[[14]](who-paid-for-that-notes.md#n14) A complaint can therefore be pending without public visibility, and a disclosure gap can make the evidence needed to trigger an investigation difficult to obtain.
+Legal authority and present enforcement capacity are different. The FEC needs at least four affirmative commissioner votes for official action and for each major enforcement stage to proceed. As of 5 November 2026, its published roster lists two commissioners and four vacancies, leaving it without a quorum for those decisions. That does not end reporting obligations, all staff functions, or the separate authority of the DOJ, IRS, and state regulators.
+
+The FEC generally keeps enforcement matters confidential until they are closed, although complainants and respondents may disclose their own complaints or responses.[[14]](who-paid-for-that-notes.md#n14) A complaint can therefore be pending without public visibility, and a disclosure gap can make the evidence needed to trigger an investigation difficult to obtain.
 
 “No public donor list” does not mean “no oversight.” It also does not mean the public can independently verify compliance donor by donor.
 
@@ -139,7 +141,9 @@ It does **not** identify every donor, establish that the money was foreign, or s
 
 The American Israel Public Affairs Committee Political Action Committee is FEC committee **C00797670**, a membership-organization PAC and lobbyist/registrant PAC. For the 2025–2026 period through October 14, 2026, the FEC summary reported about $57.8 million in receipts, mostly individual contributions, and about $53.3 million in contributions to other committees.[[16]](who-paid-for-that-notes.md#n16)
 
-AIPAC PAC also acts as a conduit for some earmarked individual contributions. Candidate filings can therefore show the individual donor and list AIPAC PAC as the intermediary, with a memo explaining that the PAC limit was not affected.[[17]](who-paid-for-that-notes.md#n17)
+In the cited July 2025 candidate filing, AIPAC PAC acted as a conduit for an earmarked individual contribution. The filing identifies the individual donor and AIPAC PAC as the intermediary, with a memo explaining that the PAC limit was not affected.
+
+This is historical activity, not a claim about an unchanged operating model. An editorial dated 21 October 2026 and republished on AIPAC's website described announced plans to stop PAC endorsements, direct candidate contributions, and public earmarking. Contemporaneous reporting quoted a leadership letter describing the same changes. Those sources establish an announcement; this guide has not independently verified when each change was implemented or that the PAC terminated.[[17]](who-paid-for-that-notes.md#n17)
 
 That supports: “Individuals used AIPAC PAC to route disclosed, earmarked contributions to candidates,” when the relevant filings say so.
 
@@ -149,7 +153,7 @@ It does **not** support counting every conduit contribution as money donated fro
 
 United Democracy Project is FEC committee **C00799031**, an independent-expenditure-only super PAC. For the same cycle and cutoff, the FEC summary reported about $112.8 million raised and about $53.6 million in independent expenditures.[[18]](who-paid-for-that-notes.md#n18)
 
-That spending may benefit or oppose candidates, but it is not money deposited in their campaign accounts. Direct donors to UDP appear in its FEC reports. When a nonprofit is the direct donor, the public report identifies that nonprofit; it may not reveal the humans who supplied the nonprofit’s treasury.
+That spending may benefit or oppose candidates, but it is not money deposited in their campaign accounts. Direct donors to UDP appear in its FEC reports. As a general disclosure rule, when a nonprofit is a direct donor to a super PAC, the public report identifies that nonprofit; it may not reveal the humans who supplied its treasury. This guide does not document a particular core-AIPAC-to-UDP transfer. The summary figures above do not establish that pathway or trace money from core AIPAC's undisclosed contributors into UDP.
 
 The point is not that one of these channels is automatically benign or corrupt. It is that a claim such as “Candidate X received AIPAC money” may combine:
 
@@ -157,7 +161,7 @@ The point is not that one of these channels is automatically benign or corrupt. 
 2. Individual contributions forwarded through AIPAC PAC.
 3. Independent spending by UDP.
 4. Policy lobbying by core AIPAC.
-5. Transfers whose ultimate human donors are not publicly visible.
+5. A transfer between organizations, if a particular transaction is documented; its ultimate human sources may or may not be publicly visible.
 
 A useful analysis separates them before adding numbers or assigning responsibility.
 

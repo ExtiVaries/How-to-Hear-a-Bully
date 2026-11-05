@@ -43,13 +43,33 @@ Primary sources were used for the legal and reporting framework:
 
 The AIPAC Form 990 figures use ProPublica’s IRS-derived filing presentation; the notes identify that as a third-party presentation rather than an independent finding.
 
+## Review corrections applied on 5 November 2026
+
+A bounded AI-assisted factual and adversarial editorial review checked the manuscript and principal sources. The revised draft:
+
+- dates the conduit example to its July 2025 filing and attributes the October 2026 operating-change announcement without claiming implementation or PAC termination;
+- distinguishes the FEC's legal authority from its dated lack of a quorum, without implying all reporting or other agencies' oversight stopped;
+- clarifies the corporate-treasury prohibition, lawful-permanent-resident exception, and conduit direction/control rule;
+- separates the general nonprofit-disclosure pathway from any unproven core-AIPAC-to-UDP transfer;
+- preserves the previously checked financial figures and their October 14 cutoff, pins FEC links to the 2026 cycle, and links the filing example to PDF page 74.
+
+The AIPAC example, entity distinctions, and limits on motive, coordination, foreign-money, and illegality inferences remain. This does not adopt a new hub-wide accountability standard or authorize publication.
+
+## Validation of the corrected draft
+
+- Pandoc 3.1.11.1 rendered both draft Markdown files successfully. All 18 guide-to-note references and 18 return links resolve to rendered anchors, with no duplicate IDs or missing targets; 37 local links were checked including the introductory Source Notes link.
+- The seven precise financial figures in the notes remain unchanged. Both FEC committee links specify the 2026 cycle.
+- All 33 distinct external source URLs returned successful HTTP responses on 5 November 2026. The principal sources and the added legal/date qualifications were also read for claim support; link availability alone is not factual or legal certification.
+- The existing `scripts/check_site.py` passed for 12 published-site pages, 389 local links, and 29 reciprocal notes. Generated pages were current, with matching sitemap and structured metadata. This is a regression check of the existing site, not validation of a PAC web edition.
+- `git diff --check` passed. Only the three existing PAC draft files are part of this revision; Clara Tan and shared integration files remain untouched.
+
 ## Current review limits
 
 - No independent election-law review has been obtained.
-- No adversarial editorial review has been completed.
+- The bounded AI-assisted review above is not independent election-law expertise, scholarly peer review, or reader testing. The revised manuscript still needs owner/editorial acceptance.
 - Dynamic 2025–2026 FEC figures are checked only through the source cutoff stated in the notes.
 - The guide has not been reader-tested.
-- Links and internal note targets were checked in the draft text, but the repository’s Pandoc build, full-site checker, browser checks, sitemap, metadata, and generated HTML were not changed or run.
+- Draft rendering, note targets, and the existing full-site regression check were completed as recorded above. No PAC website integration, generated PAC HTML, or PAC browser/accessibility review has been completed. Shared sitemap, metadata, homepage, and generated site files remain unchanged.
 - The current open Clara Tan PR modifies the collection homepage and other shared integration files. To avoid manufacturing a conflict, this draft does not yet edit those files.
 
 ## Proposed eventual hub placement
@@ -68,7 +88,7 @@ Proposed source directory: `docs/pac-guide/`
 Eventual implementation would require:
 
 1. owner approval of the revised manuscript;
-2. adversarial factual and framing review;
+2. final factual and framing acceptance of the corrected draft, with the remaining review limits made explicit;
 3. integration into `scripts/build_suite.py` or a separate builder;
 4. generated guide and notes HTML;
 5. homepage, methods, README, `llms.txt`, and sitemap integration;

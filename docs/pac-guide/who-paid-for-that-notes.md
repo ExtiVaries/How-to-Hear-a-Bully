@@ -7,7 +7,7 @@
 
 **Sources:** Federal Election Commission, [Earmarked contributions](https://www.fec.gov/updates/earmarked-contributions/); FEC, [Contributions received through conduits](https://www.fec.gov/help-candidates-and-committees/filing-reports/contributions-received-through-conduits/).
 
-**Supports:** An earmarked contribution is directed to a clearly identified candidate through an intermediary or conduit. Reporting must identify the original contributor and conduit under the applicable rules.
+**Supports:** An earmarked contribution is directed to a clearly identified candidate through an intermediary or conduit. Reporting must identify the original contributor and conduit under the applicable rules. The contribution always counts against the original donor's limit and also counts against the conduit's limit if the conduit directs or controls the choice of recipient. That attribution rule does not turn one payment into two.
 
 **Limits:** Whether a particular transaction was earmarked must be determined from its filing and facts. Acting as a conduit does not establish coordination over independent spending.
 
@@ -49,11 +49,11 @@
 <a id="n5"></a>
 ### 5. Section 501(c)(4) organizations
 
-**Sources:** IRS, [Social welfare organizations](https://www.irs.gov/charities-non-profits/other-non-profits/social-welfare-organizations); IRS, [Endorsing candidates for public office](https://www.irs.gov/charities-non-profits/eo-operational-requirements-endorsing-candidates-for-public-office).
+**Sources:** IRS, [Social welfare organizations](https://www.irs.gov/charities-non-profits/other-non-profits/social-welfare-organizations); IRS, [Endorsing candidates for public office](https://www.irs.gov/charities-non-profits/eo-operational-requirements-endorsing-candidates-for-public-office); FEC, [Who can and cannot contribute to a candidate](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/who-can-and-cant-contribute/).
 
-**Supports:** A 501(c)(4) organization may engage primarily in lobbying germane to its social-welfare purposes. It may engage in some political campaign activity so long as political campaign intervention is not its primary activity; political expenditures can be subject to tax.
+**Supports:** A 501(c)(4) organization may engage primarily in lobbying germane to its social-welfare purposes. It may engage in some political campaign activity so long as political campaign intervention is not its primary activity; political expenditures can be subject to tax. An incorporated 501(c)(4), like other nonprofit corporations, cannot make treasury contributions directly to federal candidates; funds from an eligible separate PAC may be contributed within applicable limits.
 
-**Limits:** The IRS pages do not supply one universal numeric safe harbor for “primary activity.” Particular activities and reporting obligations require fact-specific analysis.
+**Limits:** The IRS pages do not supply one universal numeric safe harbor for “primary activity.” Particular activities and reporting obligations require fact-specific analysis. Section 501(c)(4) tax status alone does not establish corporate form or resolve all election-law restrictions.
 
 [Back to the guide](who-paid-for-that.md#the-main-structures)
 
@@ -117,7 +117,7 @@
 
 **Sources:** FEC, [Foreign nationals](https://www.fec.gov/help-candidates-and-committees/foreign-nationals/); FEC, [Who can and cannot contribute to a nonconnected PAC](https://www.fec.gov/help-candidates-and-committees/taking-receipts-pac/who-can-and-cant-contribute-nonconnected-pac/).
 
-**Supports:** Foreign nationals may not directly or indirectly make contributions, donations, expenditures, or independent expenditures in connection with U.S. elections; they may not act as conduits or participate in covered election-spending decisions.
+**Supports:** Foreign nationals may not directly or indirectly make contributions, donations, expenditures, or independent expenditures in connection with U.S. elections; they may not act as conduits or participate in covered election-spending decisions. For individuals, the definition excludes U.S. citizens and lawful permanent residents; qualifying green-card holders may contribute. The FEC also states that a surname alone is not a reason to infer foreign nationality.
 
 **Limits:** Citizenship, lawful permanent residence, entity structure, source of funds, and decision-making participation require facts. An address abroad or nonprofit opacity alone does not prove a prohibited source.
 
@@ -150,9 +150,9 @@
 
 **Sources:** FEC, [Leadership and structure](https://www.fec.gov/about/leadership-and-structure/); FEC, [FEC enforcement programs](https://www.fec.gov/press/resources-journalists/fec-enforcement-programs/).
 
-**Supports:** At least four commissioner votes are required for official Commission action. If four votes are unavailable at a major enforcement stage, the matter does not proceed to the next stage. Enforcement matters remain confidential until resolved and closed files are later published in redacted form.
+**Supports:** At least four commissioner votes are required for official Commission action. If four votes are unavailable at a major enforcement stage, the matter does not proceed to the next stage. As checked on 5 November 2026, the official roster lists Shana M. Broussard and Dara Lindenbaum, with four vacant seats, so the Commission lacks a quorum for those decisions. The FEC generally keeps enforcement matters confidential until closed and later publishes redacted files; complainants and respondents may disclose their own complaints or responses.
 
-**Limits:** Failure to proceed can have different causes. It does not itself establish that the allegations were true or false.
+**Limits:** The dated roster is not a permanent description of Commission membership. A quorum shortage does not suspend reporting requirements, all staff functions, or other agencies' authority. Failure to proceed can have different causes and does not itself establish that allegations were true or false.
 
 [Back to the guide](who-paid-for-that.md#foreign-money-straw-donors-and-oversight)
 
@@ -170,7 +170,7 @@
 <a id="n16"></a>
 ### 16. AIPAC PAC
 
-**Source:** FEC, [American Israel Public Affairs Committee Political Action Committee, C00797670](https://www.fec.gov/data/committee/C00797670/).
+**Source:** FEC, [American Israel Public Affairs Committee Political Action Committee, C00797670](https://www.fec.gov/data/committee/C00797670/?cycle=2026).
 
 **Supports:** The FEC identifies the committee as an active qualified membership-organization PAC and lobbyist/registrant PAC. For 1 January 2025 through 14 October 2026, the page reported $57,771,930.54 in total receipts, including $54,915,730.01 in individual contributions, and $53,289,529.53 in contributions to other committees.
 
@@ -181,21 +181,21 @@
 <a id="n17"></a>
 ### 17. AIPAC PAC as conduit
 
-**Sources:** FEC candidate filing example, [Alaskans for Dan Sullivan, Schedule A image 202507159763270558](https://docquery.fec.gov/pdf/485/202507159763270485/202507159763270485.pdf); FEC, [Earmarked contributions](https://www.fec.gov/updates/earmarked-contributions/).
+**Sources:** FEC candidate filing example, [Alaskans for Dan Sullivan, Schedule A image 202507159763270558, PDF page 74](https://docquery.fec.gov/pdf/485/202507159763270485/202507159763270485.pdf#page=74); FEC, [Earmarked contributions](https://www.fec.gov/updates/earmarked-contributions/); David-Seth Kirshner, [AIPAC: The Courage to Evolve](https://aipac.org/editorials/courage-to-evolve), editorial dated 21 October 2026, republished on AIPAC's website; Marc Rod, [AIPAC to end candidate endorsements, PAC contributions to allies](https://jewishinsider.com/2026/10/aipac-end-candidate-endorsements-pac-contributions/), *Jewish Insider*, 21 October 2026.
 
-**Supports:** The filing shows an individual contribution with AIPAC PAC identified in memo entries as the intermediary and states “TOTAL EARMARKED THROUGH CONDUIT. PAC LIMIT NOT AFFECTED.”
+**Supports:** The July 2025 filing shows an individual contribution with AIPAC PAC identified in memo entries as the intermediary and states “TOTAL EARMARKED THROUGH CONDUIT. PAC LIMIT NOT AFFECTED.” The October editorial describes announced plans to end endorsements, direct PAC contributions, and public earmarking; the news report quotes the leadership letter describing those changes.
 
-**Limits:** This is one filing example and does not establish the composition of all AIPAC PAC activity. The underlying individual and intermediary entries must not be double-counted as two separate contributions.
+**Limits:** This is one filing example and does not establish the composition of all AIPAC PAC activity. The underlying individual and intermediary entries must not be double-counted as two separate contributions. The editorial is attributed commentary republished by AIPAC, not the original announcement; the quoted letter is available here through secondary reporting. These sources do not independently verify completed implementation, its exact timing, or PAC termination. The 2025 filing and the financial totals through 14 October 2026 predate the announcement.
 
 [Back to the guide](who-paid-for-that.md#aipac-pac)
 
 <a id="n18"></a>
 ### 18. United Democracy Project
 
-**Source:** FEC, [United Democracy Project, C00799031](https://www.fec.gov/data/committee/C00799031/?tab=spending).
+**Source:** FEC, [United Democracy Project, C00799031](https://www.fec.gov/data/committee/C00799031/?cycle=2026&tab=spending).
 
 **Supports:** The FEC identifies UDP as an active independent-expenditure-only super PAC. For 1 January 2025 through 14 October 2026, the page reported $112,820,861.12 in total receipts and $53,603,927.44 in independent expenditures.
 
-**Limits:** Summary totals do not identify every ultimate human source or establish coordination or illegality. Individual transactions, amendments, and expenditure reports should be inspected for a particular claim.
+**Limits:** Summary totals do not identify every ultimate human source or establish coordination or illegality. These sources do not document a particular core-AIPAC-to-UDP transfer or trace core AIPAC's undisclosed contributors into UDP. The guide's nonprofit-donor explanation describes a general disclosure pathway, not a verified transaction in this example. Individual transactions, amendments, and expenditure reports should be inspected for a particular claim.
 
 [Back to the guide](who-paid-for-that.md#united-democracy-project)
