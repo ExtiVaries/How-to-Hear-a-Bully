@@ -1,0 +1,74 @@
+name: Prepare complete Complain guide
+on:
+  push:
+    branches: [release/complain-full-2026-11-02]
+permissions:
+  contents: write
+concurrency:
+  group: prepare-complain-full-2026-11-02
+  cancel-in-progress: false
+defaults:
+  run:
+    shell: bash
+jobs:
+  prepare-and-verify:
+    if: github.repository == 'ExtiVaries/How-to-Hear-a-Bully'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Install build and browser tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc
+          python3 -m venv "$RUNNER_TEMP/complain-venv"
+          "$RUNNER_TEMP/complain-venv/bin/pip" install playwright==1.56.0
+          "$RUNNER_TEMP/complain-venv/bin/python" -m playwright install --with-deps chromium
+      - name: Prepare and build complete edition
+        run: |
+          python3 scripts/prepare_complain_release.py
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/build_suite.py')
+          text = p.read_text()
+          if 'pg-table-scroll' not in text:
+              old = '    rendered = markdown(text, links)\n'
+              assert text.count(old) == 1
+              new = old + '    rendered = re.sub(r"(<table\\b.*?</table>)", r\'<div class="pg-table-scroll" role="region" aria-label="Table; scroll horizontally if needed" tabindex="0">\\1</div>\', rendered, flags=re.S)\n'
+              p.write_text(text.replace(old, new))
+          p = Path('assets/practical-guides.css')
+          text = p.read_text()
+          if '.pg-table-scroll{' not in text:
+              text += '\n/* Bounded mobile-table repair found during the complete Complain release. */\n.pg-table-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}\n.pg-table-scroll table{border-collapse:collapse;min-width:100%}\n.pg-table-scroll th,.pg-table-scroll td{padding:.4rem .6rem;vertical-align:top}\n.pg-reading pre{max-width:100%;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere}\n.pg-reading code{overflow-wrap:anywhere}\n'
+              p.write_text(text)
+          PY
+          python3 scripts/build_suite.py
+          python3 scripts/build_kmk_case.py
+          python3 scripts/check_site.py | tee docs/complain-guide/SITE-CHECK-2026-11-02.json
+          git diff --check
+      - name: Check browser layouts and citations
+        run: '"$RUNNER_TEMP/complain-venv/bin/python" scripts/check_complain_browser.py'
+      - name: Commit only the validated release outputs
+        run: |
+          git add AGENTS.md README.md assets/practical-guides.css docs/complain-guide docs/practical-guides/homepage.md docs/practical-guides/methods.md scripts/build_suite.py scripts/check_site.py complain practical-guides llms.txt sitemap.xml
+          git diff --cached --check
+          git diff --quiet -- crisis trust
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m "Build and verify complete Complain or Constrain web edition"
+            git push origin HEAD:release/complain-full-2026-11-02
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: complete-complain-guide-checks
+          path: |
+            /tmp/complain-mobile.png
+            /tmp/complain-desktop.png
+            docs/complain-guide/SITE-CHECK-2026-11-02.json
+            docs/complain-guide/BROWSER-CHECK-2026-11-02.json
+          retention-days: 14

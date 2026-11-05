@@ -89,3 +89,7 @@ The same CC BY 4.0 license and extra noncommercial credit permission apply to th
 | How we check our work | "How we check our work, by Exti" | https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html |
 
 This permission covers the original prose on the Practical Guides collection and methods pages, and the original Bully, Crisis and Trust guides and their notes. It does not cover application implementation code, upstream datasets, linked sources, or third-party materials, including quotations and translations of other people's words. Don't Pay a Middleman and Plant Climate Map remain separate applications with their own scope, sources and reuse terms.
+
+## Complain or Constrain? — published web edition
+
+The owner authorized the complete [Complain or Constrain? guide](https://extivaries.github.io/How-to-Hear-a-Bully/complain/) and [source notes](https://extivaries.github.io/How-to-Hear-a-Bully/complain/notes.html) on 2 November 2026. The substantive manuscript is unchanged. Build with `python3 scripts/build_suite.py`; check with `python3 scripts/check_site.py`. Publication does not certify independent legal review, which has not been obtained. No additional reuse grant is assigned to this guide, its notes or the K.M.K. companion. Other resources retain their existing terms. See [the release record](docs/complain-guide/PUBLICATION-2026-11-02.md).

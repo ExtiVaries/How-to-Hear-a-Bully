@@ -14,6 +14,7 @@ BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
          "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
          "trust/index.html", "trust/notes.html", "pra-release-tracker.html",
+         "complain/kmk.html", "complain/index.html", "complain/notes.html",
          "trust/clara-tan.html", "trust/clara-tan-sources.html"]
 
 
@@ -66,6 +67,7 @@ def main():
     failures = []
     before = {name: (ROOT / name).read_bytes() for name in PAGES[2:]}
     subprocess.run([sys.executable, str(ROOT / "scripts/build_suite.py")], check=True)
+    subprocess.run([sys.executable, str(ROOT / "scripts/build_kmk_case.py")], check=True)
     for name, content in before.items():
         if (ROOT / name).read_bytes() != content:
             failures.append(f"{name}: generated page was stale; rebuilt it, rerun check")
@@ -119,13 +121,13 @@ def main():
     listed = [item["item"]["url"] for item in collection["mainEntity"]["itemListElement"]]
     visible_targets = {urljoin(BASE + "practical-guides/", href) for href in docs["practical-guides/index.html"].links}
     expected_projects = {"https://dont-pay-a-middleman.vercel.app/", BASE,
-                         BASE + "crisis/", BASE + "trust/"}
-    if len(listed) != 4 or set(listed) != expected_projects or any(url not in visible_targets for url in listed) or collection["mainEntity"].get("numberOfItems") != 4:
-        failures.append("Collection structured data must describe the four visible project links")
+                         BASE + "crisis/", BASE + "trust/", BASE + "complain/"}
+    if len(listed) != 5 or set(listed) != expected_projects or any(url not in visible_targets for url in listed) or collection["mainEntity"].get("numberOfItems") != 5:
+        failures.append("Collection structured data must describe the five visible project links")
     if collection.get("relatedLink") != "https://plantclimatemap.org/" or collection["relatedLink"] not in visible_targets:
         failures.append("The related Plant Climate Map link must be visible and match its metadata")
     reciprocal_notes = 0
-    for section, count in (("crisis", 9), ("trust", 7)):
+    for section, count in (("crisis", 9), ("trust", 7), ("complain", 13)):
         guide, notes = docs[f"{section}/index.html"], docs[f"{section}/notes.html"]
         notes_url = BASE + section + "/notes.html"
         if guide.schemas[0].get("hasPart", {}).get("url") != notes_url or guide.schemas[0].get("citation") != notes_url or notes.schemas[0].get("isPartOf", {}).get("url") != BASE + section + "/":
@@ -141,7 +143,7 @@ def main():
     locations = [element.text for element in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
     expected = [BASE + name.removesuffix("index.html") for name in PAGES]
     if sorted(locations) != sorted(expected):
-        failures.append("Sitemap does not match the checked reading routes")
+        failures.append("Sitemap does not match the publication pages")
 
     case = docs["trust/clara-tan.html"].schemas[0]
     case_sources = docs["trust/clara-tan-sources.html"].schemas[0]

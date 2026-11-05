@@ -2,7 +2,15 @@
 
 This file applies to this repository. It explains the project and how to maintain it. Follow the user's current instructions and carry forward authorization already given in the session; this historical handoff is not blanket authorization for future merges or publication.
 
-Status snapshot: **9 October 2026**. Inspect the current remote branch and working tree before making changes. Preserve unrelated work. Update this handoff when the project's structure or status materially changes.
+## Current Trust draft reconciliation — 4 November 2026
+
+PR #19 integrates the Clara Tan draft with the published source at `7e5cb13110622af5e6648beae09586b77eb3781a` (PR #21). The complete Complain release remains intact. The checker covers 14 reading routes and 29 reciprocal research-note pairs. Clara Tan remains draft and publication held; its source-check date remains October 31. See [the reconciliation record](docs/trust-guide/cases/INTEGRATION-2026-11-04.md) for exact conflicts, checks and remaining browser/release gates. This reconciliation authorizes no merge, deployment or monitoring.
+
+## Current Complain publication update — 2 November 2026
+
+The owner expressly requested publication of the **complete** Complain or Constrain? guide after the standalone K.M.K. release. That instruction supersedes the older Complain publication hold below; it does not lift holds on unrelated projects or claim independent legal review. The full guide and notes are served at `complain/` and `complain/notes.html`; the dated companion stays at `complain/kmk.html`. The substantive accepted manuscript remains unchanged. `scripts/build_suite.py` now invokes `scripts/build_complain.py`; the site checker includes all three Complain routes and 13 reciprocal guide-note citations. No new reuse license is assigned. The court watch remains stopped. See `docs/complain-guide/PUBLICATION-2026-11-02.md` and actual release/Pages evidence for deployment status. Earlier status snapshots below are retained as history.
+
+Historical status snapshot: **9 October 2026**. Inspect the current remote branch and working tree before making changes. Preserve unrelated work. Update this handoff when the project's structure or status materially changes.
 
 ## Purpose and collection
 
