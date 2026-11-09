@@ -146,6 +146,38 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 **Evidence status:** TENT's statement was read directly; court actions and harms are attributed to reporting. Underlying orders were not independently inspected. Interpretation is editorial. **Last checked:** October 29, 2026.
 
+### October 30–November 2, 2026 — Court stay and attribution update
+
+**October 30 update — administrative stay:** The [official October 30 orders](https://www.txcourts.gov/supreme/orders-opinions/2026/october/october-30-2026/) identify case **26-1246, In re Texas Transgender Student Union LLC**, from Travis County. The [case-specific order](https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=c31f6085-6d37-4d83-9d07-709f81721cef&coa=cossup&DT=ORDER%20ISSUED&MediaID=37d54909-208f-4bc8-a072-43762184f154) pauses the district court’s October 28 order authorizing a pre-suit deposition of the LLC’s corporate representative, without deciding the merits. The mandamus petition and motion for temporary relief remained pending; the published orders list Justice Sullivan as not participating. Neither the underlying dispute nor the mailers’ lawfulness was decided.
+
+**Response deadline and later activity:** The order required TENT, the real party in interest, to respond to the temporary-relief motion by November 2 at 10 a.m. (Central). That was a filing deadline, not a promised ruling date or an automatic expiration of the stay. When checked November 2, the [official case docket](https://search.txcourts.gov/Case.aspx?cn=26-1246&coa=cossup) displayed no event later than October 30 and no response filing. Case Search says its records refresh nightly; this does not establish that no later filing or order exists. Any subsequent development needs separate verification.
+
+**Keep the attribution separate:** According to the [Texas Tribune’s October 30 report](https://www.texastribune.org/2026/10/30/texas-trans-mailers-supreme-court-block-deposition/), an earlier deposition identified the Republican Women’s Caucus Fund and an individual named John Braun in connection with the texts. The fund and Washington state Sen. John Braun deny involvement. TENT’s lawyer suspects a common source for texts and mailers but acknowledges no evidence yet linking them. Neither the printed mailers’ sponsorship nor individual lawmakers’ involvement is established by this report.
+
+**Possible procedural reasons — not findings:** A pause can preserve meaningful review before identities are irreversibly disclosed, allow responses, or permit examination of the requirements and scope of pre-suit questioning. [Texas Rule 202](https://www.txcourts.gov/media/1462349/texas-rules-of-civil-procedure.pdf) requires specified findings for such depositions; [appellate Rule 52.10](https://www.txcourts.gov/media/1463134/texas-rules-of-appellate-procedure-02062026.pdf) permits temporary relief. Anonymity claims may also need examination. These are possible explanations, not the court’s stated reasons or a conclusion that the lower judge erred.
+
+**Effect and motive:** The delay could leave voters without answers before November 3. That consequence does not establish a political motive. TENT’s lawyer says it can sue some responsible parties, and the Tribune reports a separate forgery investigation. A stay, an investigation, an allegation and a finding of liability are different events.
+
+**Question to follow:** What does the next order actually decide, what evidence identifies each sender, and what remains undisclosed? **Update checked:** November 2, 2026. The official docket, published orders, and one-page case-specific order were inspected directly. The emergency motion’s filing was verified on the docket; its substantive arguments were not independently assessed. Text-message attribution, denials, suspected connections to the mailers, and the investigation remain attributed to the Tribune. Possible procedural explanations are editorial, not findings or an account of the court’s motive; the order gives no substantive explanation. This dated update supplements the historical October 29 record above.
+
+
+### November 2–3, 2026: Both parties say the mandamus petition is moot {#tent-mailers-mootness-2026-11-03}
+
+**Subsequent filings:** The [official docket](https://search.txcourts.gov/Case.aspx?cn=26-1246&coa=cossup), checked November 4, listed TENT's November 2 response and the LLC's November 3 letter. These filings update the earlier November 2 docket observation above, which remains a dated record of what was displayed then.
+
+**What TENT says:** In its [November 2 response](https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=01506668-0882-4086-a1ac-9f1cb4b5b24d&coa=cossup&DT=MOTION&MediaID=8504ca88-53d8-4762-8af4-e348f8a1d91a), TENT says it nonsuited its Rule 202 pre-suit discovery petition as to Texas Transgender Student Union LLC on October 30. The attached notice is expressly without prejudice as to that LLC; it asks the trial court to dismiss that portion of the petition and vacate the October 28 deposition order. TENT says it already has enough information to bring a lawsuit and intends to use its limited resources on that litigation rather than further pre-suit discovery. Its response asks the Supreme Court to dismiss the emergency motion and mandamus petition as moot. These are TENT's representations and requests, not findings about sponsorship or liability. See response pages 2 and 4 and Appendix A, PDF pages 15–16.
+
+**The LLC's position:** Its [November 3 letter](https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=5e7e1ab8-3d85-4a9a-b1a3-486d606df6f1&coa=cossup&DT=OTHER&MediaID=533fac3e-aa69-4b1a-ac4a-d0eb10c9655c) agrees that the emergency motion and mandamus petition are now moot because of the nonsuit. The letter does not concede the underlying allegations.
+
+### November 6, 2026: Texas Supreme Court dismisses the mandamus petition {#tent-mailers-dismissal-2026-11-06}
+
+**What the court did:** In [its November 6 orders](https://www.txcourts.gov/media/1463566/supreme-court-of-texas-orders-11-06-2026.pdf#page=3), the Supreme Court of Texas granted the joint motion to dismiss in case 26-1246, dismissed the mandamus petition and emergency motion for temporary relief, and lifted its October 30 administrative stay.
+
+**What remains open:** The order ends this mandamus proceeding. The underlying allegations, sponsorship of the printed mailers and any liability remain unresolved by the order. The filings establish that TENT requested vacatur of the October 28 deposition order. A trial-court ruling on that request and any separate lawsuit remain unverified here.
+
+**Sources checked:** The official docket and the parties' filings were inspected November 4. The published November 6 order was checked November 9.
+
+
 ---
 
 ## How new examples are added
