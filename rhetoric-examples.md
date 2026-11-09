@@ -161,6 +161,23 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 **Question to follow:** What does the next order actually decide, what evidence identifies each sender, and what remains undisclosed? **Update checked:** November 2, 2026. The official docket, published orders, and one-page case-specific order were inspected directly. The emergency motion’s filing was verified on the docket; its substantive arguments were not independently assessed. Text-message attribution, denials, suspected connections to the mailers, and the investigation remain attributed to the Tribune. Possible procedural explanations are editorial, not findings or an account of the court’s motive; the order gives no substantive explanation. This dated update supplements the historical October 29 record above.
 
 
+### November 2–3, 2026: Both parties say the mandamus petition is moot {#tent-mailers-mootness-2026-11-03}
+
+**Subsequent filings:** The [official docket](https://search.txcourts.gov/Case.aspx?cn=26-1246&coa=cossup), checked November 4, listed TENT's November 2 response and the LLC's November 3 letter. These filings update the earlier November 2 docket observation above, which remains a dated record of what was displayed then.
+
+**What TENT says:** In its [November 2 response](https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=01506668-0882-4086-a1ac-9f1cb4b5b24d&coa=cossup&DT=MOTION&MediaID=8504ca88-53d8-4762-8af4-e348f8a1d91a), TENT says it nonsuited its Rule 202 pre-suit discovery petition as to Texas Transgender Student Union LLC on October 30. The attached notice is expressly without prejudice as to that LLC; it asks the trial court to dismiss that portion of the petition and vacate the October 28 deposition order. TENT says it already has enough information to bring a lawsuit and intends to use its limited resources on that litigation rather than further pre-suit discovery. Its response asks the Supreme Court to dismiss the emergency motion and mandamus petition as moot. These are TENT's representations and requests, not findings about sponsorship or liability. See response pages 2 and 4 and Appendix A, PDF pages 15–16.
+
+**The LLC's position:** Its [November 3 letter](https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=5e7e1ab8-3d85-4a9a-b1a3-486d606df6f1&coa=cossup&DT=OTHER&MediaID=533fac3e-aa69-4b1a-ac4a-d0eb10c9655c) agrees that the emergency motion and mandamus petition are now moot because of the nonsuit. The letter does not concede the underlying allegations.
+
+### November 6, 2026: Texas Supreme Court dismisses the mandamus petition {#tent-mailers-dismissal-2026-11-06}
+
+**What the court did:** In [its November 6 orders](https://www.txcourts.gov/media/1463566/supreme-court-of-texas-orders-11-06-2026.pdf#page=3), the Supreme Court of Texas granted the joint motion to dismiss in case 26-1246, dismissed the mandamus petition and emergency motion for temporary relief, and lifted its October 30 administrative stay.
+
+**What remains open:** The order ends this mandamus proceeding. The underlying allegations, sponsorship of the printed mailers and any liability remain unresolved by the order. The filings establish that TENT requested vacatur of the October 28 deposition order. A trial-court ruling on that request and any separate lawsuit remain unverified here.
+
+**Sources checked:** The official docket and the parties' filings were inspected November 4. The published November 6 order was checked November 9.
+
+
 ---
 
 ## How new examples are added
