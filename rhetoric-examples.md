@@ -148,6 +148,20 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 ---
 
+## November 9, 2026 — A conditional criminal warning in an oversight dispute {#scharf-oversight-warning-2026-11-09}
+
+**Unpublished draft; last checked November 11, 2026.** AP reports a letter dated November 9 from White House counsel Will Scharf to Rep. Robert Garcia about planned congressional investigations. [AP](https://apnews.com/article/12acd4e233792f687b80eb9636aea18d)
+
+Punchbowl quotes a conditional warning that allegedly abusive investigative process “may cross the line into blatant criminality.” The letter's stated rationale concerns legislative purpose and recipients' rights. These are reported words and allegations, not findings that lawmakers committed crimes. [Punchbowl](https://punchbowl.news/article/washington/white-house-threatens-house-dems-investigations/)
+
+**Interpretation and alternative reading:** Linking oversight to possible criminal consequences can imply a personal cost for scrutiny. That is an interpretation, not proof of motive or actual deterrence. A warning against genuinely unlawful process is a plausible alternative reading. Specific conduct, governing law and evidence must be examined before either conclusion is adopted.
+
+**Question:** What specific conduct and evidence justify the threatened consequence, and how would the rule preserve legitimate oversight?
+
+**Evidence limits:** The linked letter copy was located but not independently read; quotation verification is through reporting. Delivery date, subsequent enforcement and actual effects remain unestablished in this check. This is not a bullying verdict or a demonstrated retreat to a narrower claim. The [case note, legal context, response and evidence ledger](docs/oversight-warning-2026-11-09.md) preserve the distinctions and revision conditions.
+
+---
+
 ## How new examples are added
 
 Include the original date and speaker, an accessible primary recording or transcript where possible, the full relevant context, the exact claim (short quotations only), the best-supported classification, an alternative reading, the evidence limits, a calm question readers can use, and a last-checked date. If a claim cannot be verified, do not present it as a confirmed example. Prefer a new entry to silently rewriting an older record; document substantive corrections.
