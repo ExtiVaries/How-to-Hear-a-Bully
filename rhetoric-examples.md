@@ -154,6 +154,8 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 On page 3, Scharf says threats intended to deter executive officials from public service or process designed solely to abuse or frighten recipients “may cross the line into blatant criminality.” He also raises possible further investigation for unlawful subpoenas intended to deprive citizens of constitutional rights and privileges. The letter cites *Watkins* and *Mazars* on page 1 for limits on congressional inquiry. It names no criminal statute and announces no opened investigation. [Scharf letter, pp. 1 and 3](https://punchbowl.news/wp-content/uploads/WH-Hill_Letter.pdf)
 
+**Context from the footnotes:** Ansari’s floor remarks specify responsibility for alleged crimes. The cited Garcia reply predates the Johnson interview it is paired with, and Garcia’s MS NOW interview discusses the House’s enforcement options separately from possible state cases. [Review the source check for all 12 footnotes](docs/oversight-warning-2026-11-09.md#what-the-footnotes-show).
+
 **Interpretation and alternative reading:** Linking oversight to possible criminal consequences can imply a personal cost for scrutiny. That is an interpretation, not proof of motive or actual deterrence. A warning against genuinely unlawful process is a plausible alternative reading. Specific conduct, governing law and evidence must be examined before either conclusion is adopted.
 
 **Question:** What specific conduct and evidence justify the threatened consequence, and how would the rule preserve legitimate oversight?
