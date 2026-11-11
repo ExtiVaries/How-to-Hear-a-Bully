@@ -150,15 +150,15 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 ## November 9, 2026 — A conditional criminal warning in an oversight dispute {#scharf-oversight-warning-2026-11-09}
 
-**Unpublished draft; last checked November 11, 2026.** AP reports a letter dated November 9 from White House counsel Will Scharf to Rep. Robert Garcia about planned congressional investigations. [AP](https://apnews.com/article/12acd4e233792f687b80eb9636aea18d)
+**Review draft. Website publication on hold.** The letter is dated November 9, 2026, addressed to Rep. Robert Garcia, and shows a signature above the name and title of William O. Scharf, Counsel to the President. All three pages of Punchbowl’s copy were inspected on November 11. [Scharf letter, pp. 1 and 3](https://punchbowl.news/wp-content/uploads/WH-Hill_Letter.pdf)
 
-Punchbowl quotes a conditional warning that allegedly abusive investigative process “may cross the line into blatant criminality.” The letter's stated rationale concerns legislative purpose and recipients' rights. These are reported words and allegations, not findings that lawmakers committed crimes. [Punchbowl](https://punchbowl.news/article/washington/white-house-threatens-house-dems-investigations/)
+On page 3, Scharf says threats intended to deter executive officials from public service or process designed solely to abuse or frighten recipients “may cross the line into blatant criminality.” He also raises possible further investigation for unlawful subpoenas intended to deprive citizens of constitutional rights and privileges. The letter cites *Watkins* and *Mazars* on page 1 for limits on congressional inquiry. It names no criminal statute and announces no opened investigation. [Scharf letter, pp. 1 and 3](https://punchbowl.news/wp-content/uploads/WH-Hill_Letter.pdf)
 
 **Interpretation and alternative reading:** Linking oversight to possible criminal consequences can imply a personal cost for scrutiny. That is an interpretation, not proof of motive or actual deterrence. A warning against genuinely unlawful process is a plausible alternative reading. Specific conduct, governing law and evidence must be examined before either conclusion is adopted.
 
 **Question:** What specific conduct and evidence justify the threatened consequence, and how would the rule preserve legitimate oversight?
 
-**Evidence limits:** The linked letter copy was located but not independently read; quotation verification is through reporting. Delivery date, subsequent enforcement and actual effects remain unestablished in this check. This is not a bullying verdict or a demonstrated retreat to a narrower claim. The [case note, legal context, response and evidence ledger](docs/oversight-warning-2026-11-09.md) preserve the distinctions and revision conditions.
+**Evidence limits:** The copy establishes the wording of the warning and the claims Scharf made. Delivery date, subsequent enforcement and actual effects remain unestablished in this check. The [case note and evidence ledger](docs/oversight-warning-2026-11-09.md) give the legal context, Garcia’s response and what would change the assessment.
 
 ---
 
