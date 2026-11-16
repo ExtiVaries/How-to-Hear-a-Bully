@@ -57,6 +57,56 @@ Make the worksheet reproducible: save the direct link, account, page, version, a
 
 Do not stop at an announcement or a favorable opinion. Distinguish availability, obligations, payments, and services delivered; distinguish legal merits from who can sue for which remedy. A later release may answer one question while leaving delay or effects unresolved. This method is not a trust score or a shortcut to intent. Use it when the administration or your policy preference changes.
 
+## Evaluating a Change in Response {#evaluating-a-change-in-response}
+
+*Editorial draft ER-01 v0.2, prepared November 16, 2026. Owner-approved methodological direction; not approved for publication. This is an untested evidence-organizing exercise, not a legal rule, clinical test, proof of motive, or prediction tool.*
+
+**Safety first:** This exercise is for examining decisions and timelines, often after the fact. Never delay protective action in response to an immediate danger or a credible current safety warning to complete it.
+
+**The central question:** **What was documented before, what changed, and how well does the available evidence support the response at that time?**
+
+A response need not be *necessary now* to be legitimate: new resources, improved knowledge, accumulated harm, legal duties, or changing priorities may make discretionary action possible or reasonable. A longstanding problem may have warranted action long before anyone acted. The exercise examines both intervention **and earlier inaction**; it does not treat the status quo as the default correct choice.
+
+### Five questions
+
+1. **What was happening before?** Establish the baseline from dated records. Who knew about the situation, who could act, what was done or not done, and what constraints existed? Was the earlier lack of response itself justified? A person who reports harm does **not** owe an explanation for why they reported when they did or why earlier reports went unanswered; direct accountability questions to the institution responsible for its response.
+2. **What changed, or became known?** Distinguish changes in the underlying situation (including accumulating harm); changes in what was reported, measured, discovered or understood; changes in rules, legal powers, resources, deadlines or officeholders; and changes in institutional priorities, public attention or response. A newly discovered fact about old conduct is not a newly committed act. Record the date and source of each change; do not assume a change occurred just because attention increased.
+3. **What did the institution do or fail to do, and what supports it?** Identify the specific decision, decisionmaker, claimed authority, effects and scope. Ask how the evidence and applicable rules support the *particular* response at that time, including why a prior lack of action may have continued. Having authority to act is distinct from using it lawfully or appropriately. Neither a new event nor a new priority automatically justifies every consequence.
+4. **What can be compared?** Examine materially similar cases under the relevant law, circumstances and evidence, including cases involving different political or institutional affiliations. Do not manufacture symmetry. If reliable comparators are unavailable, say **“No comparator found”**—that is evidence for neither consistent nor selective treatment.
+5. **What is established, what is contested, and what could change the conclusion?** State the strongest evidence supporting the institution's explanation, the strongest evidence-based concern about its action *or inaction*, and the records that could resolve the disagreement. Record who could provide missing information, whether it was requested, and what response was given. A gap does not prove hidden misconduct, but neither does it erase an institution's responsibility to explain consequential exercises of power, especially when they restrict rights.
+
+### Compact change record
+
+For each line, mark **changed**, **not shown**, or **unknown**; give dates, sources and material limits. *Not shown* means the reviewed evidence does not establish a change, not that no change could have happened.
+
+| Dimension | Status and dated evidence |
+| --- | --- |
+| Underlying situation, conduct, exposure or accumulated harm | Changed / Not shown / Unknown — |
+| Information known, reported, discovered or corrected | Changed / Not shown / Unknown — |
+| Law, legal authority, resources, deadlines or decisionmakers | Changed / Not shown / Unknown — |
+| Institution's priorities, treatment, attention or previous inaction | Changed / Not shown / Unknown — |
+| The specific response: who did what, under what stated authority, with what effects | Documented / Disputed / Unknown — |
+
+**Write the finding in separate parts:** verified conduct and changes; the institution's stated rationale; what the public record supports or contradicts; unresolved reasons or motives; and the next evidence that could matter. It is legitimate to find a documented inconsistency, an unsubstantiated allegation, a well-supported intervention, or an unresolved question. Do not treat a missing motive finding as uncertainty about conduct that is independently verified.
+
+### Evidence before appearances
+
+The purpose is **not** to make institutions look reassuring, suspicious, or politically balanced. If records establish inconsistent treatment, an unexplained consequential intervention, or an allegation that lacks demonstrated support, name that finding accurately and with its evidentiary limits. If records support a justified or lawful action, say so just as clearly. Suspicious timing can warrant further inquiry but does not by itself establish improper intent. An undisclosed justification may remain unverified, while a documented threat, delay, warning or restriction remains documented. The **same standards** apply regardless of political affiliation; equal scrutiny does not require equivalent findings.
+
+To check motivated reasoning, **first apply the questions to one institutional intervention you welcomed**. Ask whether you would insist on the same evidence and explanatory standard for an intervention you opposed.
+
+### Practice with two fictional cases
+
+**Case A — new capacity, longstanding harm:** A housing inspectorate has known about unsafe wiring in several buildings for years but had no funded inspectors. A new appropriation funds inspections, and the agency begins enforcing an existing safety rule. The rule violations may be longstanding while the capacity to respond changed. Check the appropriations and enforcement records; examine whether the earlier inaction was justified. The change in resources alone does not prove that every enforcement decision was appropriate.
+
+**Case B — unequal treatment with new leadership:** A different inspectorate has records of materially similar violations in multiple buildings. After a leadership change, it fines only the building owned by a public critic, and records show the other buildings were not investigated despite equivalent risks. If the comparisons hold, that disparity is a documented finding requiring explanation. It is not, without additional evidence, proof of the decisionmaker's motive.
+
+In either case, if the comparable records or decision rationale are missing, the defensible conclusion may be **unresolved**. The questions identify what evidence would distinguish the explanations; they cannot produce unavailable evidence.
+
+**Scope and review:** This is a reusable method for institutional decisions and responses, not a new H2HaB Language Trap label. It is not a substitute for legal analysis, the collection's existing guide-specific exercises, or emergency guidance. Review against counterexamples and reader comprehension is outstanding. Any case involving real people must have independently checked primary sources, contextual evidence and separate editorial approval. No real-world practice case is attached to this method while the Warren–Reitz correspondence remains under source and legal-language review.
+
+---
+
 ## How historical examples are selected {#example-selection}
 
 Choose teachable mechanisms with an original record, adequate context, a strong alternative reading, and explicit outcome limits, regardless of party or administration. The [Rubio rhetoric example](/How-to-Hear-a-Bully/rhetoric-examples.html#rubio-visa-label-2025-03-27) and the spending example above were discovered through one administration's directory. This small pilot is illustrative, not representative or comparative; it cannot support prevalence estimates or rankings. Broaden future discovery through [GAO's topic-based Impoundment Control Act index](https://www.gao.gov/legal/appropriations-law/impoundment-control-act), which includes decisions across administrations, including no-violation findings. The index is a discovery channel, not a complete or unbiased sample. A comparable example from another administration needs separate research; do not invent one or force equal counts.
