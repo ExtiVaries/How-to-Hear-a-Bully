@@ -57,6 +57,24 @@ Make the worksheet reproducible: save the direct link, account, page, version, a
 
 Do not stop at an announcement or a favorable opinion. Distinguish availability, obligations, payments, and services delivered; distinguish legal merits from who can sue for which remedy. A later release may answer one question while leaving delay or effects unresolved. This method is not a trust score or a shortcut to intent. Use it when the administration or your policy preference changes.
 
+## The Emergency Room Test: what changed, and why now? {#emergency-room-test}
+
+*An original civic-evidence exercise, not a clinical procedure, validated causal test or rule of law. Drafted November 16, 2026; proposed as a reusable method subject to editorial review.*
+
+In an emergency department, a useful history-taking question is what changed today to make a long-running problem urgent. For official warnings, sudden investigations, disciplinary decisions and public accusations, a parallel question can clarify a timeline: **If the underlying behavior was already happening, what changed that made intervention necessary now?**
+
+Use the questions in order:
+
+1. **Baseline.** What conduct is documented before the intervention? How long has it occurred, and what did the authority know at the time?
+2. **Trigger.** What *new* action, evidence, risk, legal duty, deadline or change in authority preceded the intervention? Date the change instead of assuming it.
+3. **Evidence versus power.** Did the person's conduct materially change, did the official's capacity to act change, or did both change? New prominence is not new misconduct.
+4. **Consistency.** Have comparable cases been handled under the same standard, including when political or institutional roles were reversed? Seek comparable facts, not superficial symmetry.
+5. **Competing explanations and falsification.** State the authority's strongest legitimate rationale and the strongest concern about selective enforcement. What original document or fact could support or undermine each account?
+
+Write three separate conclusions: **what changed (verified)**, **why an official says it mattered (attributed)**, and **what remains unknown (unresolved)**. Timing can justify a question; it does not establish motive, illegality, urgency or selective enforcement on its own. A preservation notice can be lawful without an underlying charge; the notice's words also do not prove the allegation it makes. Avoid using the analogy as a medical judgment about people or as a verdict about any political figure.
+
+**Practice case (research candidate, not publication-ready):** The [November 2025–November 2026 Warren–Reitz correspondence](../../rhetoric-examples.md#warren-reitz-preservation-2026-11-15) allows readers to compare earlier congressional oversight, a later broadened request, a change in expected committee authority and a prosecutor's stated First Amendment rationale. The exercise asks which changes are documented and which claimed intentions remain unverified. Apply the same questions regardless of who holds office.
+
 ## How historical examples are selected {#example-selection}
 
 Choose teachable mechanisms with an original record, adequate context, a strong alternative reading, and explicit outcome limits, regardless of party or administration. The [Rubio rhetoric example](/How-to-Hear-a-Bully/rhetoric-examples.html#rubio-visa-label-2025-03-27) and the spending example above were discovered through one administration's directory. This small pilot is illustrative, not representative or comparative; it cannot support prevalence estimates or rankings. Broaden future discovery through [GAO's topic-based Impoundment Control Act index](https://www.gao.gov/legal/appropriations-law/impoundment-control-act), which includes decisions across administrations, including no-violation findings. The index is a discovery channel, not a complete or unbiased sample. A comparable example from another administration needs separate research; do not invent one or force equal counts.
