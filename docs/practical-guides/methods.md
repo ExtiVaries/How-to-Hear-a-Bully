@@ -59,7 +59,7 @@ Do not stop at an announcement or a favorable opinion. Distinguish availability,
 
 ## Evaluating a Change in Response {#evaluating-a-change-in-response}
 
-*Editorial draft ER-01 v0.2, prepared November 16, 2026. Owner-approved methodological direction; not approved for publication. This is an untested evidence-organizing exercise, not a legal rule, clinical test, proof of motive, or prediction tool.*
+*Editorial draft ER-01 v0.3, revised November 17, 2026. Owner-approved methodological direction; not approved for publication. This is an untested evidence-organizing exercise, not a legal rule, clinical test, proof of motive, or prediction tool.*
 
 **Safety first:** This exercise is for examining decisions and timelines, often after the fact. Never delay protective action in response to an immediate danger or a credible current safety warning to complete it.
 
@@ -69,15 +69,15 @@ A response need not be *necessary now* to be legitimate: new resources, improved
 
 ### Five questions
 
-1. **What was happening before?** Establish the baseline from dated records. Who knew about the situation, who could act, what was done or not done, and what constraints existed? Was the earlier lack of response itself justified? A person who reports harm does **not** owe an explanation for why they reported when they did or why earlier reports went unanswered; direct accountability questions to the institution responsible for its response.
+1. **What was happening before?** Build a dated baseline from records and relevant firsthand accounts, identifying what each source supports. Which responsible institutional actors knew what and when, who could act, what was done or not done, and what constraints existed? Was the earlier lack of response itself justified? A person who reports harm does **not** owe an explanation for why they reported when they did or why earlier reports went unanswered; direct accountability questions to the institution responsible for its response. This safeguard applies throughout the exercise, including requests for missing information in question 5.
 2. **What changed, or became known?** Distinguish changes in the underlying situation (including accumulating harm); changes in what was reported, measured, discovered or understood; changes in rules, legal powers, resources, deadlines or officeholders; and changes in institutional priorities, public attention or response. A newly discovered fact about old conduct is not a newly committed act. Record the date and source of each change; do not assume a change occurred just because attention increased.
-3. **What did the institution do or fail to do, and what supports it?** Identify the specific decision, decisionmaker, claimed authority, effects and scope. Ask how the evidence and applicable rules support the *particular* response at that time, including why a prior lack of action may have continued. Having authority to act is distinct from using it lawfully or appropriately. Neither a new event nor a new priority automatically justifies every consequence.
+3. **What did the institution do or fail to do, and what supports it?** Identify the specific decision, decisionmaker, claimed authority, effects and scope. Ask how the evidence and applicable rules support the *particular* response at that time, including why a prior lack of action may have continued. Having authority to act is distinct from using it lawfully or appropriately. Neither a new event nor a new priority automatically justifies every consequence. Assess an inquiry, interim protection and a final sanction separately. A credible report can warrant inquiry or proportionate precaution without establishing every allegation or justifying a final sanction. Consider the measure's scope, duration, reversibility and review as evidence changes.
 4. **What can be compared?** Examine materially similar cases under the relevant law, circumstances and evidence, including cases involving different political or institutional affiliations. Do not manufacture symmetry. If reliable comparators are unavailable, say **“No comparator found”**—that is evidence for neither consistent nor selective treatment.
 5. **What is established, what is contested, and what could change the conclusion?** State the strongest evidence supporting the institution's explanation, the strongest evidence-based concern about its action *or inaction*, and the records that could resolve the disagreement. Record who could provide missing information, whether it was requested, and what response was given. A gap does not prove hidden misconduct, but neither does it erase an institution's responsibility to explain consequential exercises of power, especially when they restrict rights.
 
 ### Compact change record
 
-For each line, mark **changed**, **not shown**, or **unknown**; give dates, sources and material limits. *Not shown* means the reviewed evidence does not establish a change, not that no change could have happened.
+For the first four dimensions, mark **changed**, **not shown**, or **unknown**; give dates, sources and material limits. Use **not shown** for no established change within a stated review, and **unknown** when access or evidence limits prevent assessment. Neither establishes that nothing changed.
 
 | Dimension | Status and dated evidence |
 | --- | --- |
@@ -85,7 +85,7 @@ For each line, mark **changed**, **not shown**, or **unknown**; give dates, sour
 | Information known, reported, discovered or corrected | Changed / Not shown / Unknown — |
 | Law, legal authority, resources, deadlines or decisionmakers | Changed / Not shown / Unknown — |
 | Institution's priorities, treatment, attention or previous inaction | Changed / Not shown / Unknown — |
-| The specific response: who did what, under what stated authority, with what effects | Documented / Disputed / Unknown — |
+| The specific response: who did what, under what stated authority, with what effects | Documented / Reported / Unknown for each material claim; note any dispute separately — |
 
 **Write the finding in separate parts:** verified conduct and changes; the institution's stated rationale; what the public record supports or contradicts; unresolved reasons or motives; and the next evidence that could matter. It is legitimate to find a documented inconsistency, an unsubstantiated allegation, a well-supported intervention, or an unresolved question. Do not treat a missing motive finding as uncertainty about conduct that is independently verified.
 
@@ -101,7 +101,9 @@ To check motivated reasoning, **first apply the questions to one institutional i
 
 **Case B — unequal treatment with new leadership:** A different inspectorate has records of materially similar violations in multiple buildings. After a leadership change, it fines only the building owned by a public critic, and records show the other buildings were not investigated despite equivalent risks. If the comparisons hold, that disparity is a documented finding requiring explanation. It is not, without additional evidence, proof of the decisionmaker's motive.
 
-In either case, if the comparable records or decision rationale are missing, the defensible conclusion may be **unresolved**. The questions identify what evidence would distinguish the explanations; they cannot produce unavailable evidence.
+Missing comparator records may leave the consistency comparison unresolved; a missing rationale may leave the institution's explanation unresolved. Neither automatically prevents assessing the response using other evidence or erases independently established conduct. The questions identify evidence that could distinguish explanations; they cannot produce unavailable evidence.
+
+*What Actually Changed?* distinguishes announcements, legal status, implementation and practical effects; this exercise examines the support for an institution's action or inaction.
 
 **Scope and review:** This is a reusable method for institutional decisions and responses, not a new H2HaB Language Trap label. It is not a substitute for legal analysis, the collection's existing guide-specific exercises, or emergency guidance. Review against counterexamples and reader comprehension is outstanding. Any case involving real people must have independently checked primary sources, contextual evidence and separate editorial approval. No real-world practice case is attached to this method while the Warren–Reitz correspondence remains under source and legal-language review.
 
