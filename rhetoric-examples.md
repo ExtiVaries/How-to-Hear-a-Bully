@@ -171,7 +171,7 @@ Remove the insult and restate the rule neutrally. If consistent application and 
 
 ### November 6, 2026: Texas Supreme Court dismisses the mandamus petition {#tent-mailers-dismissal-2026-11-06}
 
-**What the court did:** In [its November 6 orders](https://www.txcourts.gov/media/1463566/supreme-court-of-texas-orders-11-06-2026.pdf#page=3), the Supreme Court of Texas granted the joint motion to dismiss in case 26-1246, dismissed the mandamus petition and emergency motion for temporary relief, and lifted its October 30 administrative stay.
+**What the court did:** In [its November 6 orders](https://www.txcourts.gov/media/1463566/supreme-court-of-texas-orders-11-06-2026.pdf#page=4), the Supreme Court of Texas granted the joint motion to dismiss in case 26-1246, dismissed the mandamus petition and emergency motion for temporary relief, and lifted its October 30 administrative stay.
 
 **What remains open:** The order ends this mandamus proceeding. The underlying allegations, sponsorship of the printed mailers and any liability remain unresolved by the order. The filings establish that TENT requested vacatur of the October 28 deposition order. A trial-court ruling on that request and any separate lawsuit remain unverified here.
 

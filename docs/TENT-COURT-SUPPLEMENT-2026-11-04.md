@@ -28,4 +28,4 @@ No full trial-court record review, independent legal certification, expanded mon
 
 ## November 9 recheck
 
-The [official November 6 orders](https://www.txcourts.gov/media/1463566/supreme-court-of-texas-orders-11-06-2026.pdf#page=3), page 3, record that the court granted the joint dismissal motion, dismissed the mandamus petition and emergency motion for temporary relief, and lifted the October 30 stay in case 26-1246. The order leaves the underlying allegations unresolved. A trial-court ruling on the vacatur request and any separate merits filing remain unverified here.
+The [official November 6 orders](https://www.txcourts.gov/media/1463566/supreme-court-of-texas-orders-11-06-2026.pdf#page=4), page 4, record that the court granted the joint dismissal motion, dismissed the mandamus petition and emergency motion for temporary relief, and lifted the October 30 stay in case 26-1246. The order leaves the underlying allegations unresolved. A trial-court ruling on the vacatur request and any separate merits filing remain unverified here.
