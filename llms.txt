@@ -7,7 +7,7 @@
 - [Collection homepage](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/): choose a resource by the question you need to answer.
 - [How we check our work](https://extivaries.github.io/How-to-Hear-a-Bully/practical-guides/methods.html): scope, evidence, review dates, AI assistance, correction routes and project-specific reuse terms.
 - [Methods in Markdown](https://extivaries.github.io/How-to-Hear-a-Bully/docs/practical-guides/methods.md)
-- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the twelve HTML pages hosted in this project. Middleman has its own hosting and sitemap.
+- [Sitemap](https://extivaries.github.io/How-to-Hear-a-Bully/sitemap.xml): the fourteen indexed HTML pages hosted in this project. Middleman has its own hosting and sitemap.
 
 ## Don't Pay a Middleman
 
@@ -73,3 +73,7 @@ This optional link index is not required for search indexing or AI citation and 
 - [Markdown guide](https://extivaries.github.io/How-to-Hear-a-Bully/docs/complain-guide/complain-or-constrain.md) and [Markdown notes](https://extivaries.github.io/How-to-Hear-a-Bully/docs/complain-guide/complain-or-constrain-notes.md).
 
 First web edition authorized November 2, 2026. This is civic education, not legal advice or independent professional legal certification. No new reuse license is assigned. The teaching framework has not been reader-validated. Original source dates are preserved; a publication date does not renew all research.
+
+## What Does Protection Justify?
+
+- [Companion](https://extivaries.github.io/How-to-Hear-a-Bully/complain/protection.html) and [source notes](https://extivaries.github.io/How-to-Hear-a-Bully/complain/protection-notes.html): distinguish a protective response from the separate duties to prevent harm and preserve accountability.

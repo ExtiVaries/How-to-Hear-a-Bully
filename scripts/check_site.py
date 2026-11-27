@@ -14,7 +14,8 @@ BASE = "https://extivaries.github.io/How-to-Hear-a-Bully/"
 PAGES = ["index.html", "notes.html", "practical-guides/index.html",
          "practical-guides/methods.html", "crisis/index.html", "crisis/notes.html",
          "trust/index.html", "trust/notes.html", "pra-release-tracker.html",
-         "complain/kmk.html", "complain/index.html", "complain/notes.html"]
+         "complain/kmk.html", "complain/index.html", "complain/notes.html",
+         "complain/protection.html", "complain/protection-notes.html"]
 
 
 class Document(HTMLParser):
@@ -137,6 +138,20 @@ def main():
             if f"notes.html#n{number}" not in guide.links or f"index.html#r{number}" not in notes.links:
                 failures.append(f"{section}: note {number} is missing its citation or return link")
         reciprocal_notes += count
+
+    companion = docs["complain/protection.html"]
+    companion_notes = docs["complain/protection-notes.html"]
+    for key in ("bessent", "minab", "prevention"):
+        if (key not in companion_notes.headings or
+                f"protection-notes.html#{key}" not in companion.links or
+                f"protection.html#ref-{key}" not in companion_notes.links):
+            failures.append(f"protection: note {key} is missing its citation or return link")
+    reciprocal_notes += 3
+    if "protection.html" not in docs["complain/index.html"].links or BASE + "complain/protection.html" not in visible_targets:
+        failures.append("protection: guide or collection discovery link missing")
+    if (companion.schemas[0].get("hasPart", {}).get("url") != BASE + "complain/protection-notes.html" or
+            companion_notes.schemas[0].get("isPartOf", {}).get("url") != BASE + "complain/protection.html"):
+        failures.append("protection: invalid structured note relationship")
 
     sitemap = ET.parse(ROOT / "sitemap.xml")
     locations = [element.text for element in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
