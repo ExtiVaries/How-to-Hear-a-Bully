@@ -34,6 +34,8 @@ Take reported harm seriously, then examine the requested remedy independently. S
 
 **[Read the complete Complain or Constrain? guide](../complain-guide/complain-or-constrain.md)**
 
+[What Does Protection Justify?](../complain-guide/protection-and-accountability.md) is a companion about protecting people from threats while holding the exercise of power open to scrutiny.
+
 ---
 
 ## Climate and growing

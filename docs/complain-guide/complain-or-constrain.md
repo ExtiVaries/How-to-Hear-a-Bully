@@ -71,6 +71,8 @@ Protection does not mean a guarantee against every upsetting encounter. Freedom 
 
 Nor does every cost make a remedy unfair. Accessibility changes cost money. Anti-harassment rules limit behavior. Equal access can require an institution to alter familiar practices. The question is whether the burden is justified, not whether anybody bears one.
 
+Protection also raises questions when the person receiving it is accused of harming others. A credible threat may justify security while the person's conduct or authority requires a separate response. Ask what the arrangement protects, what responsibilities remain toward affected people, and whether accountability can operate in practice. The companion [*What Does Protection Justify?*](protection-and-accountability.md) works through those questions, including the difference between events happening afterward and evidence that protection enabled them.
+
 ### Equality can change who gets to decide
 
 If a manager has always chosen meeting times without considering anyone else, a fair scheduling process removes some of that freedom. It may feel like a loss because it is a loss—of unilateral authority. That does not make it persecution.

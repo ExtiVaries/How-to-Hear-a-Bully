@@ -170,6 +170,7 @@ def build():
                  "../crisis-guide/why-does-everything-feel-like-a-crisis.md": "../crisis/",
                  "../trust-guide/who-to-trust-when-it-all-breaks-down.md": "../trust/",
                  "../complain-guide/complain-or-constrain.md": "../complain/",
+                 "../complain-guide/protection-and-accountability.md": "../complain/protection.html",
                  "methods.md": "methods.html"}
     intro = markdown(intro, hub_links)
     intro = intro.replace("<p>", '<p class="pg-lede">', 1)
